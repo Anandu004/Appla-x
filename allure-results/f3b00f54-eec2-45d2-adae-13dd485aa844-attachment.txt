@@ -1,0 +1,4 @@
+Company: testcompany Runte Group
+hkd
+Popup message: The amount exceeds the maximum allowed limit of 5,793,400 for corpay transactions.
+Validation successful: Exceeded funding limit (5,793,400) is correctly shown.

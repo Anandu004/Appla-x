@@ -1,0 +1,196 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: 
+        - link "Logo" [ref=e7] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img "Logo" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link "Dashboard" [ref=e14] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e15]: Dashboard
+          - link "Support" [ref=e17] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e18]: Support
+        - generic [ref=e19]:
+          - paragraph [ref=e22] [cursor=pointer]: AA
+          - text: 
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button " " [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: testcompany Runte Group
+          - generic [ref=e35]:
+            - button " " [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - generic [ref=e39]:
+          - heading "beneficiary lists" [level=1] [ref=e40]
+          - generic "Add beneficiary" [ref=e41]:
+            - generic [ref=e42]: +
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - heading "List of beneficiaries" [level=3] [ref=e46]
+            - generic [ref=e48]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: 
+                - textbox "Search..." [ref=e52]
+              - text: 
+          - generic [ref=e53]:
+            - link " Crona and Sons, Greater London, United Kingdom 1 Bank Account(s) available " [ref=e54] [cursor=pointer]:
+              - /url: https://account.appla-x.work/contacts/8ed0b379-470f-4771-956b-4b6d14687cd9/edit
+              - generic [ref=e56]:
+                - generic [ref=e58]:
+                  - generic [ref=e59]:
+                    - generic [ref=e60]: 
+                    - text: Crona and Sons, Greater London, United Kingdom
+                  - generic [ref=e61]: 1 Bank Account(s) available
+                - generic [ref=e63]: 
+            - link " drfgdfghsdfg, sdgsdg, Switzerland 0 Bank Account(s) available " [ref=e64] [cursor=pointer]:
+              - /url: https://account.appla-x.work/contacts/7d04c66d-0ba3-478d-8e07-8b729f642a6f/edit
+              - generic [ref=e66]:
+                - generic [ref=e68]:
+                  - generic [ref=e69]:
+                    - generic [ref=e70]: 
+                    - text: drfgdfghsdfg, sdgsdg, Switzerland
+                  - generic [ref=e71]: 0 Bank Account(s) available
+                - generic [ref=e73]: 
+            - link " drgdfg, sdfgsg, Hong Kong 0 Bank Account(s) available " [ref=e74] [cursor=pointer]:
+              - /url: https://account.appla-x.work/contacts/f6cfc9de-8bb7-429a-a422-004622f3c1bb/edit
+              - generic [ref=e76]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]:
+                    - generic [ref=e80]: 
+                    - text: drgdfg, sdfgsg, Hong Kong
+                  - generic [ref=e81]: 0 Bank Account(s) available
+                - generic [ref=e83]: 
+            - link " Farrell, Wehner and Stiedemann, Zürich, Switzerland 1 Bank Account(s) available " [ref=e84] [cursor=pointer]:
+              - /url: https://account.appla-x.work/contacts/8716421f-d81a-44af-8134-87b8c821c869/edit
+              - generic [ref=e86]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]: 
+                    - text: Farrell, Wehner and Stiedemann, Zürich, Switzerland
+                  - generic [ref=e91]: 1 Bank Account(s) available
+                - generic [ref=e93]: 
+            - link " fyjfjft, fgjfj, Hong Kong 0 Bank Account(s) available " [ref=e94] [cursor=pointer]:
+              - /url: https://account.appla-x.work/contacts/2de73a05-b48a-4870-a376-b875eb5b1250/edit
+              - generic [ref=e96]:
+                - generic [ref=e98]:
+                  - generic [ref=e99]:
+                    - generic [ref=e100]: 
+                    - text: fyjfjft, fgjfj, Hong Kong
+                  - generic [ref=e101]: 0 Bank Account(s) available
+                - generic [ref=e103]: 
+            - link " hdthetr, regerg, Singapore 0 Bank Account(s) available " [ref=e104] [cursor=pointer]:
+              - /url: https://account.appla-x.work/contacts/628b467c-f0e4-4766-9a1f-2ed1fd1631fd/edit
+              - generic [ref=e106]:
+                - generic [ref=e108]:
+                  - generic [ref=e109]:
+                    - generic [ref=e110]: 
+                    - text: hdthetr, regerg, Singapore
+                  - generic [ref=e111]: 0 Bank Account(s) available
+                - generic [ref=e113]: 
+            - link " Monahan LLC, Berlin, Germany 1 Bank Account(s) available " [ref=e114] [cursor=pointer]:
+              - /url: https://account.appla-x.work/contacts/75132e9b-4c10-4b93-af9e-a70a0023b051/edit
+              - generic [ref=e116]:
+                - generic [ref=e118]:
+                  - generic [ref=e119]:
+                    - generic [ref=e120]: 
+                    - text: Monahan LLC, Berlin, Germany
+                  - generic [ref=e121]: 1 Bank Account(s) available
+                - generic [ref=e123]: 
+            - link " Schneider - Koss, Greater London, United Kingdom 1 Bank Account(s) available " [ref=e124] [cursor=pointer]:
+              - /url: https://account.appla-x.work/contacts/4b44e6c1-f9f0-4aee-8f8d-2d6e1dfd0a4d/edit
+              - generic [ref=e126]:
+                - generic [ref=e128]:
+                  - generic [ref=e129]:
+                    - generic [ref=e130]: 
+                    - text: Schneider - Koss, Greater London, United Kingdom
+                  - generic [ref=e131]: 1 Bank Account(s) available
+                - generic [ref=e133]: 
+            - link " Wyman LLC, San Francisco, United States 1 Bank Account(s) available " [ref=e134] [cursor=pointer]:
+              - /url: https://account.appla-x.work/contacts/5b194a16-6819-4ed0-8004-78b7f7ba7f85/edit
+              - generic [ref=e136]:
+                - generic [ref=e138]:
+                  - generic [ref=e139]:
+                    - generic [ref=e140]: 
+                    - text: Wyman LLC, San Francisco, United States
+                  - generic [ref=e141]: 1 Bank Account(s) available
+                - generic [ref=e143]: 
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - text: 2025©
+          - link "Appla-x.work powered by Samson ©" [ref=e146] [cursor=pointer]:
+            - /url: https://ovency.com
+        - list [ref=e147]:
+          - listitem [ref=e148]:
+            - link "Support" [ref=e149] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+          - listitem [ref=e150]:
+            - link "Contact" [ref=e151] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+  - text: 
+  - generic [ref=e153]:
+    - generic [ref=e154]:
+      - heading "  Add Beneficiary" [level=6] [ref=e157]:
+        - generic [ref=e158]:  
+        - text: Add Beneficiary
+      - generic [ref=e161] [cursor=pointer]:
+        - generic [ref=e162]: 
+        - generic: 
+    - generic [ref=e165]:
+      - generic [ref=e167]:
+        - generic [ref=e168]: Beneficiary Type*
+        - combobox [ref=e169]
+        - combobox "Company" [ref=e172] [cursor=pointer]:
+          - button "Remove all items" [ref=e173]
+          - textbox "Company" [ref=e174]
+      - generic [ref=e176]:
+        - generic [ref=e177]: Company name*
+        - combobox "Company name*" [ref=e178]: Reichert, Lind and Morar
+        - text: Complete if this is a company.
+      - text: "* *"
+      - generic [ref=e180]:
+        - generic [ref=e181]: Address line 1*
+        - textbox [ref=e182]: Nathan Road
+      - generic [ref=e184]:
+        - generic [ref=e185]: Address line 2
+        - textbox [ref=e186]
+      - generic [ref=e188]:
+        - generic [ref=e189]: City*
+        - textbox [ref=e190]: Kowloon
+      - generic [ref=e192]:
+        - generic [ref=e193]: State*
+        - textbox [active] [ref=e194]: Kowloon
+      - generic [ref=e196]:
+        - generic [ref=e197]: Beneficiary Country*
+        - combobox [ref=e198]
+        - combobox "Hong Kong" [ref=e201] [cursor=pointer]:
+          - textbox "Hong Kong" [ref=e202]
+      - generic [ref=e204]:
+        - generic [ref=e205]: Postcode
+        - textbox [ref=e206]
+      - generic [ref=e208]:
+        - generic [ref=e209]: Email*
+        - textbox [ref=e210]
+      - generic [ref=e212]:
+        - generic [ref=e213]: Phone*
+        - generic [ref=e214]:
+          - 'combobox "Cyprus (Κύπρος): +357" [ref=e216]':
+            - generic [ref=e218]: "+357"
+          - textbox [ref=e220]
+      - generic [ref=e221]:
+        - button "Submit" [disabled]
+  - text:   
+  - img
+```

@@ -1,0 +1,12 @@
+Available balance in the wallet (EUR): 234333.85
+Available balance in the wallet (USD): 155983.25
+payment amount - 18000
+payment fee percentage - 0.1
+payment fee amount - 30
+Expected payment fee = (18000 * 0.1% ) + 30 = 48
+received payment fee - 48
+ Payment fee deduction is correct ... 
+New Available balance in the wallet (EUR):234285.85
+New Available balance in the wallet (USD):137983.25
+USD wallet deduction is correct
+EUR wallet payment fee deduction is correct

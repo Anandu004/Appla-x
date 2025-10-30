@@ -1,0 +1,4 @@
+Company: testcompany Runte Group
+true
+usd
+ Wallet funded correctly. New Available balance in USD wallet-119983.25

@@ -1,0 +1,15 @@
+Signing in without email and password
+Missing email field- 
+                The email field is required.
+            
+Missing password field-
+                The password field is required.
+            
+Signing in with email and without password
+Missing password field-
+                The password field is required.
+            
+Signing in with password and without email
+Missing password field- 
+                The email field is required.
+            

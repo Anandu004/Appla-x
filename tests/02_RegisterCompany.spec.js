@@ -7,26 +7,13 @@ import { Admindashboardpage } from '../pages/Admindashboardpage';
 
 
 
+  
 
-  /*test('Verify new account status is locked before admin approves', async ({ page }) => {
+  /*test.skip('1. Verify registering a company', async ({ page }) => {
 
     const login = new Loginpage(page)
     await login.goToLoginPage()
-    await login.giveLoginCredentials('anandu.a@seqato.com','Anandu@123')
-
-    const dashboard = new Dashboardpage(page)
-    dashboard.new_account_Status_before_AdminApproval()
-
-  
-  })
-
-  
-
-  test('Verify registering a company', async ({ page }) => {
-
-    const login = new Loginpage(page)
-    await login.goToLoginPage()
-    await login.giveLoginCredentials('anandu.a@seqato.com','Anandu@123')
+    await login.giveLoginCredentials()
   
     const dashboard =  new Dashboardpage(page)
     await dashboard.clickOnRegister_a_company()
@@ -34,14 +21,14 @@ import { Admindashboardpage } from '../pages/Admindashboardpage';
     const register = new RegisterCompanypage(page)
     await register.newCompanyRegistration('India')
   
-  
-  })
+  })*/
 
-  test('Verify validations for company registration', async ({ page }) => {
+
+  test('2. Verify validations for company registration', async ({ page }) => {
 
     const login = new Loginpage(page)
     await login.goToLoginPage()
-    await login.giveLoginCredentials('anandu.a@seqato.com','Anandu@123')
+    await login.giveLoginCredentials()
   
     const dashboard =  new Dashboardpage(page)
     await dashboard.clickOnRegister_a_company()
@@ -49,18 +36,27 @@ import { Admindashboardpage } from '../pages/Admindashboardpage';
     const register = new RegisterCompanypage(page)
     await register.validationsForCompanyRegistration()
   
-  })*/
+  })
+  
 
-   test('Verify wallet creation from client account', async ({ page }) => {
+
+  test('3. Verify validations for duplicate company name', async ({ page }) => {
 
     const login = new Loginpage(page)
     await login.goToLoginPage()
-    await login.giveLoginCredentials('anandu.a@seqato.com','Anandu@123')
+    await login.giveLoginCredentials()
   
     const dashboard =  new Dashboardpage(page)
-    await dashboard.walletCreationFrom_ClientAccount()
-   
+    await dashboard.clickOnRegister_a_company()
+    
+    const register = new RegisterCompanypage(page)
+    await register.ExistinguserCompanyRegistration()
+    
+  
   })
+
+
+  
 
   
 

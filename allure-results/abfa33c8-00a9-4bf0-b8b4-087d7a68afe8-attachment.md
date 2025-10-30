@@ -1,0 +1,638 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - text: 
+        - link "Logo" [ref=e8] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img "Logo" [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e13]:
+          - link "Dashboard" [ref=e15] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e16]: Dashboard
+          - link "Support" [ref=e18] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e19]: Support
+        - generic [ref=e20]:
+          - paragraph [ref=e23] [cursor=pointer]: AA
+          - text: 
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - button " " [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]:  
+            - text:  
+            - generic [ref=e34]: 
+            - generic [ref=e35]: testcompany O'Reilly - Corkery
+          - generic [ref=e36]:
+            - button " " [ref=e37] [cursor=pointer]:
+              - generic [ref=e38]:  
+            - text:  
+        - heading "kyc for testcompany o'reilly - corkery" [level=1] [ref=e41]
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - link " Business Information" [ref=e48] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e49]: 
+                  - text: Business Information
+              - listitem [ref=e50]:
+                - link " Business Profile" [ref=e51] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e52]: 
+                  - text: Business Profile
+              - listitem [ref=e53]:
+                - link " Purpose of Account" [ref=e54] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e55]: 
+                  - text: Purpose of Account
+              - listitem [ref=e56]:
+                - link " Business Officials" [ref=e57] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e58]: 
+                  - text: Business Officials
+              - listitem [ref=e59]:
+                - link " Document Upload" [ref=e60] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e61]: 
+                  - text: Document Upload
+            - button "  Save Draft" [active] [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]:  
+              - text: Save Draft
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67] [cursor=pointer]:
+                  - generic [ref=e69]:
+                    - generic [ref=e70]: 
+                    - generic: 
+                  - heading "  Business Information" [level=3] [ref=e71]:
+                    - generic [ref=e72]:  
+                    - text: Business Information
+                - generic [ref=e73]:
+                  - generic [ref=e74]:
+                    - generic [ref=e75]: 
+                    - generic [ref=e76]:
+                      - heading "Important" [level=4] [ref=e77]
+                      - generic [ref=e78]:
+                        - text: Please complete the form below using the information provided in your company documents.
+                        - text: Before you begin, please download the
+                        - link "Business Onboarding Checklist PDF" [ref=e79] [cursor=pointer]:
+                          - /url: https://account.appla-x.work/documents/onboarding_checklist.pdf
+                        - text: .
+                  - generic [ref=e80]:
+                    - generic [ref=e82]:
+                      - generic [ref=e83]: Company Name*
+                      - textbox [ref=e84]: testcompany O'Reilly - Corkery
+                    - generic [ref=e86]:
+                      - generic [ref=e87]: Company Type*
+                      - combobox [ref=e88]
+                      - combobox "Company" [ref=e91] [cursor=pointer]:
+                        - button "Remove all items" [ref=e92]
+                        - textbox "Company" [ref=e93]
+                    - generic [ref=e95]:
+                      - generic [ref=e96]: Type of company or partnership*
+                      - combobox [ref=e97]
+                      - combobox "Private Company" [ref=e100] [cursor=pointer]:
+                        - textbox "Private Company" [ref=e101]
+                    - generic [ref=e103]:
+                      - generic [ref=e104]: Company Registration No.*
+                      - textbox [ref=e105]: "8956"
+                    - generic [ref=e107]:
+                      - generic [ref=e108]: Company VAT No.
+                      - textbox [ref=e109]: "322"
+                    - generic [ref=e111]:
+                      - generic [ref=e112]: Incorporation number*
+                      - textbox [ref=e113]: "3345"
+                    - generic [ref=e115]:
+                      - generic [ref=e116]: Incorporation Date*
+                      - generic [ref=e117]:
+                        - textbox "Incorporation Date*" [ref=e118]: 23/10/2025
+                        - generic [ref=e120]:
+                          - generic [ref=e121]: 
+                          - generic: 
+                    - generic [ref=e123]:
+                      - generic [ref=e124]: Company SIC
+                      - generic [ref=e125]:
+                        - textbox "Enter SIC Number" [ref=e126]: "566"
+                        - link " SIC" [ref=e128] [cursor=pointer]:
+                          - /url: https://www.osha.gov/data/sic-manual
+                          - generic [ref=e129]: 
+                          - text: SIC
+                    - text: "* * * * *  "
+                    - generic [ref=e131]:
+                      - generic [ref=e132]: Company Contact*
+                      - textbox [ref=e133]: "9898090989"
+                    - generic [ref=e135]:
+                      - generic [ref=e136]: Company Contact Position*
+                      - textbox [ref=e137]: Manager
+                    - generic [ref=e139]:
+                      - generic [ref=e140]: Company Jurisdiction*
+                      - combobox [ref=e141]
+                      - combobox "Australia" [ref=e144] [cursor=pointer]:
+                        - textbox "Australia" [ref=e145]
+                    - generic [ref=e147]:
+                      - generic [ref=e148]: Company URL*
+                      - textbox [ref=e149]: https://www.testcompanyoreillycorkery.com
+              - generic [ref=e150]:
+                - generic [ref=e151] [cursor=pointer]:
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: 
+                    - generic: 
+                  - heading "  Company Addresses and Contact Details" [level=3] [ref=e155]:
+                    - generic [ref=e156]:  
+                    - text: Company Addresses and Contact Details
+                - text:   
+              - generic [ref=e157]:
+                - generic [ref=e158] [cursor=pointer]:
+                  - generic [ref=e160]:
+                    - generic [ref=e161]: 
+                    - generic: 
+                  - heading "  Self-Certification / US FATCA / Common Reporting Standard (CRS)" [level=3] [ref=e162]:
+                    - generic [ref=e163]:  
+                    - text: Self-Certification / US FATCA / Common Reporting Standard (CRS)
+                - text:  * *   * * *           * *   
+            - button "Next  " [ref=e169] [cursor=pointer]:
+              - text: Next
+              - generic [ref=e170]:  
+          - text:     * * *   * * *       + ++   + ++   + ++      + ++                                * * * * * * * * *   * * * * * * *   *   *
+          - text:            
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - text: 2025©
+          - link "Appla-x.work powered by Samson ©" [ref=e173] [cursor=pointer]:
+            - /url: https://ovency.com
+        - list [ref=e174]:
+          - listitem [ref=e175]:
+            - link "Support" [ref=e176] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+          - listitem [ref=e177]:
+            - link "Contact" [ref=e178] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+  - text: 
+  - generic [ref=e180]:
+    - generic [ref=e181]:
+      - heading "  Add a new business address" [level=6] [ref=e184]:
+        - generic [ref=e185]:  
+        - text: Add a new business address
+      - generic [ref=e188] [cursor=pointer]:
+        - generic [ref=e189]: 
+        - generic: 
+    - generic [ref=e192]:
+      - generic [ref=e194]:
+        - generic [ref=e195]: Address type*
+        - listbox [ref=e196]:
+          - option [ref=e197]: Registered Address
+          - option [ref=e198]: Physical Address
+          - option [ref=e199]: Address of Primary Business Activities
+          - option [ref=e200]: Correspondence Address
+        - combobox [ref=e203] [cursor=pointer]:
+          - list
+          - searchbox "Search" [ref=e205]
+        - text: You can select one or more address types for this address
+      - generic [ref=e207]:
+        - generic [ref=e208]: Address Street Name*
+        - textbox [ref=e209]
+      - generic [ref=e211]:
+        - generic [ref=e212]: Address Street Number*
+        - textbox [ref=e213]
+      - generic [ref=e215]:
+        - generic [ref=e216]: Postcode*
+        - textbox [ref=e217]
+      - generic [ref=e219]:
+        - generic [ref=e220]: Country*
+        - combobox [ref=e221]
+        - combobox "Select an option" [ref=e224] [cursor=pointer]:
+          - textbox "Select an option" [ref=e225]
+      - generic [ref=e227]:
+        - generic [ref=e228]: City*
+        - textbox [ref=e229]
+      - generic [ref=e231]:
+        - generic [ref=e232]: Phone
+        - generic [ref=e233]:
+          - 'combobox "Cyprus (Κύπρος): +357" [ref=e235]':
+            - generic [ref=e237]: "+357"
+          - textbox [ref=e239]
+      - generic [ref=e241]:
+        - generic [ref=e242]: Email
+        - textbox [ref=e243]
+      - button "Submit Address" [ref=e245] [cursor=pointer]
+  - generic [ref=e247]:
+    - generic [ref=e248]:
+      - heading "  Add Trustee GINN" [level=6] [ref=e251]:
+        - generic [ref=e252]:  
+        - text: Add Trustee GINN
+      - generic [ref=e255] [cursor=pointer]:
+        - generic [ref=e256]: 
+        - generic: 
+    - generic [ref=e259]:
+      - generic [ref=e261]:
+        - generic [ref=e262]: Trustee Name*
+        - textbox [ref=e263]
+      - generic [ref=e265]:
+        - generic [ref=e266]: Trustee GIIN*
+        - textbox [ref=e267]
+      - button "Submit" [ref=e269] [cursor=pointer]
+  - generic [ref=e271]:
+    - generic [ref=e272]:
+      - heading "  Add US Controlling Person" [level=6] [ref=e275]:
+        - generic [ref=e276]:  
+        - text: Add US Controlling Person
+      - generic [ref=e279] [cursor=pointer]:
+        - generic [ref=e280]: 
+        - generic: 
+    - generic [ref=e283]:
+      - generic [ref=e285]:
+        - generic [ref=e286]: Name*
+        - textbox "Name*" [ref=e287]:
+          - /placeholder: ""
+      - generic [ref=e289]:
+        - generic [ref=e290]: Last Name*
+        - textbox "Last Name*" [ref=e291]:
+          - /placeholder: ""
+      - generic [ref=e293]:
+        - generic [ref=e294]: Address*
+        - textbox [ref=e295]
+      - generic [ref=e297]:
+        - generic [ref=e298]: Position*
+        - textbox [ref=e299]
+      - generic [ref=e301]:
+        - generic [ref=e302]: US TIN*
+        - textbox [ref=e303]
+      - button "Submit" [ref=e305] [cursor=pointer]
+  - generic [ref=e307]:
+    - generic [ref=e308]:
+      - heading "  Add Tax Residency Information" [level=6] [ref=e311]:
+        - generic [ref=e312]:  
+        - text: Add Tax Residency Information
+      - generic [ref=e315] [cursor=pointer]:
+        - generic [ref=e316]: 
+        - generic: 
+    - generic [ref=e319]:
+      - generic [ref=e321]:
+        - generic [ref=e322]: Country*
+        - combobox [ref=e323]
+        - combobox "Select an option" [ref=e326] [cursor=pointer]:
+          - textbox "Select an option" [ref=e327]
+      - generic [ref=e329]:
+        - generic [ref=e330]: Document Type*
+        - textbox "Document Type*" [ref=e331]:
+          - /placeholder: ""
+      - generic [ref=e333]:
+        - generic [ref=e334]: TIN/SSN
+        - textbox "TIN/SSN" [ref=e335]:
+          - /placeholder: ""
+      - generic [ref=e337]:
+        - generic [ref=e338]: If a TIN/SSN is not available, please select a reason.
+        - combobox [ref=e339]
+        - combobox "Select an option" [ref=e342] [cursor=pointer]:
+          - textbox "Select an option" [ref=e343]
+      - button "Submit" [ref=e345] [cursor=pointer]
+  - generic [ref=e347]:
+    - generic [ref=e348]:
+      - heading "  Source of Funds" [level=6] [ref=e351]:
+        - generic [ref=e352]:  
+        - text: Source of Funds
+      - generic [ref=e355] [cursor=pointer]:
+        - generic [ref=e356]: 
+        - generic: 
+    - generic [ref=e359]:
+      - generic [ref=e361]:
+        - generic [ref=e362]: Source*
+        - combobox [ref=e363]
+        - combobox "Select an option" [ref=e366] [cursor=pointer]:
+          - textbox "Select an option" [ref=e367]
+      - text: "*"
+      - generic [ref=e369]:
+        - generic [ref=e370]: Description
+        - textbox "Description Description" [ref=e371]
+      - generic [ref=e372]:
+        - generic [ref=e373]: Currency*
+        - combobox "Currency* Currency* Currency*" [disabled] [ref=e374]:
+          - option "EUR" [selected]
+      - generic [ref=e375]:
+        - generic [ref=e376]: Amount*
+        - spinbutton "Amount* Amount* Amount*" [ref=e377]
+      - generic [ref=e379]:
+        - generic [ref=e380]: Countries*
+        - combobox [ref=e381]
+        - combobox "Select an option" [ref=e384] [cursor=pointer]:
+          - textbox "Select an option" [ref=e385]
+      - generic [ref=e386]:
+        - generic [ref=e387]: Source of Funds*
+        - generic [ref=e388]:
+          - generic [ref=e389]:
+            - radio [checked] [ref=e390]
+            - generic [ref=e391]: Incoming
+          - generic [ref=e392]:
+            - radio [ref=e393]
+            - generic [ref=e394]: Outgoing
+      - button "Submit" [ref=e396] [cursor=pointer]
+  - generic [ref=e398]:
+    - generic [ref=e399]:
+      - heading "  Source of Wealth" [level=6] [ref=e402]:
+        - generic [ref=e403]:  
+        - text: Source of Wealth
+      - generic [ref=e406] [cursor=pointer]:
+        - generic [ref=e407]: 
+        - generic: 
+    - generic [ref=e410]:
+      - generic [ref=e412]:
+        - generic [ref=e413]: Source*
+        - combobox [ref=e414]
+        - combobox "Select an option" [ref=e417] [cursor=pointer]:
+          - textbox "Select an option" [ref=e418]
+      - generic [ref=e420]:
+        - generic [ref=e421]: Description
+        - textbox [ref=e422]
+      - generic [ref=e423]:
+        - generic [ref=e424]: Currency*
+        - combobox [disabled] [ref=e425]:
+          - option "EUR" [selected]
+      - generic [ref=e426]:
+        - generic [ref=e427]: Amount*
+        - spinbutton [ref=e428]
+      - generic [ref=e430]:
+        - generic [ref=e431]: Countries*
+        - combobox [ref=e432]
+        - combobox "Select an option" [ref=e435] [cursor=pointer]:
+          - textbox "Select an option" [ref=e436]
+      - button "Submit" [ref=e438] [cursor=pointer]
+  - generic [ref=e440]:
+    - generic [ref=e441]:
+      - heading "  Annual Expected Turnover" [level=6] [ref=e444]:
+        - generic [ref=e445]:  
+        - text: Annual Expected Turnover
+      - generic [ref=e448] [cursor=pointer]:
+        - generic [ref=e449]: 
+        - generic: 
+    - generic [ref=e452]:
+      - generic [ref=e453]:
+        - generic [ref=e454]: Currency*
+        - combobox [disabled] [ref=e455]
+        - combobox "EUR" [disabled] [ref=e458] [cursor=pointer]:
+          - textbox "EUR" [disabled] [ref=e459]
+      - generic [ref=e460]:
+        - generic [ref=e461]: Amount*
+        - spinbutton "Too many digits. Please enter a reasonable amount." [ref=e462]
+      - button "Submit" [ref=e464] [cursor=pointer]
+  - generic [ref=e466]:
+    - generic [ref=e467]:
+      - heading "  Add Politically Exposed Person (PEP)" [level=6] [ref=e470]:
+        - generic [ref=e471]:  
+        - text: Add Politically Exposed Person (PEP)
+      - generic [ref=e474] [cursor=pointer]:
+        - generic [ref=e475]: 
+        - generic: 
+    - generic [ref=e478]:
+      - generic [ref=e480]:
+        - generic [ref=e481]: Name*
+        - textbox "Name*" [ref=e482]:
+          - /placeholder: ""
+      - generic [ref=e484]:
+        - generic [ref=e485]: Last Name*
+        - textbox "Last Name*" [ref=e486]:
+          - /placeholder: ""
+      - generic [ref=e488]:
+        - generic [ref=e489]: Country*
+        - combobox [ref=e490]
+        - combobox "Select an option" [ref=e493] [cursor=pointer]:
+          - textbox "Select an option" [ref=e494]
+      - generic [ref=e496]:
+        - generic [ref=e497]: Position*
+        - textbox "Position*" [ref=e498]:
+          - /placeholder: ""
+      - generic [ref=e500]:
+        - generic [ref=e501]: Pep*
+        - combobox [ref=e502]
+        - combobox "Select an option" [ref=e505] [cursor=pointer]:
+          - textbox "Select an option" [ref=e506]
+      - generic [ref=e508]:
+        - generic [ref=e509]: Applicant Relationship*
+        - textbox "Applicant Relationship*" [ref=e510]
+      - generic [ref=e512]:
+        - generic [ref=e513]: 
+        - generic [ref=e514]:
+          - heading "Required" [level=4] [ref=e515]
+          - generic [ref=e516]: Please enter in the fields below the period which the PEP was in the listed position
+        - button " " [ref=e517] [cursor=pointer]:
+          - generic [ref=e518]:
+            - generic [ref=e519]: 
+            - generic: 
+      - generic [ref=e520]:
+        - generic [ref=e521]: From*
+        - generic [ref=e522]:
+          - textbox "From*" [ref=e523]
+          - generic [ref=e525]:
+            - generic [ref=e526]: 
+            - generic: 
+      - generic [ref=e527]:
+        - generic [ref=e528]: Till*
+        - generic [ref=e529]:
+          - textbox "Till*" [ref=e530]
+          - generic [ref=e532]:
+            - generic [ref=e533]: 
+            - generic: 
+      - button "Submit" [ref=e535] [cursor=pointer]
+  - generic [ref=e537]:
+    - generic [ref=e538]:
+      - heading "  Add Business Offical" [level=6] [ref=e541]:
+        - generic [ref=e542]:  
+        - text: Add Business Offical
+      - generic [ref=e545] [cursor=pointer]:
+        - generic [ref=e546]: 
+        - generic: 
+    - generic [ref=e549]:
+      - generic [ref=e551]:
+        - generic [ref=e552]: Official Type*
+        - listbox [ref=e553]:
+          - option [ref=e554]: Director *
+          - option [ref=e555]: Secretary
+          - option [ref=e556]: Shareholder *
+          - option [ref=e557]: Signatories
+          - option [ref=e558]: Trustees
+          - option [ref=e559]: Settlor
+          - option [ref=e560]: Protector
+          - option [ref=e561]: Partners
+        - combobox [ref=e564] [cursor=pointer]:
+          - list
+          - searchbox "Search" [ref=e566]
+      - generic [ref=e568]:
+        - generic [ref=e569]: First Name*
+        - textbox [ref=e570]
+      - generic [ref=e572]:
+        - generic [ref=e573]: Middle Name
+        - textbox [ref=e574]
+      - generic [ref=e576]:
+        - generic [ref=e577]: Last Name*
+        - textbox [ref=e578]
+      - generic [ref=e580]:
+        - generic [ref=e581]: Home Address*
+        - textbox [ref=e582]
+      - generic [ref=e584]:
+        - generic [ref=e585]: City*
+        - textbox [ref=e586]
+      - generic [ref=e588]:
+        - generic [ref=e589]: Post Code*
+        - textbox [ref=e590]
+      - generic [ref=e592]:
+        - generic [ref=e593]: Email*
+        - textbox [ref=e594]
+      - generic [ref=e596]:
+        - generic [ref=e597]: Phone*
+        - generic [ref=e598]:
+          - 'combobox "Cyprus (Κύπρος): +357" [ref=e600]':
+            - generic [ref=e602]: "+357"
+          - textbox [ref=e604]
+      - generic [ref=e606]:
+        - generic [ref=e607]: Date of Birth*
+        - generic [ref=e608]:
+          - textbox [ref=e609]
+          - generic [ref=e611]:
+            - generic [ref=e612]: 
+            - generic: 
+      - generic [ref=e614]:
+        - generic [ref=e615]: Nationality*
+        - combobox [ref=e616]
+        - combobox "Select an option" [ref=e619] [cursor=pointer]:
+          - textbox "Select an option" [ref=e620]
+      - generic [ref=e622]:
+        - generic [ref=e623]: Country of Citizenship*
+        - combobox [ref=e624]
+        - combobox "Select an option" [ref=e627] [cursor=pointer]:
+          - textbox "Select an option" [ref=e628]
+      - generic [ref=e630]:
+        - generic [ref=e631]: Country of birth*
+        - combobox [ref=e632]
+        - combobox "Select an option" [ref=e635] [cursor=pointer]:
+          - textbox "Select an option" [ref=e636]
+      - generic [ref=e638]:
+        - generic [ref=e639]: Country of residence*
+        - combobox [ref=e640]
+        - combobox "Select an option" [ref=e643] [cursor=pointer]:
+          - textbox "Select an option" [ref=e644]
+      - generic [ref=e646]:
+        - generic [ref=e647]: Identification Type*
+        - combobox [ref=e648]
+        - combobox "Select an option" [ref=e651] [cursor=pointer]:
+          - textbox "Select an option" [ref=e652]
+      - generic [ref=e654]:
+        - generic [ref=e655]: Identification Number*
+        - textbox [ref=e656]
+      - generic [ref=e658]:
+        - generic [ref=e659]: ID issue date*
+        - generic [ref=e660]:
+          - textbox [ref=e661]
+          - generic [ref=e663]:
+            - generic [ref=e664]: 
+            - generic: 
+      - generic [ref=e666]:
+        - generic [ref=e667]: ID expiry date*
+        - generic [ref=e668]:
+          - textbox [ref=e669]
+          - generic [ref=e671]:
+            - generic [ref=e672]: 
+            - generic: 
+      - generic [ref=e674]:
+        - generic [ref=e675]: Where was this identification issued?*
+        - combobox [ref=e676]
+        - combobox "Select an option" [ref=e679] [cursor=pointer]:
+          - textbox "Select an option" [ref=e680]
+      - generic [ref=e683]:
+        - checkbox "Is this official a UBO with more than shares >=10%" [ref=e684]
+        - generic [ref=e685]: Is this official a UBO with more than shares >=10%
+      - button "Submit" [ref=e687] [cursor=pointer]
+  - generic:
+    - generic [ref=e688]:
+      - generic [ref=e689]:
+        - generic [ref=e690]:
+          - heading " Document Upload" [level=6] [ref=e693]:
+            - generic [ref=e694]: 
+            - text: Document Upload
+          - generic [ref=e697] [cursor=pointer]:
+            - generic [ref=e698]: 
+            - generic: 
+        - generic [ref=e700]:
+          - generic [ref=e701]:
+            - generic [ref=e703]:
+              - text:     
+              - generic [ref=e704]:
+                - generic [ref=e705]: Document Type*
+                - combobox [ref=e706]
+                - combobox "Select an option" [ref=e709] [cursor=pointer]:
+                  - textbox "Select an option" [ref=e710]
+            - generic [ref=e712]:
+              - generic [ref=e713]: Document Description
+              - textbox "Notes on document uploading" [ref=e714]
+            - text:    
+            - generic [ref=e715]:
+              - generic [ref=e716]:
+                - generic [ref=e717]: Add Files
+                - paragraph [ref=e718]:
+                  - emphasis [ref=e719]: Please note that you can upload more than one document at a time for the selected document type
+                - emphasis
+              - emphasis
+            - emphasis [ref=e720]:
+              - button "Select or drag files | PNG, JPG, PDF | < 10.34MB" [ref=e726] [cursor=pointer]:
+                - img [ref=e729]
+                - generic:
+                  - progressbar
+                - generic [ref=e732]: Select or drag files | PNG, JPG, PDF | < 10.34MB
+              - button "Upload Document(s)" [ref=e734] [cursor=pointer]
+          - emphasis
+        - emphasis
+      - emphasis
+    - emphasis
+  - emphasis:
+    - generic:
+      - generic [ref=e735]:
+        - generic [ref=e736]:
+          - generic [ref=e737]:
+            - heading " Document Upload" [level=6] [ref=e740]:
+              - generic [ref=e741]: 
+              - text: Document Upload
+            - generic [ref=e744] [cursor=pointer]:
+              - generic [ref=e745]: 
+              - generic: 
+          - generic [ref=e747]:
+            - generic [ref=e748]:
+              - generic:     
+              - generic [ref=e750]:
+                - generic [ref=e751]: Business Officials*
+                - combobox [ref=e752]
+                - combobox "Select an option" [ref=e755] [cursor=pointer]:
+                  - textbox "Select an option" [ref=e756]
+              - generic [ref=e758]:
+                - generic [ref=e759]: Document Type*
+                - combobox [ref=e760]
+                - combobox "Select an option" [ref=e763] [cursor=pointer]:
+                  - textbox "Select an option" [ref=e764]
+              - text:    
+              - generic [ref=e765]:
+                - generic [ref=e766]:
+                  - generic [ref=e767]: Add Files
+                  - paragraph [ref=e768]:
+                    - emphasis [ref=e769]: Please note that you can upload more than one document at a time for the selected document type
+                  - emphasis
+                - emphasis
+              - emphasis [ref=e770]:
+                - button "Select or drag files | PNG, JPG, PDF | < 10.34MB" [ref=e776] [cursor=pointer]:
+                  - img [ref=e779]
+                  - generic:
+                    - progressbar
+                  - generic [ref=e782]: Select or drag files | PNG, JPG, PDF | < 10.34MB
+                - button "Upload Document(s)" [ref=e784] [cursor=pointer]
+            - emphasis
+          - emphasis
+        - emphasis
+      - emphasis
+    - emphasis:   
+  - img
+  - text:                              
+```

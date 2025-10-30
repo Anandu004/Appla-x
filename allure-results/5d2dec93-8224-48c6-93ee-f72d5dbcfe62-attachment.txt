@@ -1,0 +1,11 @@
+Checking wallet: AUD
+ Clicking on beneficiary: Bernier Group
+ Details page loaded for: Bernier Group
+ Clicking on beneficiary: Crona and Sons
+ Details page loaded for: Crona and Sons
+ Clicking on beneficiary: Monahan LLC
+ Details page loaded for: Monahan LLC
+ Clicking on beneficiary: Schneider - Koss
+ Details page loaded for: Schneider - Koss
+ Clicking on beneficiary: Wyman LLC
+ Details page loaded for: Wyman LLC

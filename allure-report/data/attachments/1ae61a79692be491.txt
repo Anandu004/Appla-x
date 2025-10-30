@@ -1,0 +1,4 @@
+Company: testcompany Runte Group
+jpy
+Popup message: The amount exceeds the maximum allowed limit of 108,934,250 for corpay transactions.
+Validation successful: Exceeded funding limit (108,934,250) is correctly shown.

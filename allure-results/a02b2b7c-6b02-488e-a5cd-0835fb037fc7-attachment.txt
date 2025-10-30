@@ -1,0 +1,12 @@
+payment fee status-Review
+                                    
+                                                                            Payment Fees Status
+paymentfee--15.00
+                                    eur 3TOSXLLE
+conversion status-Completed
+                                    
+                                                                            Conversion Status
+selling amount--316.60
+                                    eur 3TOSXLLE
+Received paymentfee: 15 EUR
+Received sellamount: 316.60 EUR

@@ -1,0 +1,11 @@
+AUD Wallet (before): 0
+EUR Wallet (before): 230843.76
+Converted Fund (EUR): 3553.09
+Fee (EUR): 30
+Transferred to Customer (EUR): 3523.09
+Expected transferred (EUR): 3523.09
+AUD Wallet (after): 0
+EUR Wallet (after): 234366.85
+Expected Base (EUR) after: 234366.85, Actual: 234366.85
+AUD wallet should remain 0 — Actual: 0
+ Validation passed: Converted fund credited to base wallet, fee deducted correctly, AUD remains zero

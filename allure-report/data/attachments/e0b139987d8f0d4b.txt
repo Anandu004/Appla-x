@@ -1,0 +1,27 @@
+Checking transactions in wallet: AUD
+ Raw Popup Text:
+ 
+                
+                    Type:
+                    Withdraw
+                
+                
+                    Date:
+                    Oct 23, 2025, 2:06 PM
+                
+                
+                    Narrative:
+                    Conversion
+                
+                
+                    Reference:
+                    25296A60
+                
+                
+                    Sold:
+                    6000 (AUD)
+                
+                
+                    Bought:
+                    3553.09 (EUR)
+                

@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Donnelly Inc' ]
+✅ Beneficiary "Donnelly Inc" is listed in dropdown.

@@ -1,4 +1,10 @@
 {
-  "aud_beneficiary_company_name": "Fahey - Murazik",
-  "euro_beneficiary_company_name": "Schuster, Shields and Yundt"
+  "aud_beneficiary_company_name": "Crona and Sons",
+  "euro_beneficiary_company_name": "Monahan LLC",
+  "usd_beneficiary_company_name": "Wyman LLC",
+  "chf_beneficiary_company_name": "Farrell, Wehner and Stiedemann",
+  "hkd_beneficiary_company_name": "Swaniawski, Simonis and Wolff",
+  "sgd_beneficiary_company_name": "Donnelly Inc",
+  "jpy_beneficiary_company_name": "Sipes and Sons",
+  "cad_beneficiary_company_name": "Predovic, Wisozk and Morar"
 }

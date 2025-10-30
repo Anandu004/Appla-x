@@ -1,0 +1,10 @@
+Checking beneficiary details in wallet: AUD
+ Selecting beneficiary: Crona and Sons ( abc bank )
+ Beneficiary details are visible for: Crona and Sons ( abc bank )
+📋Beneficiary Details:
+   Bank Account Holder Name   : Crona and Sons
+   Bank Name     : abc bank
+   Bank Address  : 1 Saint Martin's Le Grand
+   Bank Account Country  : Australia
+Checking beneficiary details in wallet: CAD
+⚠️ No beneficiaries in this wallet. Moving to next...

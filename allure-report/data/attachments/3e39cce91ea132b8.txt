@@ -1,0 +1,55 @@
+
+🔹 Starting wallet creation for company: testcompany Runte Group
+ Company found: testcompany Runte Group
+💱 Base currency: eur
+ On Payment List page, ready to create wallets...
+
+ Processing: NZD | NZD
+Looking for currency: NZD | NZD
+ Selected currency in dropdown: NZD | NZD
+ Wallet creation done for: NZD | NZD
+Proceeding with funding for: nzd
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 77555.72
+
+ Processing: CHF | CHF
+Looking for currency: CHF | CHF
+ Selected currency in dropdown: CHF | CHF
+ Wallet creation done for: CHF | CHF
+Proceeding with funding for: chf
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 128507.56
+
+ Processing: JPY | JPY
+Looking for currency: JPY | JPY
+ Selected currency in dropdown: JPY | JPY
+ Wallet creation done for: JPY | JPY
+Proceeding with funding for: jpy
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 128796.94
+
+ Processing: SGD | SGD
+Looking for currency: SGD | SGD
+ Selected currency in dropdown: SGD | SGD
+ Wallet creation done for: SGD | SGD
+Proceeding with funding for: sgd
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 162399
+
+ Processing: CAD | CAD
+Looking for currency: CAD | CAD
+ Selected currency in dropdown: CAD | CAD
+ Wallet creation done for: CAD | CAD
+Proceeding with funding for: cad
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 195541.38
+
+ Processing: AUD | AUD
+Looking for currency: AUD | AUD
+ Selected currency in dropdown: AUD | AUD
+ Wallet creation done for: AUD | AUD
+Proceeding with funding for: aud
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 225135.48
+
+ Processing: HKD | HKD
+Looking for currency: HKD | HKD
+ Selected currency in dropdown: HKD | HKD
+ Wallet creation done for: HKD | HKD
+Proceeding with funding for: hkd
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 230843.76
+ All wallets created and funded successfully!

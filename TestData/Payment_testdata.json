@@ -1,0 +1,13 @@
+ {
+ 
+ "Payment": {
+
+    "Payment_amount"       : "12000",
+    "Payment_amount2"      : "18000",
+    "Payment_reason"       : "INVESTMENT RELATED PAYMENT",
+    "Payment_reference"    : "6787",
+    "Payment_otp"          : "123456"
+
+  }
+
+}

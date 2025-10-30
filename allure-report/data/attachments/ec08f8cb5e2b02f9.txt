@@ -1,0 +1,10 @@
+12
+entered for loop
+Checking transactions in wallet: AUD
+ Transactions are listed for AUD in wallet details page
+entered for loop
+Checking transactions in wallet: CAD
+ Transactions are listed for CAD in wallet details page
+entered for loop
+Checking transactions in wallet: CHF
+ Transactions are listed for CHF in wallet details page

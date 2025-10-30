@@ -1,0 +1,2 @@
+Not choosing a beneficiary from dropdown
+cant proceed payment without beneficiary..

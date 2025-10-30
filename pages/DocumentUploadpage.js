@@ -2,42 +2,56 @@ const { expect } = require("@playwright/test")
 //const { TIMEOUT } = require("dns")
 const path = require('path');
 const fs = require('fs');
+const { Console } = require("console");
+
+const { selectPastDate , selectFutureDate } = require('../utils/calenderUtils');
 
 
 
 exports.DocumentUploadpage =
-    class DocumentUploadpage{
+    class DocumentUploadpage {
 
         constructor(page) {
 
-            this.page =  page
+            this.page = page
 
-            this.ok_button =  "button.swal2-confirm"
+            this.ok_button = "button.swal2-confirm"
 
-            this.uploaddocument_tab =  "//li[@class='nav-item mt-5'][5]"
+            this.uploaddocument_tab = "//li[@class='nav-item mt-5'][5]"
 
             this.upload_1 = "//button[@id='document_upload_drawer_button']"
 
-            this.required_options =  "//option[@data-required='1']"
+            this.required_options = `//option[
+                 contains(text(), 'Memorandum and Articles of Association of the company') or
+                 contains(text(), 'Proof of permanent company address') or
+                 contains(text(), 'Certificate of Directors') or
+                 contains(text(), 'Certificate of Incorporation') or
+                 contains(text(), 'Certificate of Registered Office') or
+                 contains(text(), 'Certificate of Shareholders') or
+                 contains(text(), 'Recent Financial Statements / Management Accounts') or
+                 contains(text(), 'Tax Returns')
+                 
+                ]`;
 
-            this.documenttype1 =  "//select[@id='document_type_id']"
+            //this.required_options =  "//option[@data-required='1']"
+
+            this.documenttype1 = "//select[@id='document_type_id']"
 
             this.issuedatefield1 = "//input[@id='issued_on']"
 
-            this.issuedateselect1 = "(//div[@class='caleran-day caleran-today'])[6]"
+            this.issuedateselect1 = "(//div[@class='caleran-day'])[242]"
 
-            this.expirydatefield1 =  "//input[@id='expires_on']"
+            this.expirydatefield1 = "//input[@id='expires_on']"
 
-            this.expiryyearclick = "//body/div[19]/div[2]/div[2]/div[1]/div[1]/span[1]"
+            this.expiryyearclick = "//body[1]/div[25]/div[2]/div[2]/div[1]/div[1]/span[1]"
 
             this.expiryyearselect = "//div[normalize-space()='2030']"
 
-            this.expirydateselect =  "//body/div[19]/div[2]/div[2]/div[1]/div[2]/div[39]"
+            this.expirydateselect = "(//div[@class='caleran-day'])[264]"
 
-            this.addfile1 =  "//input[@type='file' and contains(@class, 'media-library-hidden')]"
+            this.addfile1 = "//input[@type='file' and contains(@class, 'media-library-hidden')]"
 
             this.uploadbutton1 = "//button[@id='submit_button1']"
-
 
 
 
@@ -51,16 +65,17 @@ exports.DocumentUploadpage =
 
             this.issuedatefield2 = "//input[@id='issued_on_id']"
 
-            this.issuedateselect2 = "//body[1]/div[20]/div[2]/div[2]/div[1]/div[2]/div[11]"
+            this.issuedateselect2 = "//body/div[26]/div[2]/div[2]/div[1]/div[2]/div[11]"
 
-            
+
+
             this.expirydatefield2 = "//input[@id='expires_on_id']"
 
-            this.expiry_year = "//body/div[21]/div[2]/div[2]/div[1]/div[1]/span[1]"
+            this.expiry_year = "//body[1]/div[27]/div[2]/div[2]/div[1]/div[1]/span[1]"
 
             this.expiryyear_select = "//div[normalize-space()='2030']"
 
-            this.expirydateselect2 = "//body/div[21]/div[2]/div[2]/div[1]/div[2]/div[39]"
+            this.expirydateselect2 = "(//div[@class='caleran-day'])[307]"
 
             this.addfile2 = "//input[@type='file' and contains(@class, 'media-library-hidden')]"
 
@@ -69,7 +84,7 @@ exports.DocumentUploadpage =
 
             this.togglebutton = "//input[@id='accept_terms']"
 
- 
+
             this.submitkyc_button = "//button[normalize-space()='Submit KYC']"
 
 
@@ -77,149 +92,160 @@ exports.DocumentUploadpage =
 
             this.Account_locked_status = "//h1[normalize-space()='Account Locked - KYC In review']"
 
-            this.largeFile_error = "//div[normalize-space()='Please select a file smaller than 10 MB.']"
+            this.largeFile_error = "//div[@id='swal2-content']"
 
-            
+            this.documentTab_fieldvalidations = "//label[contains(@id, '-error')]"
+
+            this.no_file_upload_errorMsg = "//div[@id='swal2-content']"
+
 
         }
 
-        
-         async uploadCompanyDocumentsForKyc() {
+
+        async uploadCompanyDocumentsForKyc() {
 
             const filenames = [
-               
+
                 'tests\\Document_upload\\Memorandum and Articles of Association of the company.pdf',
-            
+
                 'tests\\Document_upload\\Proof of permanent company address.pdf',
-                
-                'tests\\Document_upload\\Certificate of Good Standing.pdf',
-              
+
+                'tests\\Document_upload\\Certificate of Directors.pdf',
+
                 'tests\\Document_upload\\Certificate of Incorporation.pdf',
-              
+
                 'tests\\Document_upload\\Certificate of Registered Office.pdf',
-              
+
                 'tests\\Document_upload\\Certificate of Shareholders.pdf',
-               
-                'tests\\Document_upload\\Recent Financial Statements  Management Accounts.pdf',
-               
+
+                'tests\\Document_upload\\Recent Financial Statements Management Accounts.pdf',
+
                 'tests\\Document_upload\\Tax Returns.pdf'
-                                             
+                
+
             ]
 
-            const requiredOptions = await this.page.locator(this.required_options);
-            const count = await requiredOptions.count();
-            await this.page.click(this.ok_button)
-            
+            const requiredOptions = await this.page.locator(this.required_options)
+            const count = await requiredOptions.count()
+            //await this.page.click(this.ok_button)
+
 
             for (let i = 0; i < count; i++) {
                 await this.page.click(this.upload_1)
-                await this.page.waitForSelector(this.documenttype1, { state: 'visible' });
+                await this.page.waitForSelector(this.documenttype1, { state: 'visible' })
 
 
-                const optionValue = await requiredOptions.nth(i).getAttribute('value');
-                await this.page.locator(this.documenttype1).selectOption(optionValue);
+                const optionValue = await requiredOptions.nth(i).getAttribute('value')
+                await this.page.locator(this.documenttype1).selectOption(optionValue)
 
-                const isIssueVisible = await this.page.locator(this.issuedatefield1).isVisible().catch(() => false);
+                const isIssueVisible = await this.page.locator(this.issuedatefield1).isVisible().catch(() => false)
                 if (isIssueVisible) {
-                    await this.page.click(this.issuedatefield1);
-                    await this.page.click(this.issuedateselect1);
+                    await this.page.click(this.issuedatefield1)
+                    //await this.page.click(this.issuedateselect1);
+                    await selectPastDate(this.page, 3)
                 }
 
-                const isExpiryVisible = await this.page.locator(this.expirydatefield1).isVisible().catch(() => false);
+                const isExpiryVisible = await this.page.locator(this.expirydatefield1).isVisible().catch(() => false)
                 if (isExpiryVisible) {
                     await this.page.click(this.expirydatefield1)
                     await this.page.click(this.expiryyearclick)
                     await this.page.click(this.expiryyearselect)
-                    await this.page.click(this.expirydateselect)
+                    //await this.page.click(this.expirydateselect)
+                    await selectFutureDate(this.page)
 
                 }
 
-            const filePath  = path.resolve(filenames[i])
-            await this.page.locator(this.addfile1).nth(0).setInputFiles(filePath)
-            await this.page.waitForTimeout(5000)
-            await this.page.click(this.uploadbutton1)
-            await this.page.waitForSelector(this.ok_button, { state: 'visible' });
-            await this.page.click(this.ok_button)
+                const filePath = path.resolve(filenames[i])
+                await this.page.locator(this.addfile1).nth(0).setInputFiles(filePath)
+                await this.page.waitForTimeout(5000)
+                await this.page.click(this.uploadbutton1)
+                await this.page.waitForSelector(this.ok_button, { state: 'visible' })
+                await this.page.click(this.ok_button)
+
+            }
 
         }
 
-        }
 
         async uploadIndividualDocumentsforKyc() {
 
             const filenames = [
-               
+
                 'tests\\Document_upload\\Curriculum vitae.pdf',
-            
+
                 'tests\\Document_upload\\Passport.pdf',
-                
+
                 'tests\\Document_upload\\Proof of permanent residential address.pdf'
             ]
 
-            const requiredOptions = await this.page.locator(this.required_options_2);
-            const count = await requiredOptions.count();
+
+            const requiredOptions = await this.page.locator(this.required_options_2)
+            const count = await requiredOptions.count()
 
             for (let i = 0; i < count; i++) {
                 await this.page.click(this.upload_2)
-                await this.page.waitForSelector(this.businessofficials, { state: 'visible' });
+                await this.page.waitForSelector(this.businessofficials, { state: 'visible' })
 
-                const filePath1 = path.join(__dirname, '../businessofficial.json');
-                const { fullName } = JSON.parse(fs.readFileSync(filePath1, 'utf-8'));
-                await this.page.locator(this.businessofficials).selectOption({ label: fullName });
+                const filePath1 = path.join(__dirname, '../businessofficial.json')
+                const { fullName } = JSON.parse(fs.readFileSync(filePath1, 'utf-8'))
+                await this.page.locator(this.businessofficials).selectOption({ label: fullName })
 
 
-                const optionValue = await requiredOptions.nth(i).getAttribute('value');
-                await this.page.locator(this.documenttype2).selectOption(optionValue);
+                const optionValue = await requiredOptions.nth(i).getAttribute('value')
+                await this.page.locator(this.documenttype2).selectOption(optionValue)
 
-                const isIssueVisible = await this.page.locator(this.issuedatefield2).isVisible().catch(() => false);
+                const isIssueVisible = await this.page.locator(this.issuedatefield2).isVisible().catch(() => false)
                 if (isIssueVisible) {
-                    await this.page.click(this.issuedatefield2);
-                    await this.page.click(this.issuedateselect2);
+                    await this.page.click(this.issuedatefield2)
+                    //await this.page.click(this.issuedateselect2);
+                    await selectPastDate(this.page, 3)
                 }
 
-                const isExpiryVisible = await this.page.locator(this.expirydatefield2).isVisible().catch(() => false);
+                const isExpiryVisible = await this.page.locator(this.expirydatefield2).isVisible().catch(() => false)
                 if (isExpiryVisible) {
                     await this.page.click(this.expirydatefield2)
                     await this.page.click(this.expiry_year)
                     await this.page.click(this.expiryyear_select)
-                    await this.page.click(this.expirydateselect2)
-    
+                    //await this.page.click(this.expirydateselect2)
+                    await selectFutureDate(this.page)
+
                 }
 
-            const filePath  = path.resolve(filenames[i])
-            await this.page.locator(this.addfile2).nth(1).setInputFiles(filePath)
-            await this.page.waitForTimeout(5000)
-            await this.page.click(this.uploadbutton2)
-            await this.page.waitForSelector(this.ok_button, { state: 'visible' })
-            await this.page.click(this.ok_button)
+                const filePath = path.resolve(filenames[i])
+                await this.page.locator(this.addfile2).nth(1).setInputFiles(filePath)
+                await this.page.waitForTimeout(5000)
+                await this.page.click(this.uploadbutton2)
+                await this.page.waitForSelector(this.ok_button, { state: 'visible' })
+                await this.page.click(this.ok_button)
 
 
-        }
+            }
             await this.page.click(this.togglebutton)
             await this.page.click(this.submitkyc_button)
 
-            const filePath = path.join(__dirname, '../companyname.json');
-            const { company_name } = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+            const filePath = path.join(__dirname, '../companyname.json')
+            const { company_name } = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
 
             const actualmessage = await this.page.locator(this.dialogbox).textContent()
             console.log(actualmessage)
-            const expectedmessage = `You are now operating under the company ${ company_name }`
-            expect(actualmessage?.trim()).toContain(expectedmessage);
+            const expectedmessage = `You are now operating under the company ${company_name}`
+            expect(actualmessage?.trim()).toContain(expectedmessage)
 
             await this.page.click(this.ok_button)
 
             await this.page.waitForSelector(this.Account_locked_status)
             const accountstatus = await this.page.locator(this.Account_locked_status).textContent()
-            console.log("Status of Account before admin approval-"+" "+accountstatus)
-            expect(accountstatus?.trim()).toContain('Account Locked - KYC In review');
-    
-            
+            console.log("Status of Account before admin approval-" + " " + accountstatus)
+            expect(accountstatus?.trim()).toContain('Account Locked - KYC In review')
+
+
         }
+        
 
         async uploadLarge_file_size_ForKyc() {
 
-             const filenames = [
-               
+            const filenames = [
+
                 'tests\\Document_upload\\Large file.zip'
             ]
 
@@ -228,20 +254,57 @@ exports.DocumentUploadpage =
             await this.page.waitForSelector(this.documenttype1, { state: 'visible' })
 
             //await this.page.locator(this.documenttype1).selectOption(' Memorandum and Articles of Association of the company. * ')
-            await this.page.locator(this.documenttype1).selectOption('11');
+            await this.page.locator(this.documenttype1).selectOption('11')
             await this.page.click(this.issuedatefield1)
-            await this.page.click(this.issuedateselect1)
+            //await this.page.click(this.issuedateselect1)
+            await selectPastDate(this.page, 3);
 
             const filePath = path.resolve(filenames[0])
             await this.page.locator(this.addfile1).nth(0).setInputFiles(filePath)
-            await this.page.waitForTimeout(5000)
+            await this.page.waitForTimeout(7000)
+            await this.page.waitForSelector(this.largeFile_error)
             await expect(this.page.locator(this.largeFile_error)).toBeVisible()
             const error_msg = await this.page.locator(this.largeFile_error).textContent()
             console.log("Uploading failed - "+error_msg)
             await this.page.click(this.ok_button)
+            await this.page.reload()
 
 
-         }
+        }
 
-    
+        async documentTabValidation() {
+
+            await this.page.click(this.ok_button)
+            await this.page.click(this.submitkyc_button)
+            console.log("Validating document tab without filling anything....")
+            const Total_validations = await this.page.locator(this.documentTab_fieldvalidations).all()
+            expect(Total_validations.length).toBe(3)
+            const Validation_text = await Total_validations[0].textContent()
+            if (Total_validations.length === 3) {
+                console.log(' For document upload - All 3 validation messages are displayed as expected.')
+                console.log("validation message displayed is - "+Validation_text)
+            }
+            await this.page.reload()
+
+        }
+
+        async checkValidationfor_No_file_upload() {
+
+            await this.page.click(this.ok_button)
+            await this.page.waitForSelector(3000)
+            await this.page.click(this.upload_1)
+            await this.page.waitForSelector(this.documenttype1, { state: 'visible' })
+            await this.page.locator(this.documenttype1).selectOption('11');
+            await this.page.click(this.issuedatefield1)
+            //await this.page.click(this.issuedateselect1)
+            await selectPastDate(this.page, 3)
+            await this.page.click(this.uploadbutton1)
+            await expect(this.page.locator(this.no_file_upload_errorMsg)).toBeVisible()
+            const error = await this.page.locator(this.no_file_upload_errorMsg).textContent()
+            console.log(error)
+
+
+        }
+
+
     }

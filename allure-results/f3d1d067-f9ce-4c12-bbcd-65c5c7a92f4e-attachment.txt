@@ -1,0 +1,6 @@
+Validating Company Details Validation
+For Company details -  All 10 validation messages are displayed as expected.
+For Company address -  All 6 validation messages are displayed as expected.
+validation message displayed under each field - This field is required.
+ For Self certification - All 4 validation messages are displayed as expected.
+validation message displayed is - This field is required.

@@ -1,0 +1,6 @@
+Available balance in the wallet (USD): 138702.14
+Available balance in the wallet (EUR): 220179.68
+Selling amount (USD): 400
+Buying amount (EUR) -350.23
+New Wallet Balance (USD): 138302.14
+New Wallet Balance (EUR): 220529.91

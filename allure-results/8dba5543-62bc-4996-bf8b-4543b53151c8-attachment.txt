@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Swaniawski, Simonis and Wolff' ]
+✅ Beneficiary "Swaniawski, Simonis and Wolff" is listed in dropdown.

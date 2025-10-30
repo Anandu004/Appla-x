@@ -1,0 +1,20 @@
+ {
+ 
+ "Client Login Credentials": {
+
+    "Email"            : "anandu.a@seqato.com",
+    "Password"         : "Anandu@123",
+
+    "InvalidEmail"     : "anandu@seqato.com",
+    "InvalidPassword"  : "anandu@12345"
+
+  },
+
+   "Admin Login Credentials": {
+
+    "Email"            : "ajay.vr@seqato.com",
+    "Password"         : "U3lqi7dx"
+
+  }
+
+}

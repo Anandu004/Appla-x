@@ -1,0 +1,4 @@
+Company: testcompany Runte Group
+Base wallet balance is 0.00
+Expected transferred amount - 59983.2
+Actual transferred amount - 59983.25

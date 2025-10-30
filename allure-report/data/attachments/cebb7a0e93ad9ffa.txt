@@ -1,0 +1,5 @@
+Company: testcompany Runte Group
+true
+Wallet not found for gbp, creating a new one...
+New wallet found for currency: gbp
+Wallet funded correctly after creation.

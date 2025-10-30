@@ -1,0 +1,5 @@
+Company: testcompany Runte Group
+base currency - eur
+true
+eur
+ Wallet funded correctly. New Available balance -49985

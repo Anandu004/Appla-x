@@ -1,0 +1,9 @@
+EUR Wallet (before): 49970
+USD Wallet (before): 119983.25
+Fee (EUR): 15
+Transferred (USD): 60000
+EUR Wallet (after): 49955
+USD Wallet (after): 179983.25
+Expected EUR after: 49955, Actual: 49955
+fee amount has been deducted from base wallet
+Expected USD after: 179983.25, Actual: 179983.25

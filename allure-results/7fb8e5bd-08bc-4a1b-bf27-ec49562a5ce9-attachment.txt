@@ -1,0 +1,6 @@
+Available balance in the wallet (EUR): 220948.05
+Available balance in the wallet (GBP): 80000
+Selling amount (EUR): 400
+Buying amount (GBP) -325.45
+New Wallet Balance (EUR): 220548.05
+New Wallet Balance (GBP): 80325.45

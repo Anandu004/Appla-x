@@ -1,0 +1,17 @@
+{
+ 
+ "Conversion": {
+
+    "Buy_amount"              :  300,
+    "Sell_amount"             :  400,
+    "Buy_option"              : "Buy",
+    "Sell_option"             : "Sell",
+    "SharedPayment_type"      : "Shared fee",
+    "SepaPayment_type"        : "Shared fee",
+    "Payment_reason"          : "Investment related payment",
+    "Payment_reference"       : "3456",
+    "Payment_otp"             : "123456"
+
+  }
+
+}

@@ -1,0 +1,24 @@
+Validating Company Details Validation
+For Company details -  All 10 validation messages are displayed as expected.
+For Company address -  All 6 validation messages are displayed as expected.
+validation message displayed under each field - This field is required.
+ For Self certification - All 4 validation messages are displayed as expected.
+validation message displayed is - This field is required.
+Validating Company Profile validations....
+Validating source of fund validations....
+For Source of fund - All 3 validation messages are displayed as expected.
+validation message displayed is - This field is required.
+Validating source of wealth validations....
+ For Source of wealth - All 3 validation messages are displayed as expected.
+validation message displayed is - This field is required.
+Validating Annual expected turnover validations....
+ For Source of Annual expected Turnover - All 8 validation messages are displayed as expected.
+validation message displayed is - This field is required.
+Visible validations: 5
+ For purpose of account - All 5 validation messages are displayed as expected.
+Validation message displayed is - This field is required
+Validating Business official field validations....
+ For Business officials - All 18 validation messages are displayed as expected.
+Uploading failed - Please select a file smaller than 10 MB.
+You are now operating under the company testcompany Rodriguez - Bins
+Status of Account before admin approval- Account Locked - KYC In review

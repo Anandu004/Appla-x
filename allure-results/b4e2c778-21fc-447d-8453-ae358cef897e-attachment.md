@@ -1,0 +1,248 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - text:  
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - generic [ref=e11] [cursor=pointer]: Administrators
+              - text:      
+            - generic [ref=e12]:
+              - generic [ref=e14] [cursor=pointer]: Reports
+              - text:    
+            - generic [ref=e15]:
+              - generic [ref=e17] [cursor=pointer]: Settings
+              - text:                
+          - generic [ref=e18]:
+            - generic [ref=e19]:
+              - generic [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]: 
+                - generic [ref=e22]: "65"
+              - text:                                                                                       
+            - generic [ref=e23]:
+              - generic [ref=e24]: "Switch To:"
+              - generic [ref=e25]:
+                - combobox [ref=e26]
+                - combobox "Select a client" [ref=e29] [cursor=pointer]:
+                  - textbox "Select a client" [ref=e30]
+              - paragraph [ref=e32] [cursor=pointer]: AA
+            - text:  
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - link "Logo Logo" [ref=e36] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/dashboard
+              - img "Logo" [ref=e37]
+              - img "Logo" [ref=e38]
+            - generic [ref=e40] [cursor=pointer]:
+              - generic [ref=e41]: 
+              - generic: 
+          - generic [ref=e44]:
+            - generic [ref=e46]: Client Management
+            - generic [ref=e48] [cursor=pointer]:
+              - generic [ref=e50]:
+                - text: 
+                - text: 
+              - generic [ref=e51]: In House Accounts
+            - generic [ref=e54] [cursor=pointer]:
+              - generic [ref=e56]:
+                - text: 
+                - text: 
+              - generic [ref=e57]: Account Users
+            - generic [ref=e59]:
+              - generic [ref=e60] [cursor=pointer]:
+                - generic [ref=e62]:
+                  - text: 
+                  - text: 
+                - generic [ref=e63]: Account Holders
+              - generic [ref=e65]:
+                - link "Overview" [ref=e67] [cursor=pointer]:
+                  - /url: https://admin.appla-x.work/en/nsp/cm/account-holders-overview
+                  - generic [ref=e70]: Overview
+                - link "Find a company" [ref=e72] [cursor=pointer]:
+                  - /url: https://admin.appla-x.work/en/nsp/cm/account-holders-manage
+                  - generic [ref=e75]: Find a company
+                - link "Company list" [ref=e77] [cursor=pointer]:
+                  - /url: https://admin.appla-x.work/en/nsp/cm/account-holders-companies-overview
+                  - generic [ref=e80]: Company list
+            - link " Sync EBOS Countries" [ref=e82] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-countries
+              - generic [ref=e84]: 
+              - generic [ref=e85]: Sync EBOS Countries
+            - link " Sync EBOS Currencies" [ref=e87] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-currencies
+              - generic [ref=e89]: 
+              - generic [ref=e90]: Sync EBOS Currencies
+            - link " Sync EBOS Documents" [ref=e92] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-kyc-documents
+              - generic [ref=e94]: 
+              - generic [ref=e95]: Sync EBOS Documents
+            - link " Alpha Bank <=> Liquidity Provider Transactions" [ref=e97] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/transactions/alpha-lp-transactions/index
+              - generic [ref=e99]: 
+              - generic [ref=e100]: Alpha Bank <=> Liquidity Provider Transactions
+            - link " Company Document Types" [ref=e102] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/company-document-types
+              - generic [ref=e104]: 
+              - generic [ref=e105]: Company Document Types
+            - link " Fee Management" [ref=e107] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/fee-management
+              - generic [ref=e109]: 
+              - generic [ref=e110]: Fee Management
+            - link " Activity Logs" [ref=e112] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/activity-log
+              - generic [ref=e114]: 
+              - generic [ref=e115]: Activity Logs
+        - generic [ref=e118]:
+          - heading "Manage Account Holder" [level=1] [ref=e122]
+          - generic [ref=e124]:
+            - generic [ref=e126]:
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - link "testcompany Rodriguez - Bins" [ref=e132] [cursor=pointer]:
+                      - /url: "#"
+                    - generic [ref=e133]: active
+                  - generic [ref=e134]:
+                    - link " Active" [ref=e135] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e136]: 
+                      - text: Active
+                    - link " 8956" [ref=e137] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e138]: 
+                      - text: "8956"
+                    - link " 322" [ref=e139] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e140]: 
+                      - text: "322"
+                    - link " CBC" [ref=e141] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e142]: 
+                      - text: CBC
+                    - link " EUR" [ref=e143] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e144]: 
+                      - text: EUR
+                - generic [ref=e146]:
+                  - button "  Email as PDF" [ref=e147] [cursor=pointer]:
+                    - generic [ref=e148]:  
+                    - text: Email as PDF
+                  - button "  Email as Excel" [ref=e149] [cursor=pointer]:
+                    - generic [ref=e150]:  
+                    - text: Email as Excel
+              - list [ref=e151]:
+                - listitem [ref=e152]:
+                  - button "Payment Lists" [ref=e153] [cursor=pointer]
+            - generic [ref=e156]:
+              - heading "Available" [level=3] [ref=e159]
+              - button "+ ++ Add New" [ref=e161] [cursor=pointer]:
+                - generic [ref=e162]: + ++
+                - text: Add New
+              - generic [ref=e165]:
+                - generic [ref=e169] [cursor=pointer]:
+                  - generic [ref=e170]:
+                    - img "https://admin.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e171]
+                    - generic [ref=e172]: Euro
+                  - generic [ref=e173]:
+                    - generic [ref=e174]: "Available Balance:"
+                    - generic [ref=e175]: "0.00"
+                    - generic [ref=e176]: "Wallet Balance: 0.00"
+                - generic [ref=e180] [cursor=pointer]:
+                  - generic [ref=e181]:
+                    - img "https://admin.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e182]
+                    - generic [ref=e183]: USD
+                  - generic [ref=e184]:
+                    - generic [ref=e185]: "Available Balance:"
+                    - generic [ref=e186]: "0.00"
+                    - generic [ref=e187]: "Wallet Balance: 0.00"
+              - text: "* * *   *  "
+              - dialog "Fund Credit" [active] [ref=e188]:
+                - generic [ref=e191]:
+                  - generic [ref=e192]:
+                    - heading "Fund Credit" [level=5] [ref=e193]
+                    - button "Close" [ref=e194] [cursor=pointer]
+                  - generic [ref=e195]:
+                    - generic [ref=e196]:
+                      - generic [ref=e197]: "Wallet Name: USD"
+                      - generic [ref=e198]: "Balance: 0.00"
+                    - generic [ref=e200]:
+                      - generic [ref=e201]: Payment Type*
+                      - combobox [ref=e202]
+                      - combobox "Choose Payment Type" [ref=e205] [cursor=pointer]:
+                        - textbox "Choose Payment Type" [ref=e206]
+                    - generic [ref=e207]: Enter Amount*
+                    - generic [ref=e208]:
+                      - spinbutton [ref=e209]
+                      - button "Get fee" [ref=e210] [cursor=pointer]
+                    - generic [ref=e212]:
+                      - generic [ref=e213]: External Reference*
+                      - textbox [ref=e214]
+                    - generic [ref=e216]:
+                      - generic [ref=e217]: Transaction Date*
+                      - generic [ref=e218]:
+                        - textbox "Transaction Date*" [ref=e219]: 23/10/2025
+                        - generic [ref=e221]:
+                          - generic [ref=e222]: 
+                          - generic: 
+                    - generic [ref=e223]:
+                      - generic [ref=e224]: Funding Type*
+                      - generic [ref=e225]:
+                        - generic [ref=e226]:
+                          - radio [checked] [ref=e227]
+                          - generic [ref=e228]: From Own Funding
+                        - generic [ref=e229]:
+                          - radio [ref=e230]
+                          - generic [ref=e231]: From a 3rd Party
+                    - text: "* * * * * * * *"
+                    - group "To Account Details" [ref=e232]:
+                      - heading "To Account Details" [level=6] [ref=e234]
+                      - generic [ref=e235]:
+                        - generic [ref=e236]: Bank Name*
+                        - textbox [ref=e237]: Barclays Bank Ireland PLC
+                      - generic [ref=e238]:
+                        - generic [ref=e239]: Country*
+                        - combobox [ref=e240]
+                        - generic:
+                          - generic:
+                            - combobox "Ireland":
+                              - textbox "Ireland"
+                      - generic [ref=e241]:
+                        - generic [ref=e242]: Account Unique Id*
+                        - textbox: "610324845000031002"
+                      - generic [ref=e243]:
+                        - generic [ref=e244]: IBAN*
+                        - textbox: GR2001401250125002786001006
+                      - generic [ref=e245]:
+                        - generic [ref=e246]: BIC Code / Swift Code
+                        - textbox [ref=e247]: BARCGB22
+                  - generic [ref=e248]:
+                    - button "Credit" [disabled]
+              - generic [ref=e249]:
+                - generic [ref=e250]:
+                  - 'heading "Payment Lists As at: 23/10/2025 09:39:22" [level=4] [ref=e251]':
+                    - generic [ref=e252]: Payment Lists
+                    - generic [ref=e253]: "As at: 23/10/2025 09:39:22"
+                  - generic [ref=e255]:
+                    - generic [ref=e256]:
+                      - generic [ref=e257]:  
+                      - textbox "Transaction Reference" [ref=e258]
+                    - link " Reset" [ref=e259] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/nsp/cm/account-holders-manage/7a3340a4-8cc0-4ab6-af83-045c6f281319/edit/payment_lists
+                      - generic [ref=e260]: 
+                      - text: Reset
+                  - button "Statement" [ref=e261] [cursor=pointer]
+                - generic [ref=e262]: No transactions
+              - text: 
+          - generic [ref=e266]:
+            - text: 2025©
+            - link "Appla-x.work" [ref=e267] [cursor=pointer]:
+              - /url: https://keenthemes.com
+    - text:  
+  - img
+  - text:      
+```

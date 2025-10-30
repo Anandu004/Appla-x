@@ -1,0 +1,2 @@
+New selected currency: CHF | CHF | Wallet shows: CHF
+New selected currency: JPY | JPY | Wallet shows: JPY

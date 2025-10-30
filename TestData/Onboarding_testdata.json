@@ -1,0 +1,83 @@
+ {
+ 
+ "Business info": {
+
+    "companyType"      : "Company",
+    "selectCompanyType": "Private Company",
+    "regNo"            : "8956",
+    "vatNo"            : "322",
+    "incorporationNo"  : "3345",
+    "sicCode"          : "566",
+    "contact"          : "9898090989",
+    "contactPosition"  : "Manager",
+    "jurisdiction"     : "Australia",
+
+
+    "AddressType"      : ["Registered Address", "Correspondence Address"],
+    "StreetName"       : "Pitt Street",
+    "StreetNumber"     : "12",
+    "Postcode"         : "2000",
+    "Country"          : "Australia",
+    "City"             : "Sydney",
+    "Phone"            : "22456787",
+
+
+    "Describe_business": "Financial Institution",
+    "SecondCountry"    : "Australia",
+    "DocumentType"     : "private",
+    "ssn_dropdown"     : "No TIN is required."
+
+  },
+
+
+   "Business Profile": {
+
+    "BrandName"        : "Cronin",
+    "No_of_Employees"  : "500",
+    "Years_Of_Opern"   : "5",
+    "Previous_Name"    : "LTXC",
+    "BusinessActivity" : "23",
+    "AdditonalActivity": "aerospace and construction",
+    "Country"          : ["1", "2", "3"],
+
+    "Source"           : "Bonus",
+    "Amount"           : "10000",
+    "Countries"        : "144",
+    "Source_2"         : "Private Investments",
+    "Amount_2"         : "50000",
+    "Countries_2"      : "234",
+    "TurnOver"         : "100000"
+
+  },
+
+
+   "Purpose of Account": {
+
+    "Currencies"        : "EUR | Euro",
+    "TransnCountries"   : "Liberia",
+    "TransnFrequency"   : "Monthly",
+    "Monthly_value"     : "50000",
+    "Payment_service"   : "Mastercard Pre Paid Cards",
+    "CrossBordertransn" : "70000",
+    "Transaction_reason": "Cash invoices from client"
+
+  },
+
+
+   "Business Officials": {
+
+    "homeaddress"       : "1 Martin Place",
+    "City"              : "Sydney",
+    "Postcode"          : "2000",
+    "Phone"             : "22343450",
+    "Nationality"       : "Australian",
+    "Citizenship"       : "Australia",
+    "Birth"             : "Australia",
+    "Residence"         : "Australia",
+    "identificatn_type" : "Passport",
+    "identificatn_no"   : "5467",
+    "identificatn_issue": "Canada"
+
+  }
+
+}

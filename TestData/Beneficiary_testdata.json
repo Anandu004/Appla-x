@@ -1,0 +1,243 @@
+{
+ 
+ "Euro beneficiary": {
+
+    "Beneficiary_type"         : "Company",
+    "Address"                  : "116 Invalidenstraße",
+    "City"                     : "Berlin",
+    "State"                    : "Berlin",
+    "Beneficiary_country"      : "Germany",
+    "Postcode"                 : "10115",
+    "Phone"                    : "22673456",
+    "Beneficiary_currency"     : "eur | Euro",
+    "Bank_account_country"     : "Germany",
+    "Payment_method"           : "sepa",
+    "Iban_no"                  : "DE44TCCL16350677847092",
+    "Bank_name"                : "Commerzbank",
+    "Bank_address"             : "114 Friedrichstraße",
+    "Bank_city"                : "Berlin",
+    "Bank_region"              : "Berlin",
+    "Bank_postal"              : "10117"
+
+  },
+
+
+   "USD beneficiary": {
+
+    "Beneficiary_type"         : "Company",
+    "Address"                  : "1355 Market Street",
+    "City"                     : "San Francisco",
+    "State"                    : "California",
+    "Beneficiary_country"      : "United States",
+    "Postcode"                 : "94103",
+
+    "Phone"                    : "22673456",
+    "Beneficiary_currency"     : "usd | USD",
+    "Bank_account_country"     : "United States",
+    "Payment_method"           : "swift",
+    "Routing_code"             : "233434456",
+    "Bic_swift"                : "4510545",
+    "Bank_name"                : "Usd bank",
+    "Bank_address"             : "East Randolph Street",
+    "Bank_city"                : "Chicago",
+    "Bank_region"              : "Illinois",
+    "Bank_postal"              : "60601"
+
+  },
+
+
+    "GBP beneficiary": {
+
+   
+    "Beneficiary_type"         : "Company",
+    "Address"                  : "1 Saint Martin's Le Grand",
+    "City"                     : "Greater London",
+    "State"                    : "England",
+    "Beneficiary_country"      : "United Kingdom",
+    "Postcode"                 : "EC1A 1BB",
+    "Phone"                    : "22073456",
+    "Beneficiary_currency"     : "gbp | GBP",
+    "Bank_account_country"     : "United Kingdom",
+    "Payment_method"           : "swift",
+    "Bic_swift"                : "45404545",
+    "Bank_name"                : "Lloyds Bank",
+    "Bank_address"             : "12 Waterloo Place",
+    "Bank_city"                : "Edinburgh",
+    "Bank_region"              : "England",
+    "Bank_postal"              : "EH1 3QR"
+
+  },
+
+
+   "AUD beneficiary": {
+
+    "Beneficiary_type"         : "Company",
+    "Address"                  : "1 Macquarie Street",
+    "City"                     : "Sydney",
+    "State"                    : "New South Wales",
+    "Beneficiary_country"      : "Australia",
+    "Postcode"                 : "2000",
+    "Phone"                    : "22673456",
+    "Beneficiary_currency"     : "aud | AUD",
+    "Bank_account_country"     : "Australia",
+    "Payment_method"           : "swift",
+    "Bsb_number"               : "123456",
+    "Bic_swift"                : "4510545",
+    "Bank_name"                : "New orland bank",
+    "Bank_address"             : "1 Martin Place",
+    "Bank_city"                : "Sydney",
+    "Bank_region"              : "New South Wales",
+    "Bank_postal"              : "2000"
+
+  },
+
+
+
+  "CHF beneficiary": {
+
+    "Beneficiary_type"         : "Company",
+    "Address"                  : "Bahnhofstrasse",
+    "City"                     : "Zürich",
+    "State"                    : "Zürich",
+    "Beneficiary_country"      : "Switzerland",
+    "Postcode"                 : "8001",
+    "Phone"                    : "22673456",
+    "Beneficiary_currency"     : "chf | CHF",
+    "Bank_account_country"     : "Switzerland",
+    "Payment_method"           : "swift",
+    "Iban_no"                  : "CH9300762011623852957",
+    "Bic_swift"                : "AAAABBCC123",
+    "Bank_name"                : "Zurich Cantonal Bank",
+    "Bank_address"             : "Bahnhofstrasse 9",
+    "Bank_city"                : "Zurich",
+    "Bank_region"              : "Zurich",
+    "Bank_postal"              : "8001"
+
+  },
+
+
+
+  "HKD beneficiary": {
+
+    "Beneficiary_type"         : "Company",
+    "Address"                  : "Nathan Road",
+    "City"                     : "Kowloon",
+    "State"                    : "Kowloon",
+    "Beneficiary_country"      : "Hong Kong",
+    "Phone"                    : "22673056",
+    "Beneficiary_currency"     : "hkd | HKD",
+    "Bank_account_country"     : "Hong Kong",
+    "Payment_method"           : "swift",
+    "Accnt_no"                 : "293005115007",
+    "Bic_swift"                : "HSBCHKHTCCC",
+    "Bank_name"                : "HSBC",
+    "Bank_address"             : "1 Queen's Road",
+    "Bank_city"                : "Kowloon",
+    "Bank_region"              : "Kowloon"
+
+    
+  },
+
+
+
+
+  "SGD beneficiary": {
+
+    "Beneficiary_type"         : "Company",
+    "Address"                  : "Orchard Road",
+    "City"                     : "Singapore",
+    "State"                    : "Singapore",
+    "Beneficiary_country"      : "Singapore",
+    "Postcode"                 : "238896",
+    "Phone"                    : "22673056",
+    "Beneficiary_currency"     : "sgd | SGD",
+    "Bank_account_country"     : "Singapore",
+    "Payment_method"           : "IACH",
+    "Accnt_no"                 : "146172112492",
+    "Bic_swift"                : "SCBLSG22123",
+    "Bank_name"                : "OCBC Bank",
+    "Bank_address"             : "65 Chulia Street",
+    "Bank_city"                : "Singapore",
+    "Bank_region"              : "Singapore",
+    "Bank_postal"              : "22673056"
+
+    
+  },
+
+
+  "JPY beneficiary": {
+
+    "Beneficiary_type"         : "Company",
+    "Address"                  : "Gionmachi Minamigawa",
+    "City"                     : "Kyoto",
+    "State"                    : "Kyoto",
+    "Beneficiary_country"      : "Japan",
+    "Postcode"                 : "605-0074",
+    "Phone"                    : "22600056",
+    "Beneficiary_currency"     : "jpy | JPY",
+    "Bank_account_country"     : "Japan",
+    "Payment_method"           : "swift",
+    "Accnt_no"                 : "1200563",
+    "Bic_swift"                : "BOTKJPJT",
+    "Bank_name"                : "Mizuho Bank",
+    "Bank_address"             : "Marunouchi",
+    "Bank_city"                : "Chiyoda City",
+    "Bank_region"              : "Japan",
+    "Bank_postal"              : "100-0005"
+
+    
+  },
+
+
+    "NZD beneficiary": {
+
+    "Beneficiary_type"         : "Company",
+    "Address"                  : "1 Victoria Street",
+    "City"                     : "Wellington Region",
+    "State"                    : "Wellington",
+    "Beneficiary_country"      : "NewZealand",
+    "Postcode"                 : "6011",
+    "Phone"                    : "22611156",
+    "Beneficiary_currency"     : "nzd | NZD",
+    "Bank_account_country"     : "NewZealand",
+
+    "Payment_method"           : "swift",
+    "Accnt_no"                 : "1200563",
+    "Bsb_number"               : "124456",
+    "Bic_swift"                : "BOTKJPJT",
+    "Bank_name"                : "Mizuho Bank",
+    "Bank_address"             : "45 Queen Street",
+    "Bank_city"                : "Auckland",
+    "Bank_region"              : "Auckland",
+    "Bank_postal"              : "627"
+
+    
+  },
+
+  
+  
+    "CAD beneficiary": {
+
+    "Beneficiary_type"         : "Company",
+    "Address"                  : "123 Maple Street",
+    "City"                     : "Toronto",
+    "State"                    : "Ontario",
+    "Beneficiary_country"      : "Canada",
+    "Postcode"                 : "M5X 1C9",
+    "Phone"                    : "22333356",
+    "Beneficiary_currency"     : "cad | CAD",
+    "Bank_account_country"     : "Canada",
+
+    "Payment_method"           : "Direct Credit",
+    "Accnt_no"                 : "9876003210",
+    "Routing_code"             : "12345004",
+    "Bank_name"                : "Royal Bank of Canada",
+    "Bank_address"             : "200 Bay street, South Tower",
+    "Bank_city"                : "Toronto",
+    "Bank_region"              : "ON",
+    "Bank_postal"              : "M5J 2J5"
+
+    
+  }
+
+}

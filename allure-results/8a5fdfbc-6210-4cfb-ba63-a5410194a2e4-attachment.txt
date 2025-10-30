@@ -1,0 +1,5 @@
+Company: testcompany Runte Group
+true
+aud
+Popup message: The amount exceeds the maximum allowed limit of 1,119,800 for corpay transactions.
+Validation successful: Exceeded funding limit (1,119,800) is correctly shown.

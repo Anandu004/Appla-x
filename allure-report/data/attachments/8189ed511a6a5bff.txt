@@ -1,0 +1,2 @@
+ All necessary fields are visible in 'AUD' wallet.
+ All necessary fields are visible in 'CAD' wallet.

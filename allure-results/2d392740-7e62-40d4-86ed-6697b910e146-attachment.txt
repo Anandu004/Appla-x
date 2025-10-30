@@ -1,0 +1,4 @@
+Checking wallet: AUD
+➡️ Clicking on beneficiary: Bernier Group
+Fill all the required fields
+ All expected error messages are present.

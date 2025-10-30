@@ -1,0 +1,174 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: 
+        - link "Logo" [ref=e7] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img "Logo" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link "Dashboard" [ref=e14] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e15]: Dashboard
+          - link "Support" [ref=e17] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e18]: Support
+        - generic [ref=e19]:
+          - paragraph [ref=e22] [cursor=pointer]: AA
+          - text: 
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button " " [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: testcompany Runte Group
+          - generic [ref=e35]:
+            - button " " [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - heading "beneficiary - edit" [level=1] [ref=e40]
+        - generic [ref=e41]:
+          - link "" [ref=e43] [cursor=pointer]:
+            - /url: https://account.appla-x.work/contacts
+            - generic [ref=e44]: 
+          - generic [ref=e45]:
+            - heading "Modify Beneficiary" [level=3] [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e52]:
+                  - generic [ref=e53]: Beneficiary Type*
+                  - combobox
+                  - generic [ref=e55]:
+                    - combobox "Company":
+                      - button "Remove all items"
+                      - textbox "Company"
+                - generic [ref=e57]:
+                  - generic [ref=e58]: Company name*
+                  - combobox "Company name*" [ref=e59]: Braun and Sons
+                  - text: Complete if this is a company.
+                - generic [ref=e61]:
+                  - generic [ref=e62]: Email*
+                  - textbox [ref=e63]: Cordie17@gmail.com
+                - generic [ref=e65]:
+                  - generic [ref=e66]: Phone*
+                  - generic [ref=e67]:
+                    - 'combobox "Cyprus (Κύπρος): +357" [ref=e69]':
+                      - generic [ref=e71]: "+357"
+                    - textbox [ref=e73]: 22 333356
+                - generic [ref=e75]:
+                  - generic [ref=e76]: Address line 1*
+                  - textbox [ref=e77]: 100 King Street West
+                - generic [ref=e79]:
+                  - generic [ref=e80]: Address line 2
+                  - textbox [ref=e81]
+                - generic [ref=e83]:
+                  - generic [ref=e84]: City*
+                  - textbox [ref=e85]: Toronto
+                - generic [ref=e87]:
+                  - generic [ref=e88]: State*
+                  - textbox [ref=e89]: Ontario
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Beneficiary Country*
+                  - combobox [ref=e93]
+                  - combobox "Canada" [ref=e96] [cursor=pointer]:
+                    - textbox "Canada" [ref=e97]
+                - generic [ref=e99]:
+                  - generic [ref=e100]: Postcode*
+                  - textbox [ref=e101]: M5X 1C9
+                - generic [ref=e102]:
+                  - button "Update Changes" [ref=e103] [cursor=pointer]
+                  - link "Delete Beneficiary" [ref=e104] [cursor=pointer]:
+                    - /url: javascript:void(0)
+              - button "Add Bank Account Details" [ref=e106] [cursor=pointer]
+            - dialog [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - heading "Add Currency Beneficiary" [level=3] [ref=e110]
+                  - generic "Close" [ref=e111] [cursor=pointer]:
+                    - generic [ref=e112]:
+                      - generic [ref=e113]: 
+                      - generic: 
+                - generic [ref=e114]:
+                  - generic [ref=e116]:
+                    - generic [ref=e118]:
+                      - generic [ref=e119]: Beneficiary Country*
+                      - combobox
+                      - generic [ref=e121]:
+                        - combobox "Canada":
+                          - button "Remove all items"
+                          - textbox "Canada"
+                    - generic [ref=e122]:
+                      - generic [ref=e123]: Beneficiary Currency*
+                      - combobox [ref=e124]
+                      - combobox "cad | CAD" [ref=e127] [cursor=pointer]:
+                        - button "Remove all items" [ref=e128]
+                        - textbox "cad | CAD" [ref=e129]
+                    - generic [ref=e131]:
+                      - generic [ref=e132]: Bank Account Country*
+                      - combobox [ref=e133]
+                      - combobox "Canada" [ref=e136] [cursor=pointer]:
+                        - button "Remove all items" [ref=e137]
+                        - textbox "Canada" [ref=e138]
+                    - generic [ref=e140]:
+                      - generic [ref=e141]: Payment Methods*
+                      - combobox [ref=e142]
+                      - combobox "Direct Credit" [ref=e145] [cursor=pointer]:
+                        - button "Remove all items" [ref=e146]
+                        - textbox "Direct Credit" [ref=e147]
+                    - link " Fetch Bank Details" [ref=e149] [cursor=pointer]:
+                      - /url: javascript:;
+                      - generic [ref=e150]: 
+                      - text: Fetch Bank Details
+                    - generic [ref=e152]:
+                      - generic [ref=e156]:
+                        - generic [ref=e158]:
+                          - generic [ref=e159]: Acct number*
+                          - textbox "Acct number" [active] [ref=e160]: "9876003210"
+                        - generic [ref=e162]:
+                          - generic [ref=e163]: Routing code*
+                          - textbox "Routing code" [ref=e164]
+                      - generic [ref=e166]:
+                        - generic [ref=e168]:
+                          - generic [ref=e169]: Bank Name*
+                          - textbox "Bank Name" [ref=e170]
+                        - generic [ref=e172]:
+                          - generic [ref=e173]: Bank Address 1*
+                          - textbox "Bank Address 1" [ref=e174]
+                        - generic [ref=e176]:
+                          - generic [ref=e177]: Bank Address 2
+                          - textbox "Bank Address 2" [ref=e178]
+                        - generic [ref=e180]:
+                          - generic [ref=e181]: Bank City*
+                          - textbox "Bank City" [ref=e182]
+                        - generic [ref=e184]:
+                          - generic [ref=e185]: Bank Region / State*
+                          - textbox "Bank Region" [ref=e186]
+                        - generic [ref=e188]:
+                          - generic [ref=e189]: Bank Postal*
+                          - textbox "Bank Postal" [ref=e190]
+                  - generic [ref=e191]:
+                    - button "Close" [ref=e192] [cursor=pointer]
+                    - button "Save Changes" [ref=e193] [cursor=pointer]
+            - text:  
+      - generic [ref=e194]:
+        - generic [ref=e195]:
+          - text: 2025©
+          - link "Appla-x.work powered by Samson ©" [ref=e196] [cursor=pointer]:
+            - /url: https://ovency.com
+        - list [ref=e197]:
+          - listitem [ref=e198]:
+            - link "Support" [ref=e199] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+          - listitem [ref=e200]:
+            - link "Contact" [ref=e201] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+  - text:    
+  - img
+```

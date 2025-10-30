@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Monahan LLC' ]
+ Beneficiary "Monahan LLC" is listed in dropdown.

@@ -1,0 +1,84 @@
+ {
+ 
+ "Payment type": {
+
+    "Swift_transactionType"         : "Inbound Swift",
+    "Swift_minimumValue"            : "100",
+    "Swift_maximumValue"            : "10000",
+    "Swift_feeAmount"               : "30",
+
+    "InboundSepa_transactionType"   : "Inbound Sepa",
+    "InboundSepa_minimumValue"      : "200",
+    "InboundSepa_maximumValue"      : "10000",
+    "InboundSepa_feeAmount"         : "40",
+
+    "Sepa_transactionType"          : "Sepa fee",
+    "Sepa_minimumValue"             : "1000",
+    "Sepa_maximumValue"             : "3000",
+    "Sepa_feeAmount"                : "40",
+
+    "Sepa2_minimumValue"            : "1001",
+    "Sepa2_maximumValue"            : "3000",
+    "Sepa2_feeAmount"               : "30",
+
+    "Shared_transactionType"        : "Shared fee",
+    "Shared_minimumValue"           : "5000001",
+    "Shared_maximumValue"           : "10000000",
+    "Shared_feeAmount"              : "200",
+    "Shared_feeAmount1"             : "15",
+
+    "Ours_transactionType"          : "Ours fee",
+    "Ours_minimumValue"             : "5000001",
+    "Ours_maximumValue"             : "10000000",
+    "Ours_fee_percentage"           : "0.20",
+    "Ours_fee_percentage1"          : "0.15",  
+    "Ours_fee_percentage2"          : "0.10",
+    "Ours_fee_amount"               : "30"
+
+  },
+
+
+   "Wallet creation": {
+
+    "Euro_currency"                 : "EUR | Euro",
+    "USD_currency"                  : "USD | USD",
+    "GBP_currency"                  : "GBP | GBP",
+    "AUD_currency"                  : "AUD | AUD",
+    "CAD_currency"                  : "CAD | CAD",
+    "HKD_currency"                  : "HKD | HKD",
+    "CHF_currency"                  : "CHF | CHF",
+    "SGD_currency"                  : "SGD | SGD",
+    "NZD_currency"                  : "NZD | NZD",
+    "JPY_currency"                  : "JPY | JPY",
+    "Euro_walletfund"               : "50000",
+    "USD_walletfund"                : "60000",
+    "GBP_walletfund"                : "80000",
+
+
+    "Swift_paymentType"             : "swift",
+    "Sepa_paymentType"              : "sepa",
+    "Wallet_fund"                   : "5000",
+    "External_reference"            : "ABCX345"
+
+
+   },
+
+
+    "Fund limit": {
+
+    "Exceeded_amount"               : "150000000",
+
+    "AUD_limit"                     : "1119800",
+    "CHF_limit"                     : "650000",
+    "CAD_limit"                     : "1000000",
+    "NZD_limit"                     : "1200000",
+    "SGD_limit"                     : "986250",
+    "HKD_limit"                     : "5793400",
+    "JPY_limit"                     : "108934250"
+
+
+   }
+
+
+
+}
