@@ -230,7 +230,7 @@
 
     "Payment_method"           : "Direct Credit",
     "Accnt_no"                 : "9876003210",
-    "Routing_code"             : "12345004",
+    "Routing_code"             : "012345004",
     "Bank_name"                : "Royal Bank of Canada",
     "Bank_address"             : "200 Bay street, South Tower",
     "Bank_city"                : "Toronto",
