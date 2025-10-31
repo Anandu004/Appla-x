@@ -202,9 +202,9 @@
     "Bank_account_country"     : "NewZealand",
 
     "Payment_method"           : "swift",
-    "Accnt_no"                 : "1200563",
-    "Bsb_number"               : "124456",
-    "Bic_swift"                : "BOTKJPJT",
+    "Accnt_no"                 : "212345678",
+    "Bsb_number"               : "999888",
+    "Bic_swift"                : "999888",
     "Bank_name"                : "Mizuho Bank",
     "Bank_address"             : "45 Queen Street",
     "Bank_city"                : "Auckland",
