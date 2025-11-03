@@ -1,7 +1,7 @@
 
 //selecting date from calender -for issue date
 
-async function selectPastDate(page, daysBefore = 1) {
+async function selectPastDate(page, prevButtonSelector, daysBefore = 1) {
 
     const today = new Date()
     const targetDate = new Date()
@@ -14,7 +14,9 @@ async function selectPastDate(page, daysBefore = 1) {
     const monthYearLocator = page.locator('.caleran-title:visible')
     await monthYearLocator.waitFor({ state: 'visible' })
 
-    const prevButtonLocator = page.locator('//body[1]/div[15]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]')
+    //const prevButtonLocator = page.locator('//body[1]/div[15]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]')
+    const prevButtonLocator = page.locator(prevButtonSelector);
+    //body/div[24]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]
 
     let found = false;
     for (let i = 0; i < 12; i++) {

@@ -104,7 +104,7 @@ test('7. Verify save draft for Purpose of Account after refresh', async ({ page 
 })
 
 
-test('8. Verify onboarding for new company with validations', async ({ page }) => {
+test.only('8. Verify onboarding for new company with validations', async ({ page }) => {
 
 
   const login = new Loginpage(page)

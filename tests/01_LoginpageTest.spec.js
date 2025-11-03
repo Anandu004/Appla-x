@@ -5,7 +5,7 @@ import { Dashboardpage } from '../pages/Dashboardpage';
 import { VisualHelper } from '../utils/visualHelper';
 
 
-test.only('1. Verify login with valid credentials', async ({ page }) => {
+test('1. Verify login with valid credentials', async ({ page }) => {
 
   const visual = new VisualHelper(page);
   await visual.openTest('Login Page - Visual Test');

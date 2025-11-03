@@ -1,0 +1,595 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: 
+        - link "Logo" [ref=e7] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img "Logo" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link "Dashboard" [ref=e14] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e15]: Dashboard
+          - link "Support" [ref=e17] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e18]: Support
+        - generic [ref=e19]:
+          - paragraph [ref=e22] [cursor=pointer]: AA
+          - text: 
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button " " [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: testcompany Green and Sons
+          - generic [ref=e35]:
+            - button " " [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - heading "kyc for testcompany green and sons" [level=1] [ref=e40]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - list [ref=e45]:
+              - listitem [ref=e46]:
+                - link " Business Information" [ref=e47] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e48]: 
+                  - text: Business Information
+              - listitem [ref=e49]:
+                - link " Business Profile" [ref=e50] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e51]: 
+                  - text: Business Profile
+              - listitem [ref=e52]:
+                - link " Purpose of Account" [ref=e53] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e54]: 
+                  - text: Purpose of Account
+              - listitem [ref=e55]:
+                - link " Business Officials" [ref=e56] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e57]: 
+                  - text: Business Officials
+              - listitem [ref=e58]:
+                - link " Document Upload" [ref=e59] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e60]: 
+                  - text: Document Upload
+            - button "  Save Draft" [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]:  
+              - text: Save Draft
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - generic [ref=e66] [cursor=pointer]:
+                  - generic [ref=e68]:
+                    - generic [ref=e69]: 
+                    - generic: 
+                  - heading "  Business Information" [level=3] [ref=e70]:
+                    - generic [ref=e71]:  
+                    - text: Business Information
+                - text:  * * * * * *    * * * * *   * * * *
+              - generic [ref=e72]:
+                - generic [ref=e73] [cursor=pointer]:
+                  - generic [ref=e75]:
+                    - generic [ref=e76]: 
+                    - generic: 
+                  - heading "  Company Addresses and Contact Details" [level=3] [ref=e77]:
+                    - generic [ref=e78]:  
+                    - text: Company Addresses and Contact Details
+                - generic [ref=e80]:
+                  - generic [ref=e81]: 
+                  - generic [ref=e82]:
+                    - heading "Required" [level=4] [ref=e83]
+                    - generic [ref=e84]:
+                      - text: "You are required to provide at least one of each address type: Registered Address and Correspondence Address ."
+                      - generic [ref=e85] [cursor=pointer]:
+                        - generic [ref=e86]:  
+                        - text: Add New
+                      - paragraph
+                      - paragraph
+                      - paragraph
+              - generic [ref=e87]:
+                - generic [ref=e88] [cursor=pointer]:
+                  - generic [ref=e90]:
+                    - generic [ref=e91]: 
+                    - generic: 
+                  - heading "  Self-Certification / US FATCA / Common Reporting Standard (CRS)" [level=3] [ref=e92]:
+                    - generic [ref=e93]:  
+                    - text: Self-Certification / US FATCA / Common Reporting Standard (CRS)
+                - text:  * *   * * *           * *   
+            - button "Next  " [ref=e99] [cursor=pointer]:
+              - text: Next
+              - generic [ref=e100]:  
+          - text:     * * *   * * *       + ++   + ++   + ++      + ++                                * * * * * * * * *   * * * * * * *   *   *
+          - text:            
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - text: 2025©
+          - link "Appla-x.work powered by Samson ©" [ref=e103] [cursor=pointer]:
+            - /url: https://ovency.com
+        - list [ref=e104]:
+          - listitem [ref=e105]:
+            - link "Support" [ref=e106] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+          - listitem [ref=e107]:
+            - link "Contact" [ref=e108] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+  - text: 
+  - generic [ref=e110]:
+    - generic [ref=e111]:
+      - heading "  Add a new business address" [level=6] [ref=e114]:
+        - generic [ref=e115]:  
+        - text: Add a new business address
+      - generic [ref=e118] [cursor=pointer]:
+        - generic [ref=e119]: 
+        - generic: 
+    - generic [ref=e122]:
+      - generic [ref=e124]:
+        - generic [ref=e125]: Address type*
+        - listbox [ref=e126]:
+          - option [ref=e127]: Registered Address
+          - option [ref=e128]: Physical Address
+          - option [ref=e129]: Address of Primary Business Activities
+          - option [ref=e130]: Correspondence Address
+        - combobox [ref=e133] [cursor=pointer]:
+          - list
+          - searchbox "Search" [ref=e135]
+        - generic [ref=e136]: This field is required.
+        - text: You can select one or more address types for this address
+      - generic [ref=e138]:
+        - generic [ref=e139]: Address Street Name*
+        - textbox [ref=e140]
+        - generic [ref=e141]: This field is required.
+      - generic [ref=e143]:
+        - generic [ref=e144]: Address Street Number*
+        - textbox [ref=e145]
+        - generic [ref=e146]: This field is required.
+      - generic [ref=e148]:
+        - generic [ref=e149]: Postcode*
+        - textbox [ref=e150]
+        - generic [ref=e151]: This field is required.
+      - generic [ref=e153]:
+        - generic [ref=e154]: Country*
+        - combobox [ref=e155]
+        - combobox "Select an option" [ref=e158] [cursor=pointer]:
+          - textbox "Select an option" [ref=e159]
+        - generic [ref=e160]: This field is required.
+      - generic [ref=e162]:
+        - generic [ref=e163]: City*
+        - textbox [ref=e164]
+        - generic [ref=e165]: This field is required.
+      - generic [ref=e167]:
+        - generic [ref=e168]: State*
+        - textbox [ref=e169]
+        - generic [ref=e170]: This field is required.
+      - generic [ref=e172]:
+        - generic [ref=e173]: Phone
+        - generic [ref=e174]:
+          - 'combobox "Cyprus (Κύπρος): +357" [ref=e176] [cursor=pointer]':
+            - generic [ref=e178]: "+357"
+          - textbox [ref=e180]
+      - generic [ref=e182]:
+        - generic [ref=e183]: Email
+        - textbox [ref=e184]
+      - button "Submit Address" [active] [ref=e186] [cursor=pointer]
+  - generic [ref=e188]:
+    - generic [ref=e189]:
+      - heading "  Add Trustee GINN" [level=6] [ref=e192]:
+        - generic [ref=e193]:  
+        - text: Add Trustee GINN
+      - generic [ref=e196] [cursor=pointer]:
+        - generic [ref=e197]: 
+        - generic: 
+    - generic [ref=e200]:
+      - generic [ref=e202]:
+        - generic [ref=e203]: Trustee Name*
+        - textbox [ref=e204]
+      - generic [ref=e206]:
+        - generic [ref=e207]: Trustee GIIN*
+        - textbox [ref=e208]
+      - button "Submit" [ref=e210] [cursor=pointer]
+  - generic [ref=e212]:
+    - generic [ref=e213]:
+      - heading "  Add US Controlling Person" [level=6] [ref=e216]:
+        - generic [ref=e217]:  
+        - text: Add US Controlling Person
+      - generic [ref=e220] [cursor=pointer]:
+        - generic [ref=e221]: 
+        - generic: 
+    - generic [ref=e224]:
+      - generic [ref=e226]:
+        - generic [ref=e227]: Name*
+        - textbox "Name*" [ref=e228]:
+          - /placeholder: ""
+      - generic [ref=e230]:
+        - generic [ref=e231]: Last Name*
+        - textbox "Last Name*" [ref=e232]:
+          - /placeholder: ""
+      - generic [ref=e234]:
+        - generic [ref=e235]: Address*
+        - textbox [ref=e236]
+      - generic [ref=e238]:
+        - generic [ref=e239]: Position*
+        - textbox [ref=e240]
+      - generic [ref=e242]:
+        - generic [ref=e243]: US TIN*
+        - textbox [ref=e244]
+      - button "Submit" [ref=e246] [cursor=pointer]
+  - generic [ref=e248]:
+    - generic [ref=e249]:
+      - heading "  Add Tax Residency Information" [level=6] [ref=e252]:
+        - generic [ref=e253]:  
+        - text: Add Tax Residency Information
+      - generic [ref=e256] [cursor=pointer]:
+        - generic [ref=e257]: 
+        - generic: 
+    - generic [ref=e260]:
+      - generic [ref=e262]:
+        - generic [ref=e263]: Country*
+        - combobox [ref=e264]
+        - combobox "Select an option" [ref=e267] [cursor=pointer]:
+          - textbox "Select an option" [ref=e268]
+      - generic [ref=e270]:
+        - generic [ref=e271]: Document Type*
+        - textbox "Document Type*" [ref=e272]:
+          - /placeholder: ""
+      - generic [ref=e274]:
+        - generic [ref=e275]: TIN/SSN
+        - textbox "TIN/SSN" [ref=e276]:
+          - /placeholder: ""
+      - generic [ref=e278]:
+        - generic [ref=e279]: If a TIN/SSN is not available, please select a reason.
+        - combobox [ref=e280]
+        - combobox "Select an option" [ref=e283] [cursor=pointer]:
+          - textbox "Select an option" [ref=e284]
+      - button "Submit" [ref=e286] [cursor=pointer]
+  - generic [ref=e288]:
+    - generic [ref=e289]:
+      - heading "  Source of Funds" [level=6] [ref=e292]:
+        - generic [ref=e293]:  
+        - text: Source of Funds
+      - generic [ref=e296] [cursor=pointer]:
+        - generic [ref=e297]: 
+        - generic: 
+    - generic [ref=e300]:
+      - generic [ref=e302]:
+        - generic [ref=e303]: Source*
+        - combobox [ref=e304]
+        - combobox "Select an option" [ref=e307] [cursor=pointer]:
+          - textbox "Select an option" [ref=e308]
+      - text: "*"
+      - generic [ref=e310]:
+        - generic [ref=e311]: Description
+        - textbox "Description Description" [ref=e312]
+      - generic [ref=e313]:
+        - generic [ref=e314]: Currency*
+        - combobox "Currency* Currency* Currency*" [disabled] [ref=e315]:
+          - option "EUR" [selected]
+      - generic [ref=e316]:
+        - generic [ref=e317]: Amount*
+        - spinbutton "Amount* Amount* Amount*" [ref=e318]
+      - generic [ref=e320]:
+        - generic [ref=e321]: Countries*
+        - combobox [ref=e322]
+        - combobox "Select an option" [ref=e325] [cursor=pointer]:
+          - textbox "Select an option" [ref=e326]
+      - generic [ref=e327]:
+        - generic [ref=e328]: Source of Funds*
+        - generic [ref=e329]:
+          - generic [ref=e330]:
+            - radio [checked] [ref=e331]
+            - generic [ref=e332]: Incoming
+          - generic [ref=e333]:
+            - radio [ref=e334]
+            - generic [ref=e335]: Outgoing
+      - button "Submit" [ref=e337] [cursor=pointer]
+  - generic [ref=e339]:
+    - generic [ref=e340]:
+      - heading "  Source of Wealth" [level=6] [ref=e343]:
+        - generic [ref=e344]:  
+        - text: Source of Wealth
+      - generic [ref=e347] [cursor=pointer]:
+        - generic [ref=e348]: 
+        - generic: 
+    - generic [ref=e351]:
+      - generic [ref=e353]:
+        - generic [ref=e354]: Source*
+        - combobox [ref=e355]
+        - combobox "Select an option" [ref=e358] [cursor=pointer]:
+          - textbox "Select an option" [ref=e359]
+      - generic [ref=e361]:
+        - generic [ref=e362]: Description
+        - textbox [ref=e363]
+      - generic [ref=e364]:
+        - generic [ref=e365]: Currency*
+        - combobox [disabled] [ref=e366]:
+          - option "EUR" [selected]
+      - generic [ref=e367]:
+        - generic [ref=e368]: Amount*
+        - spinbutton [ref=e369]
+      - generic [ref=e371]:
+        - generic [ref=e372]: Countries*
+        - combobox [ref=e373]
+        - combobox "Select an option" [ref=e376] [cursor=pointer]:
+          - textbox "Select an option" [ref=e377]
+      - button "Submit" [ref=e379] [cursor=pointer]
+  - generic [ref=e381]:
+    - generic [ref=e382]:
+      - heading "  Annual Expected Turnover" [level=6] [ref=e385]:
+        - generic [ref=e386]:  
+        - text: Annual Expected Turnover
+      - generic [ref=e389] [cursor=pointer]:
+        - generic [ref=e390]: 
+        - generic: 
+    - generic [ref=e393]:
+      - generic [ref=e394]:
+        - generic [ref=e395]: Currency*
+        - combobox [disabled] [ref=e396]
+        - combobox "EUR" [disabled] [ref=e399] [cursor=pointer]:
+          - textbox "EUR" [disabled] [ref=e400]
+      - generic [ref=e401]:
+        - generic [ref=e402]: Amount*
+        - spinbutton "Too many digits. Please enter a reasonable amount." [ref=e403]
+      - button "Submit" [ref=e405] [cursor=pointer]
+  - generic [ref=e407]:
+    - generic [ref=e408]:
+      - heading "  Add Politically Exposed Person (PEP)" [level=6] [ref=e411]:
+        - generic [ref=e412]:  
+        - text: Add Politically Exposed Person (PEP)
+      - generic [ref=e415] [cursor=pointer]:
+        - generic [ref=e416]: 
+        - generic: 
+    - generic [ref=e419]:
+      - generic [ref=e421]:
+        - generic [ref=e422]: Name*
+        - textbox "Name*" [ref=e423]:
+          - /placeholder: ""
+      - generic [ref=e425]:
+        - generic [ref=e426]: Last Name*
+        - textbox "Last Name*" [ref=e427]:
+          - /placeholder: ""
+      - generic [ref=e429]:
+        - generic [ref=e430]: Country*
+        - combobox [ref=e431]
+        - combobox "Select an option" [ref=e434] [cursor=pointer]:
+          - textbox "Select an option" [ref=e435]
+      - generic [ref=e437]:
+        - generic [ref=e438]: Position*
+        - textbox "Position*" [ref=e439]:
+          - /placeholder: ""
+      - generic [ref=e441]:
+        - generic [ref=e442]: Pep*
+        - combobox [ref=e443]
+        - combobox "Select an option" [ref=e446] [cursor=pointer]:
+          - textbox "Select an option" [ref=e447]
+      - generic [ref=e449]:
+        - generic [ref=e450]: Applicant Relationship*
+        - textbox "Applicant Relationship*" [ref=e451]
+      - generic [ref=e453]:
+        - generic [ref=e454]: 
+        - generic [ref=e455]:
+          - heading "Required" [level=4] [ref=e456]
+          - generic [ref=e457]: Please enter in the fields below the period which the PEP was in the listed position
+        - button " " [ref=e458] [cursor=pointer]:
+          - generic [ref=e459]:
+            - generic [ref=e460]: 
+            - generic: 
+      - generic [ref=e461]:
+        - generic [ref=e462]: From*
+        - generic [ref=e463]:
+          - textbox "From*" [ref=e464]
+          - generic [ref=e466]:
+            - generic [ref=e467]: 
+            - generic: 
+      - generic [ref=e468]:
+        - generic [ref=e469]: Till*
+        - generic [ref=e470]:
+          - textbox "Till*" [ref=e471]
+          - generic [ref=e473]:
+            - generic [ref=e474]: 
+            - generic: 
+      - button "Submit" [ref=e476] [cursor=pointer]
+  - generic [ref=e478]:
+    - generic [ref=e479]:
+      - heading "  Add Business Offical" [level=6] [ref=e482]:
+        - generic [ref=e483]:  
+        - text: Add Business Offical
+      - generic [ref=e486] [cursor=pointer]:
+        - generic [ref=e487]: 
+        - generic: 
+    - generic [ref=e490]:
+      - generic [ref=e492]:
+        - generic [ref=e493]: Official Type*
+        - listbox [ref=e494]:
+          - option [ref=e495]: Director *
+          - option [ref=e496]: Secretary
+          - option [ref=e497]: Shareholder *
+          - option [ref=e498]: Signatories
+          - option [ref=e499]: Trustees
+          - option [ref=e500]: Settlor
+          - option [ref=e501]: Protector
+          - option [ref=e502]: Partners
+        - combobox [ref=e505] [cursor=pointer]:
+          - list
+          - searchbox "Search" [ref=e507]
+      - generic [ref=e509]:
+        - generic [ref=e510]: First Name*
+        - textbox [ref=e511]
+      - generic [ref=e513]:
+        - generic [ref=e514]: Middle Name
+        - textbox [ref=e515]
+      - generic [ref=e517]:
+        - generic [ref=e518]: Last Name*
+        - textbox [ref=e519]
+      - generic [ref=e521]:
+        - generic [ref=e522]: Home Address*
+        - textbox [ref=e523]
+      - generic [ref=e525]:
+        - generic [ref=e526]: City*
+        - textbox [ref=e527]
+      - generic [ref=e529]:
+        - generic [ref=e530]: Post Code*
+        - textbox [ref=e531]
+      - generic [ref=e533]:
+        - generic [ref=e534]: Email*
+        - textbox [ref=e535]
+      - generic [ref=e537]:
+        - generic [ref=e538]: Phone*
+        - generic [ref=e539]:
+          - 'combobox "Cyprus (Κύπρος): +357" [ref=e541]':
+            - generic [ref=e543]: "+357"
+          - textbox [ref=e545]
+      - generic [ref=e547]:
+        - generic [ref=e548]: Date of Birth*
+        - generic [ref=e549]:
+          - textbox [ref=e550]
+          - generic [ref=e552]:
+            - generic [ref=e553]: 
+            - generic: 
+      - generic [ref=e555]:
+        - generic [ref=e556]: Nationality*
+        - combobox [ref=e557]
+        - combobox "Select an option" [ref=e560] [cursor=pointer]:
+          - textbox "Select an option" [ref=e561]
+      - generic [ref=e563]:
+        - generic [ref=e564]: Country of Citizenship*
+        - combobox [ref=e565]
+        - combobox "Select an option" [ref=e568] [cursor=pointer]:
+          - textbox "Select an option" [ref=e569]
+      - generic [ref=e571]:
+        - generic [ref=e572]: Country of birth*
+        - combobox [ref=e573]
+        - combobox "Select an option" [ref=e576] [cursor=pointer]:
+          - textbox "Select an option" [ref=e577]
+      - generic [ref=e579]:
+        - generic [ref=e580]: Country of residence*
+        - combobox [ref=e581]
+        - combobox "Select an option" [ref=e584] [cursor=pointer]:
+          - textbox "Select an option" [ref=e585]
+      - generic [ref=e587]:
+        - generic [ref=e588]: Identification Type*
+        - combobox [ref=e589]
+        - combobox "Select an option" [ref=e592] [cursor=pointer]:
+          - textbox "Select an option" [ref=e593]
+      - generic [ref=e595]:
+        - generic [ref=e596]: Identification Number*
+        - textbox [ref=e597]
+      - generic [ref=e599]:
+        - generic [ref=e600]: ID issue date*
+        - generic [ref=e601]:
+          - textbox [ref=e602]
+          - generic [ref=e604]:
+            - generic [ref=e605]: 
+            - generic: 
+      - generic [ref=e607]:
+        - generic [ref=e608]: ID expiry date*
+        - generic [ref=e609]:
+          - textbox [ref=e610]
+          - generic [ref=e612]:
+            - generic [ref=e613]: 
+            - generic: 
+      - generic [ref=e615]:
+        - generic [ref=e616]: Where was this identification issued?*
+        - combobox [ref=e617]
+        - combobox "Select an option" [ref=e620] [cursor=pointer]:
+          - textbox "Select an option" [ref=e621]
+      - generic [ref=e624]:
+        - checkbox "Is this official a UBO with more than shares >=10%" [ref=e625]
+        - generic [ref=e626]: Is this official a UBO with more than shares >=10%
+      - button "Submit" [ref=e628] [cursor=pointer]
+  - generic:
+    - generic [ref=e629]:
+      - generic [ref=e630]:
+        - generic [ref=e631]:
+          - heading " Document Upload" [level=6] [ref=e634]:
+            - generic [ref=e635]: 
+            - text: Document Upload
+          - generic [ref=e638] [cursor=pointer]:
+            - generic [ref=e639]: 
+            - generic: 
+        - generic [ref=e641]:
+          - generic [ref=e642]:
+            - generic [ref=e644]:
+              - text:     
+              - generic [ref=e645]:
+                - generic [ref=e646]: Document Type*
+                - combobox [ref=e647]
+                - combobox "Select an option" [ref=e650] [cursor=pointer]:
+                  - textbox "Select an option" [ref=e651]
+            - generic [ref=e653]:
+              - generic [ref=e654]: Document Description
+              - textbox "Notes on document uploading" [ref=e655]
+            - text:    
+            - generic [ref=e656]:
+              - generic [ref=e657]:
+                - generic [ref=e658]: Add Files
+                - paragraph [ref=e659]:
+                  - emphasis [ref=e660]: Please note that you can upload more than one document at a time for the selected document type
+                - emphasis
+              - emphasis
+            - emphasis [ref=e661]:
+              - button "Select or drag files | PNG, JPG, PDF | < 10.34MB" [ref=e667] [cursor=pointer]:
+                - img [ref=e670]
+                - generic:
+                  - progressbar
+                - generic [ref=e673]: Select or drag files | PNG, JPG, PDF | < 10.34MB
+              - button "Upload Document(s)" [ref=e675] [cursor=pointer]
+          - emphasis
+        - emphasis
+      - emphasis
+    - emphasis
+  - emphasis:
+    - generic:
+      - generic [ref=e676]:
+        - generic [ref=e677]:
+          - generic [ref=e678]:
+            - heading " Document Upload" [level=6] [ref=e681]:
+              - generic [ref=e682]: 
+              - text: Document Upload
+            - generic [ref=e685] [cursor=pointer]:
+              - generic [ref=e686]: 
+              - generic: 
+          - generic [ref=e688]:
+            - generic [ref=e689]:
+              - generic:     
+              - generic [ref=e691]:
+                - generic [ref=e692]: Business Officials*
+                - combobox [ref=e693]
+                - combobox "Select an option" [ref=e696] [cursor=pointer]:
+                  - textbox "Select an option" [ref=e697]
+              - generic [ref=e699]:
+                - generic [ref=e700]: Document Type*
+                - combobox [ref=e701]
+                - combobox "Select an option" [ref=e704] [cursor=pointer]:
+                  - textbox "Select an option" [ref=e705]
+              - text:    
+              - generic [ref=e706]:
+                - generic [ref=e707]:
+                  - generic [ref=e708]: Add Files
+                  - paragraph [ref=e709]:
+                    - emphasis [ref=e710]: Please note that you can upload more than one document at a time for the selected document type
+                  - emphasis
+                - emphasis
+              - emphasis [ref=e711]:
+                - button "Select or drag files | PNG, JPG, PDF | < 10.34MB" [ref=e717] [cursor=pointer]:
+                  - img [ref=e720]
+                  - generic:
+                    - progressbar
+                  - generic [ref=e723]: Select or drag files | PNG, JPG, PDF | < 10.34MB
+                - button "Upload Document(s)" [ref=e725] [cursor=pointer]
+            - emphasis
+          - emphasis
+        - emphasis
+      - emphasis
+    - emphasis:   
+  - img
+  - text:                              
+```

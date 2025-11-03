@@ -140,7 +140,7 @@ exports.BusinessOfficialspage =
 
             await this.page.click(this.issuedate_field)
             //await this.page.click(this.issuedate_select)
-            await selectPastDate(this.page, 3)
+           await selectPastDate(this.page, '//body/div[22]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]', 2);
 
 
             await this.page.click(this.expirydate_field)

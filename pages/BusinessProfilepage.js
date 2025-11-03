@@ -124,7 +124,8 @@ exports.BusinessProfilepage =
             await this.page.fill(this.previousname, this.data.Previous_Name)
             await this.page.click(this.businessname_changeddate_field)
 
-            await selectPastDate(this.page, 5)
+            //await selectPastDate(this.page, 5)
+            await selectPastDate(this.page, '//body/div[15]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]', 3);
             //await this.page.click("//body/div[15]/div[2]/div[2]/div[1]/div[2]/div[10]")
             //await this.page.click(this.selectdate_fromcalender)
             await this.page.locator(this.select_businessactivity).selectOption(this.data.BusinessActivity)
@@ -251,7 +252,8 @@ exports.BusinessProfilepage =
             await this.page.fill(this.previousname, this.data.Previous_Name)
 
             await this.page.click(this.businessname_changeddate_field)
-            await selectPastDate(this.page, 3);
+            //await selectPastDate(this.page, 3);
+            await selectPastDate(this.page, '//body/div[15]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]', 3);
             //await this.page.click("//body/div[15]/div[2]/div[2]/div[1]/div[2]/div[10]")
 
             await this.page.locator(this.select_businessactivity).selectOption(this.data.BusinessActivity)
@@ -299,7 +301,8 @@ exports.BusinessProfilepage =
             await this.page.fill(this.previousname, this.data.Previous_Name)
 
             await this.page.click(this.businessname_changeddate_field)
-            await selectPastDate(this.page, 3);
+            //await selectPastDate(this.page, 3);
+            await selectPastDate(this.page, '//body/div[15]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]', 3);
             //await this.page.click("//body/div[15]/div[2]/div[2]/div[1]/div[2]/div[10]")
 
             await this.page.locator(this.select_businessactivity).selectOption(this.data.BusinessActivity)

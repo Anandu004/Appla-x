@@ -56,6 +56,8 @@ exports.BusinessInformationpage =
 
             this.city = "//input[@name= 'city']"
 
+            this.state = "//input[@name='state']"
+
             this.phone = "//input[@name= 'phone']"
 
             this.email = "//input[@name= 'email']"
@@ -185,6 +187,7 @@ exports.BusinessInformationpage =
             await this.page.fill(this.Postcode, this.business_info.Postcode)
             await this.page.locator(this.country).selectOption(this.business_info.Country)
             await this.page.fill(this.city, this.business_info.City)
+            await this.page.fill(this.state, this.business_info.State)
             await this.page.fill(this.phone, this.business_info.Phone)
 
             const email = faker.internet.email()
@@ -206,9 +209,9 @@ exports.BusinessInformationpage =
             await this.page.click(this.submit_button)
 
             const Total_validations = await this.page.locator(this.BusinessAddress_fieldvalidations).all()
-            expect(Total_validations.length).toBe(6)
+            expect(Total_validations.length).toBe(7)
             const Validation_text = await Total_validations[0].textContent();
-            if (Total_validations.length === 6) {
+            if (Total_validations.length === 7) {
                 console.log('For Company address -  All 6 validation messages are displayed as expected.')
                 console.log("validation message displayed under each field - " + Validation_text)
             }

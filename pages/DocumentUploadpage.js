@@ -142,7 +142,8 @@ exports.DocumentUploadpage =
                 if (isIssueVisible) {
                     await this.page.click(this.issuedatefield1)
                     //await this.page.click(this.issuedateselect1);
-                    await selectPastDate(this.page, 3)
+                    await selectPastDate(this.page, '//body/div[24]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]', 3);
+
                 }
 
                 const isExpiryVisible = await this.page.locator(this.expirydatefield1).isVisible().catch(() => false)
@@ -198,7 +199,8 @@ exports.DocumentUploadpage =
                 if (isIssueVisible) {
                     await this.page.click(this.issuedatefield2)
                     //await this.page.click(this.issuedateselect2);
-                    await selectPastDate(this.page, 3)
+                    await selectPastDate(this.page, '//body/div[26]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]', 3)
+
                 }
 
                 const isExpiryVisible = await this.page.locator(this.expirydatefield2).isVisible().catch(() => false)
@@ -257,7 +259,7 @@ exports.DocumentUploadpage =
             await this.page.locator(this.documenttype1).selectOption('11')
             await this.page.click(this.issuedatefield1)
             //await this.page.click(this.issuedateselect1)
-            await selectPastDate(this.page, 3);
+            await selectPastDate(this.page, '//body/div[24]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]', 3);
 
             const filePath = path.resolve(filenames[0])
             await this.page.locator(this.addfile1).nth(0).setInputFiles(filePath)
@@ -297,7 +299,7 @@ exports.DocumentUploadpage =
             await this.page.locator(this.documenttype1).selectOption('11');
             await this.page.click(this.issuedatefield1)
             //await this.page.click(this.issuedateselect1)
-            await selectPastDate(this.page, 3)
+            await selectPastDate(this.page, '//body/div[24]/div[2]/div[2]/div[1]/div[1]/div[1]/i[1]', 3);
             await this.page.click(this.uploadbutton1)
             await expect(this.page.locator(this.no_file_upload_errorMsg)).toBeVisible()
             const error = await this.page.locator(this.no_file_upload_errorMsg).textContent()
@@ -305,6 +307,5 @@ exports.DocumentUploadpage =
 
 
         }
-
 
     }

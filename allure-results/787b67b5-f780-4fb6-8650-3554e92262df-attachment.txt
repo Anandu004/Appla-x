@@ -1,0 +1,2 @@
+Validating Company Details Validation
+For Company details -  All 10 validation messages are displayed as expected.
