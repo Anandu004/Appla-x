@@ -2,11 +2,21 @@ import { test, expect } from '@playwright/test';
 
 import { Loginpage } from '../pages/Loginpage';
 import { Dashboardpage } from '../pages/Dashboardpage';
+import { VisualHelper } from '../utils/visualHelper';
 
-test('1. Verify login with valid credentials', async ({ page }) => {
+
+test.only('1. Verify login with valid credentials', async ({ page }) => {
+
+  const visual = new VisualHelper(page);
+  await visual.openTest('Login Page - Visual Test');
 
   const login = new Loginpage(page)
   await login.goToLoginPage()
+
+  // Take visual snapshot before login
+  await visual.checkWindow('Login Page - Before Login');
+  await visual.closeEyes();
+
   await login.giveLoginCredentials()
   //await login.giveLoginCredentials('ajay.vr@seqato.com','Qwerty123$')
 

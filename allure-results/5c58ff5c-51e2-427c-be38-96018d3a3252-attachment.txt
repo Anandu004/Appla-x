@@ -1,0 +1,55 @@
+
+🔹 Starting wallet creation for company: AJ corpay 31/10
+ Company found: AJ corpay 31/10
+💱 Base currency: eur
+ On Payment List page, ready to create wallets...
+
+ Processing: CAD | CAD
+Looking for currency: CAD | CAD
+ Selected currency in dropdown: CAD | CAD
+ Wallet creation done for: CAD | CAD
+Proceeding with funding for: cad
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 82599.94
+
+ Processing: SGD | SGD
+Looking for currency: SGD | SGD
+ Selected currency in dropdown: SGD | SGD
+ Wallet creation done for: SGD | SGD
+Proceeding with funding for: sgd
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 116832.63
+
+ Processing: CHF | CHF
+Looking for currency: CHF | CHF
+ Selected currency in dropdown: CHF | CHF
+ Wallet creation done for: CHF | CHF
+Proceeding with funding for: chf
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 168822.5
+
+ Processing: JPY | JPY
+Looking for currency: JPY | JPY
+ Selected currency in dropdown: JPY | JPY
+ Wallet creation done for: JPY | JPY
+Proceeding with funding for: jpy
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 169106.59
+
+ Processing: HKD | HKD
+Looking for currency: HKD | HKD
+ Selected currency in dropdown: HKD | HKD
+ Wallet creation done for: HKD | HKD
+Proceeding with funding for: hkd
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 174851.31
+
+ Processing: AUD | AUD
+Looking for currency: AUD | AUD
+ Selected currency in dropdown: AUD | AUD
+ Wallet creation done for: AUD | AUD
+Proceeding with funding for: aud
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 204912.13
+
+ Processing: NZD | NZD
+Looking for currency: NZD | NZD
+ Selected currency in dropdown: NZD | NZD
+ Wallet creation done for: NZD | NZD
+Proceeding with funding for: nzd
+ Base wallet updated correctly after non-base wallet funding.New Available balance - 232027.58000000002
+ All wallets created and funded successfully!

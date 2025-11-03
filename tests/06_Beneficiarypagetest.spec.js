@@ -90,7 +90,7 @@ test('4. Verify Beneficiary creation for JPY ', async ({ page }) => {
 })
 
 
-test.only('4. Verify Beneficiary creation for CAD ', async ({ page }) => {
+test('4. Verify Beneficiary creation for CAD ', async ({ page }) => {
   const login = new Loginpage(page)
   await login.goToLoginPage()
   await login.giveLoginCredentials()

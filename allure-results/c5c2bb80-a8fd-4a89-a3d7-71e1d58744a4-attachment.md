@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: 
+        - link [ref=e7] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e15]: Dashboard
+          - link [ref=e17] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e18]: Support
+        - generic [ref=e19]:
+          - paragraph [ref=e22] [cursor=pointer]: AV
+          - text: 
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: AJ corpay 31/10
+          - generic [ref=e35]:
+            - button [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - heading [level=1] [ref=e40]: account restricted
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: 
+            - text:  
+          - generic [ref=e47]:
+            - heading [level=1] [ref=e48]: Account Locked - KYC In review
+            - generic [ref=e50]:
+              - paragraph [ref=e51]: AJ corpay 31/10
+              - paragraph [ref=e52]: Your account is currently locked because your company KYC is in review. We will alert you via email once the process is complete. Thanks for your patience
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - text: 2025©
+          - link [ref=e55] [cursor=pointer]:
+            - /url: https://ovency.com
+            - text: Appla-x.work powered by Samson ©
+        - list [ref=e56]:
+          - listitem [ref=e57]:
+            - link [ref=e58] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+              - text: Support
+          - listitem [ref=e59]:
+            - link [ref=e60] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+              - text: Contact
+  - text:    
+  - dialog "Company Switched" [ref=e62]:
+    - generic [ref=e64]: i
+    - heading "Company Switched" [level=2] [ref=e65]
+    - generic [ref=e66]: You are now operating under the company AJ corpay 31/10
+    - text: "!"
+    - button "OK" [active] [ref=e68] [cursor=pointer]
+  - img
+```

@@ -1,0 +1,7 @@
+Company: AJ corpay 31/10
+base currency - eur
+false
+Wallet not found for base currency, creating a new one...
+Matched currency code: eur
+New wallet found for currency: eur
+Wallet funded correctly after creation.

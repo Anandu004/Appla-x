@@ -1,0 +1,5 @@
+Company: AJ corpay 31/10
+true
+Wallet not found for usd, creating a new one...
+New wallet found for currency: usd
+Wallet funded correctly after creation.

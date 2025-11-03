@@ -1,0 +1,145 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: 
+        - link "Logo" [ref=e7] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img "Logo" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link "Dashboard" [ref=e14] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e15]: Dashboard
+          - link "Support" [ref=e17] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e18]: Support
+        - generic [ref=e19]:
+          - paragraph [ref=e22] [cursor=pointer]: AV
+          - text: 
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button " " [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: AJ corpay 31/10
+          - generic [ref=e35]:
+            - button " " [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - heading "beneficiary - edit" [level=1] [ref=e40]
+        - generic [ref=e41]:
+          - link "" [ref=e43] [cursor=pointer]:
+            - /url: https://account.appla-x.work/contacts
+            - generic [ref=e44]: 
+          - generic [ref=e45]:
+            - heading "Modify Beneficiary" [level=3] [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e52]:
+                  - generic [ref=e53]: Beneficiary Type*
+                  - combobox
+                  - generic [ref=e55]:
+                    - combobox "Company":
+                      - button "Remove all items"
+                      - textbox "Company"
+                - generic [ref=e57]:
+                  - generic [ref=e58]: Company name*
+                  - combobox "Company name*" [ref=e59]: Leuschke, Hegmann and Tromp
+                  - text: Complete if this is a company.
+                - generic [ref=e61]:
+                  - generic [ref=e62]: Email*
+                  - textbox [ref=e63]: Paul.Bradtke18@hotmail.com
+                - generic [ref=e65]:
+                  - generic [ref=e66]: Phone*
+                  - generic [ref=e67]:
+                    - 'combobox "Cyprus (Κύπρος): +357" [ref=e69]':
+                      - generic [ref=e71]: "+357"
+                    - textbox [ref=e73]: 22 673456
+                - generic [ref=e75]:
+                  - generic [ref=e76]: Address line 1*
+                  - textbox [ref=e77]: 116 Invalidenstraße
+                - generic [ref=e79]:
+                  - generic [ref=e80]: Address line 2
+                  - textbox [ref=e81]
+                - generic [ref=e83]:
+                  - generic [ref=e84]: City*
+                  - textbox [ref=e85]: Berlin
+                - generic [ref=e87]:
+                  - generic [ref=e88]: State*
+                  - textbox [ref=e89]: Berlin
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Beneficiary Country*
+                  - combobox [ref=e93]
+                  - combobox "Germany" [ref=e96] [cursor=pointer]:
+                    - textbox "Germany" [ref=e97]
+                - generic [ref=e99]:
+                  - generic [ref=e100]: Postcode*
+                  - textbox [ref=e101]: "10115"
+                - generic [ref=e102]:
+                  - button "Update Changes" [ref=e103] [cursor=pointer]
+                  - link "Delete Beneficiary" [ref=e104] [cursor=pointer]:
+                    - /url: javascript:void(0)
+              - button "Add Bank Account Details" [ref=e106] [cursor=pointer]
+            - dialog [active] [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - heading "Add Currency Beneficiary" [level=3] [ref=e110]
+                  - generic "Close" [ref=e111] [cursor=pointer]:
+                    - generic [ref=e112]:
+                      - generic [ref=e113]: 
+                      - generic: 
+                - generic [ref=e114]:
+                  - generic [ref=e116]:
+                    - generic [ref=e118]:
+                      - generic [ref=e119]: Beneficiary Country*
+                      - combobox
+                      - generic [ref=e121]:
+                        - combobox "Germany":
+                          - button "Remove all items"
+                          - textbox "Germany"
+                    - generic [ref=e122]:
+                      - generic [ref=e123]: Beneficiary Currency*
+                      - combobox [ref=e124]
+                      - combobox "eur | Euro" [ref=e127] [cursor=pointer]:
+                        - button "Remove all items" [ref=e128]
+                        - textbox "eur | Euro" [ref=e129]
+                    - generic [ref=e131]:
+                      - generic [ref=e132]: Bank Account Country*
+                      - combobox [ref=e133]
+                      - combobox "Select an option" [ref=e136] [cursor=pointer]:
+                        - textbox "Select an option" [ref=e137]
+                    - generic [ref=e139]:
+                      - generic [ref=e140]: Payment Methods*
+                      - combobox [disabled] [ref=e141]
+                      - combobox "Select payment method" [disabled] [ref=e144] [cursor=pointer]:
+                        - textbox "Select payment method" [disabled] [ref=e145]
+                    - link " Fetch Bank Details" [ref=e147] [cursor=pointer]:
+                      - /url: javascript:;
+                      - generic [ref=e148]: 
+                      - text: Fetch Bank Details
+                  - generic [ref=e149]:
+                    - button "Close" [ref=e150] [cursor=pointer]
+                    - button "Save Changes" [disabled]
+            - text:  
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - text: 2025©
+          - link "Appla-x.work powered by Samson ©" [ref=e153] [cursor=pointer]:
+            - /url: https://ovency.com
+        - list [ref=e154]:
+          - listitem [ref=e155]:
+            - link "Support" [ref=e156] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+          - listitem [ref=e157]:
+            - link "Contact" [ref=e158] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+  - text:    
+  - img
+```

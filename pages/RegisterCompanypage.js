@@ -39,9 +39,10 @@ exports.RegisterCompanypage =
 
         async newCompanyRegistration(jurisdiction) {
 
-          const company_name = "testcompany " + faker.company.name()
+            const company_name = "testcompany " + faker.company.name()
 
             await this.page.fill(this.companyname_field, company_name)
+            await this.page.fill(this.companyname_field, "AJ corpay 31/10")
             await this.page.click(this.jurisdiction_field)
             await this.page.fill(this.searchOn_Jurisdiction, jurisdiction)
             const company_suggestions = await this.page.$$(this.suggestionsOn_jurisdiction)
