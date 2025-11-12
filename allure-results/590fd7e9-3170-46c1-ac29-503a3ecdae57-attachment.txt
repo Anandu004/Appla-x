@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Sanford Group' ]
+✅ Beneficiary "Sanford Group" is listed in dropdown.

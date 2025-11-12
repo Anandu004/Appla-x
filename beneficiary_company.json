@@ -1,10 +1,11 @@
 {
-  "aud_beneficiary_company_name": "Crona and Sons",
-  "euro_beneficiary_company_name": "Moore LLC",
-  "usd_beneficiary_company_name": "Wyman LLC",
-  "chf_beneficiary_company_name": "Farrell, Wehner and Stiedemann",
-  "hkd_beneficiary_company_name": "Swaniawski, Simonis and Wolff",
-  "sgd_beneficiary_company_name": "Donnelly Inc",
-  "jpy_beneficiary_company_name": "Sipes and Sons",
-  "cad_beneficiary_company_name": "Predovic, Wisozk and Morar"
+  "aud_beneficiary_company_name": "Mayer Inc",
+  "euro_beneficiary_company_name": "Nader, Kilback and Nolan",
+  "usd_beneficiary_company_name": "Waters - Torphy",
+  "chf_beneficiary_company_name": "Sanford Group",
+  "hkd_beneficiary_company_name": "Purdy - Deckow",
+  "sgd_beneficiary_company_name": "McClure, Macejkovic and Rau",
+  "jpy_beneficiary_company_name": "Williamson - Daniel",
+  "cad_beneficiary_company_name": "Ebert Inc",
+  "nzd_beneficiary_company_name": "Dach, Stoltenberg and Prosacco"
 }

@@ -1,0 +1,129 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: 
+        - link "Logo" [ref=e7] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img "Logo" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link "Dashboard" [ref=e14] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e15]: Dashboard
+          - link "Support" [ref=e17] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e18]: Support
+        - generic [ref=e19]:
+          - paragraph [ref=e22] [cursor=pointer]: AA
+          - text: 
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button " " [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: testcompany Kessler, Wolff and Kihn
+          - generic [ref=e35]:
+            - button " " [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - heading "euro payment funds" [level=1] [ref=e40]
+        - generic [ref=e41]:
+          - generic [ref=e43]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - link "499,919.00" [ref=e49] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - generic [ref=e50]: eur
+              - 'link " Wallet Balance: 499,919.00" [ref=e52] [cursor=pointer]':
+                - /url: javascript:void(0)
+                - generic [ref=e53]: 
+                - text: "Wallet Balance: 499,919.00"
+              - generic [ref=e54]:
+                - 'link " IBAN: GB01TCCL58340845605634" [ref=e55] [cursor=pointer]':
+                  - /url: javascript:void(0)
+                  - generic [ref=e56]: 
+                  - text: "IBAN: GB01TCCL58340845605634"
+                - 'link " IBAN: GB50TCCL12345670855586" [ref=e57] [cursor=pointer]':
+                  - /url: javascript:void(0)
+                  - generic [ref=e58]: 
+                  - text: "IBAN: GB50TCCL12345670855586"
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - link "Transactions" [ref=e61] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/mcw/eur
+              - listitem [ref=e62]:
+                - link "Add Funds" [ref=e63] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/maf/eur
+              - listitem [ref=e64]:
+                - link "Make Payment" [ref=e65] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/mp/eur
+              - listitem [ref=e66]:
+                - link "Convert Funds" [ref=e67] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/cf/eur
+              - listitem [ref=e68]:
+                - link "Manage Beneficiaries" [ref=e69] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/contacts
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e75]:
+                - generic [ref=e76]:
+                  - text: 
+                  - generic [ref=e77]: "1"
+                - heading "Currency & Beneficiary" [level=3] [ref=e79]
+              - generic [ref=e81]:
+                - generic [ref=e82]:
+                  - text: 
+                  - generic [ref=e83]: "2"
+                - heading "Payer" [level=3] [ref=e85]
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - text: 
+                  - generic [ref=e89]: "3"
+                - heading "Payment" [level=3] [ref=e91]
+            - generic [ref=e92]:
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - generic [ref=e96]: Currency*
+                  - combobox [ref=e97]
+                  - combobox "EUR | Euro" [ref=e100] [cursor=pointer]:
+                    - textbox "EUR | Euro" [ref=e101]
+                - generic [ref=e102]:
+                  - generic [ref=e103]: Amount*
+                  - spinbutton [active] [ref=e104]: "12000"
+                - generic [ref=e105]:
+                  - generic [ref=e106]: Beneficiary Name*
+                  - generic [ref=e107]:
+                    - generic [ref=e108]:
+                      - combobox [ref=e109]
+                      - combobox "Select existing beneficiary" [ref=e112] [cursor=pointer]:
+                        - textbox "Select existing beneficiary" [ref=e113]
+                    - generic [ref=e114]:
+                      - generic [ref=e115]: or
+                      - link "Create New Beneficiary" [ref=e116] [cursor=pointer]:
+                        - /url: contacts
+                  - link "Cancel" [ref=e117] [cursor=pointer]:
+                    - /url: https://account.appla-x.work/mcw/eur
+                  - button "Select a Payer" [ref=e118] [cursor=pointer]
+              - text: "*   * * * *"
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - text: 2025©
+          - link "Appla-x.work powered by Samson ©" [ref=e121] [cursor=pointer]:
+            - /url: https://ovency.com
+        - list [ref=e122]:
+          - listitem [ref=e123]:
+            - link "Support" [ref=e124] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+          - listitem [ref=e125]:
+            - link "Contact" [ref=e126] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+  - text:    
+  - img
+```

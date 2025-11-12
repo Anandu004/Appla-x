@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'McClure, Macejkovic and Rau' ]
+✅ Beneficiary "McClure, Macejkovic and Rau" is listed in dropdown.

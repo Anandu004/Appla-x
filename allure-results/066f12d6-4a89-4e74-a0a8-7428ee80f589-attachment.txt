@@ -1,0 +1,3 @@
+Available balance in the wallet: 487866
+Entered amount : 488866.00
+Insufficient available funds.

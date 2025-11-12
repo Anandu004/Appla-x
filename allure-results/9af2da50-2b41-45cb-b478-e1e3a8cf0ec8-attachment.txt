@@ -1,0 +1,7 @@
+Clicking submit button without company name and jurisdiction on company registration
+Company Name -This field is required.-Please enter the name of your company or business as it is written in your legal documents
+Jurisdiction -This field is required.
+Clicking submit button with company name only
+Jurisdiction -This field is required.
+Clicking submit button with jurisdiction only
+Company Name -This field is required.-Please enter the name of your company or business as it is written in your legal documents

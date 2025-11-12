@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Kertzmann and Sons', "O'Keefe - Satterfield" ]
+ Beneficiary "O'Keefe - Satterfield" is listed in dropdown.

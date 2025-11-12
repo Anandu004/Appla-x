@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Waters - Torphy' ]
+✅ Beneficiary "Waters - Torphy" is listed in dropdown.

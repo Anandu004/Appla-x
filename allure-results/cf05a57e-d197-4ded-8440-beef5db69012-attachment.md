@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - text: 
+        - link "Logo" [ref=e8] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img "Logo" [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e13]:
+          - link "Dashboard" [ref=e15] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e16]: Dashboard
+          - link "Support" [ref=e18] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e19]: Support
+        - generic [ref=e20]:
+          - paragraph [ref=e23] [cursor=pointer]: AA
+          - text: 
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - button " " [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]:  
+            - text:  
+            - generic [ref=e34]: 
+            - generic [ref=e35]: testcompany Kessler, Wolff and Kihn
+          - generic [ref=e36]:
+            - button " " [ref=e37] [cursor=pointer]:
+              - generic [ref=e38]:  
+            - text:  
+        - heading "jpy payment funds" [level=1] [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e44]:
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - link "0.00" [ref=e50] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - generic [ref=e51]: jpy
+              - 'link " Wallet Balance: 0.00" [ref=e53] [cursor=pointer]':
+                - /url: javascript:void(0)
+                - generic [ref=e54]: 
+                - text: "Wallet Balance: 0.00"
+              - 'link " IBAN: GB50TCCL12345670855586" [ref=e56] [cursor=pointer]':
+                - /url: javascript:void(0)
+                - generic [ref=e57]: 
+                - text: "IBAN: GB50TCCL12345670855586"
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Transactions" [ref=e60] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/mcw/jpy
+              - listitem [ref=e61]:
+                - link "Add Funds" [ref=e62] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/maf/jpy
+              - listitem [ref=e63]:
+                - link "Make Payment" [ref=e64] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/mp/jpy
+              - listitem [ref=e65]:
+                - link "Convert Funds" [ref=e66] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/cf/jpy
+              - listitem [ref=e67]:
+                - link "Manage Beneficiaries" [ref=e68] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/contacts
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e74]:
+                - generic [ref=e75]:
+                  - text: 
+                  - generic [ref=e76]: "1"
+                - heading "Currency & Beneficiary" [level=3] [ref=e78]
+              - generic [ref=e80]:
+                - generic [ref=e81]:
+                  - text: 
+                  - generic [ref=e82]: "2"
+                - heading "Payer" [level=3] [ref=e84]
+              - generic [ref=e86]:
+                - generic [ref=e87]:
+                  - text: 
+                  - generic [ref=e88]: "3"
+                - heading "Payment" [level=3] [ref=e90]
+            - generic [ref=e91]:
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Currency*
+                  - combobox [ref=e96]
+                  - combobox "JPY | JPY" [ref=e99] [cursor=pointer]:
+                    - textbox "JPY | JPY" [ref=e100]
+                - generic [ref=e101]:
+                  - generic [ref=e102]: Amount*
+                  - spinbutton [ref=e103]
+                - text: "*"
+              - text: "*   * * * *"
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - text: 2025©
+          - link "Appla-x.work powered by Samson ©" [ref=e106] [cursor=pointer]:
+            - /url: https://ovency.com
+        - list [ref=e107]:
+          - listitem [ref=e108]:
+            - link "Support" [ref=e109] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+          - listitem [ref=e110]:
+            - link "Contact" [ref=e111] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+  - text:    
+  - img
+```

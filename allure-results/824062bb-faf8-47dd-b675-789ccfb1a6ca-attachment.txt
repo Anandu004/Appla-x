@@ -1,0 +1,2 @@
+Checking transactions in wallet: AUD
+No transactions made for this wallet,moving to next wallet..

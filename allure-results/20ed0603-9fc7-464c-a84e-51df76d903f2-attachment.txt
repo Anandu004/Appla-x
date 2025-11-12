@@ -1,0 +1,3 @@
+Available balance in the wallet (EUR): 500000
+Available balance in the wallet (USD): 68933351.42
+payment amount - 12000
