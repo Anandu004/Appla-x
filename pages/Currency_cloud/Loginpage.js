@@ -56,7 +56,7 @@ class Loginpage{
         this.registration_success_ok = "//button[@class='swal2-confirm swal2-styled']"
 
 
-        const dataPath = path.join(__dirname, '../TestData/Login_testdata.json')
+        const dataPath = path.join(__dirname, '../../TestData/Login_testdata.json');
         this.dataset = JSON.parse(fs.readFileSync(dataPath, 'utf-8'))
                     
         this.data = this.dataset["Client Login Credentials"]

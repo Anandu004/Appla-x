@@ -1,0 +1,5 @@
+Available balance in the wallet (EUR): 453814.39
+ Reference retrieved inside method: undefined
+EXPECTED FEE AMOUNT FOR RECALL OR CANCEL OUTGOING TRANSACTION: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: undefined

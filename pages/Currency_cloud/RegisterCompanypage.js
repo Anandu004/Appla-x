@@ -64,8 +64,8 @@ exports.RegisterCompanypage =
 
             expect(actualmessage?.trim()).toBe(expectedmessage);
 
-            const filePath = path.join(__dirname, '../companyname.json');
-            fs.writeFileSync(filePath, JSON.stringify({ company_name }));
+            const filePath = path.join(__dirname, '../companyname.json')
+            fs.writeFileSync(filePath, JSON.stringify({ company_name }))
         }
         
 

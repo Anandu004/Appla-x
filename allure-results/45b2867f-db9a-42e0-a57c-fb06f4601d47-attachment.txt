@@ -1,0 +1,14 @@
+Available balance in the wallet (EUR): 453044.39
+EXPECTED FEE AMOUNT FOR ANNUAL AUDIT REPORTS: 80
+AUTOPOPULATED FEE: 80
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Kessler, Wolff and Kihn
+Type: Annual Audit Reports
+Fee Amount: 80.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Annual Audit Reports fee of 80 EUR has been deducted for company testcompany Kessler, Wolff and Kihn
+Actual balance in the wallet (EUR): 452964.39
+Expected New Balance: 452964.39
+✔ Wallet balance deduction correct!

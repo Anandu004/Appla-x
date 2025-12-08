@@ -1,0 +1,5 @@
+ Extracted Reference No: 25337A04
+ Reference retrieved inside method: 25337A04
+EXPECTED FEE AMOUNT FOR TRANSACTION INVESTIGATION: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: 25337A04

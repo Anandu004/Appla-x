@@ -5,6 +5,7 @@ import { Adminloginpage } from '../../pages/Currency_cloud/Adminloginpage';
 import { Admindashboardpage } from '../../pages/Currency_cloud/Admindashboardpage';
 import { Loginpage } from '../../pages/Currency_cloud/Loginpage';
 import { Dashboardpage } from '../../pages/Currency_cloud/Dashboardpage';
+import { Admin_FeeManagement } from '../../pages/Currency_cloud/Admin_FeeManagement';
 
 test('1. Verify Account status gets active after company approval by admin', async ({ page }) => {
 

@@ -1,0 +1,4 @@
+ Reference retrieved inside method: null
+EXPECTED FEE AMOUNT FOR OUTGOING TRANSACTION AMENDMENT: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: null

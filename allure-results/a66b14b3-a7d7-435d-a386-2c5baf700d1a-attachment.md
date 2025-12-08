@@ -1,0 +1,290 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - text:  
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - generic [ref=e11] [cursor=pointer]: Administrators
+            - text:      
+          - generic [ref=e12]:
+            - generic [ref=e14] [cursor=pointer]: Reports
+            - text:    
+          - generic [ref=e15]:
+            - generic [ref=e17] [cursor=pointer]: Settings
+            - text:                
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - generic [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: 
+              - generic [ref=e22]: "73"
+            - text:                                                                                                     
+          - generic [ref=e23]:
+            - generic [ref=e24]: "Switch To:"
+            - generic [ref=e25]:
+              - combobox [ref=e26]
+              - combobox "Select a client" [ref=e29] [cursor=pointer]:
+                - textbox "Select a client" [ref=e30]
+            - paragraph [ref=e32] [cursor=pointer]: AA
+          - text:  
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - link "Logo Logo" [ref=e36] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/dashboard
+            - img "Logo" [ref=e37]
+            - img "Logo" [ref=e38]
+          - generic [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]: 
+            - generic: 
+        - generic [ref=e44]:
+          - generic [ref=e46]: Client Management
+          - generic [ref=e48] [cursor=pointer]:
+            - generic [ref=e50]:
+              - text: 
+              - text: 
+            - generic [ref=e51]: In House Accounts
+          - generic [ref=e54] [cursor=pointer]:
+            - generic [ref=e56]:
+              - text: 
+              - text: 
+            - generic [ref=e57]: Account Users
+          - generic [ref=e60] [cursor=pointer]:
+            - generic [ref=e62]:
+              - text: 
+              - text: 
+            - generic [ref=e63]: Account Holders
+          - link " Sync EBOS Countries" [ref=e66] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-countries
+            - generic [ref=e68]: 
+            - generic [ref=e69]: Sync EBOS Countries
+          - link " Sync EBOS Currencies" [ref=e71] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-currencies
+            - generic [ref=e73]: 
+            - generic [ref=e74]: Sync EBOS Currencies
+          - link " Sync EBOS Documents" [ref=e76] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-kyc-documents
+            - generic [ref=e78]: 
+            - generic [ref=e79]: Sync EBOS Documents
+          - link " Alpha Bank <=> Liquidity Provider Transactions" [ref=e81] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/transactions/alpha-lp-transactions/index
+            - generic [ref=e83]: 
+            - generic [ref=e84]: Alpha Bank <=> Liquidity Provider Transactions
+          - link " Company Document Types" [ref=e86] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/company-document-types
+            - generic [ref=e88]: 
+            - generic [ref=e89]: Company Document Types
+          - link " Fee Management" [ref=e91] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/fee-management
+            - generic [ref=e93]: 
+            - generic [ref=e94]: Fee Management
+          - link " Tariff Fee Deducution" [ref=e96] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee
+            - generic [ref=e98]: 
+            - generic [ref=e99]: Tariff Fee Deducution
+          - link " Activity Logs" [ref=e101] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/activity-log
+            - generic [ref=e103]: 
+            - generic [ref=e104]: Activity Logs
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - heading "Tariff Fee Deduction List + Apply Tariff Fee" [level=1] [ref=e111]:
+            - generic [ref=e114]:
+              - generic [ref=e115]: Tariff Fee Deduction List
+              - button "+ Apply Tariff Fee" [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: +
+                - text: Apply Tariff Fee
+          - generic [ref=e119]:
+            - generic [ref=e121]:
+              - generic [ref=e124]:
+                - generic [ref=e126]:
+                  - generic [ref=e127]:  
+                  - textbox "Search records" [ref=e128]
+                  - button "✖" [ref=e129] [cursor=pointer]
+                - generic [ref=e130]:
+                  - combobox [ref=e131]
+                  - combobox "Select Company" [ref=e134] [cursor=pointer]:
+                    - textbox "Select Company" [ref=e135]
+                - generic [ref=e136]:
+                  - combobox [ref=e137]
+                  - combobox "Select Type" [ref=e140] [cursor=pointer]:
+                    - textbox "Select Type" [ref=e141]
+                - generic [ref=e142]:
+                  - button " Filter" [ref=e143] [cursor=pointer]:
+                    - generic [ref=e144]: 
+                    - text: Filter
+                  - link " Reset" [ref=e145] [cursor=pointer]:
+                    - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee
+                    - generic [ref=e146]: 
+                    - text: Reset
+              - table [ref=e148]:
+                - rowgroup [ref=e149]:
+                  - row "ID Company Type Fee Amount Description Date Ref No Status" [ref=e150]:
+                    - cell "ID" [ref=e151]
+                    - cell "Company" [ref=e152]
+                    - cell "Type" [ref=e153]
+                    - cell "Fee Amount" [ref=e154]
+                    - cell "Description" [ref=e155]
+                    - cell "Date" [ref=e156]
+                    - cell "Ref No" [ref=e157]
+                    - cell "Status" [ref=e158]
+                - rowgroup [ref=e159]:
+                  - row "1 testcompany Kessler, Wolff and Kihn Confirmation / Reference Letter 10.00 Description Fri 5 Dec 2025 N/A Completed" [ref=e160]:
+                    - cell "1" [ref=e161]
+                    - cell "testcompany Kessler, Wolff and Kihn" [ref=e162]
+                    - cell "Confirmation / Reference Letter" [ref=e163]
+                    - cell "10.00" [ref=e164]
+                    - cell "Description" [ref=e165]
+                    - cell "Fri 5 Dec 2025" [ref=e166]
+                    - cell "N/A" [ref=e167]
+                    - cell "Completed" [ref=e168]
+                  - row "2 testcompany Kessler, Wolff and Kihn Change of Ownership Structure / Review 80.00 Description Fri 5 Dec 2025 N/A Completed" [ref=e169]:
+                    - cell "2" [ref=e170]
+                    - cell "testcompany Kessler, Wolff and Kihn" [ref=e171]
+                    - cell "Change of Ownership Structure / Review" [ref=e172]
+                    - cell "80.00" [ref=e173]
+                    - cell "Description" [ref=e174]
+                    - cell "Fri 5 Dec 2025" [ref=e175]
+                    - cell "N/A" [ref=e176]
+                    - cell "Completed" [ref=e177]
+                  - row "3 testcompany Kessler, Wolff and Kihn Change of Ownership Structure / Review 80.00 Description Fri 5 Dec 2025 N/A Completed" [ref=e178]:
+                    - cell "3" [ref=e179]
+                    - cell "testcompany Kessler, Wolff and Kihn" [ref=e180]
+                    - cell "Change of Ownership Structure / Review" [ref=e181]
+                    - cell "80.00" [ref=e182]
+                    - cell "Description" [ref=e183]
+                    - cell "Fri 5 Dec 2025" [ref=e184]
+                    - cell "N/A" [ref=e185]
+                    - cell "Completed" [ref=e186]
+                  - row "4 testcompany Kessler, Wolff and Kihn Closing of Account 200.00 Description Fri 5 Dec 2025 N/A Completed" [ref=e187]:
+                    - cell "4" [ref=e188]
+                    - cell "testcompany Kessler, Wolff and Kihn" [ref=e189]
+                    - cell "Closing of Account" [ref=e190]
+                    - cell "200.00" [ref=e191]
+                    - cell "Description" [ref=e192]
+                    - cell "Fri 5 Dec 2025" [ref=e193]
+                    - cell "N/A" [ref=e194]
+                    - cell "Completed" [ref=e195]
+                  - row "5 testcompany Kessler, Wolff and Kihn Annual Audit Reports 80.00 Description Fri 5 Dec 2025 N/A Completed" [ref=e196]:
+                    - cell "5" [ref=e197]
+                    - cell "testcompany Kessler, Wolff and Kihn" [ref=e198]
+                    - cell "Annual Audit Reports" [ref=e199]
+                    - cell "80.00" [ref=e200]
+                    - cell "Description" [ref=e201]
+                    - cell "Fri 5 Dec 2025" [ref=e202]
+                    - cell "N/A" [ref=e203]
+                    - cell "Completed" [ref=e204]
+                  - row "6 testcompany Kessler, Wolff and Kihn Annual Audit Reports 80.00 sdasd Fri 5 Dec 2025 N/A Completed" [ref=e205]:
+                    - cell "6" [ref=e206]
+                    - cell "testcompany Kessler, Wolff and Kihn" [ref=e207]
+                    - cell "Annual Audit Reports" [ref=e208]
+                    - cell "80.00" [ref=e209]
+                    - cell "sdasd" [ref=e210]
+                    - cell "Fri 5 Dec 2025" [ref=e211]
+                    - cell "N/A" [ref=e212]
+                    - cell "Completed" [ref=e213]
+                  - row "7 testcompany Kessler, Wolff and Kihn Cancel / Return Incoming Transaction 80.00 Description Fri 5 Dec 2025 25339A02 Completed" [ref=e214]:
+                    - cell "7" [ref=e215]
+                    - cell "testcompany Kessler, Wolff and Kihn" [ref=e216]
+                    - cell "Cancel / Return Incoming Transaction" [ref=e217]
+                    - cell "80.00" [ref=e218]
+                    - cell "Description" [ref=e219]
+                    - cell "Fri 5 Dec 2025" [ref=e220]
+                    - cell "25339A02" [ref=e221]
+                    - cell "Completed" [ref=e222]
+                  - row "8 testcompany Kessler, Wolff and Kihn Outgoing Transaction Amendment 80.00 Description Fri 5 Dec 2025 25339A02 Completed" [ref=e223]:
+                    - cell "8" [ref=e224]
+                    - cell "testcompany Kessler, Wolff and Kihn" [ref=e225]
+                    - cell "Outgoing Transaction Amendment" [ref=e226]
+                    - cell "80.00" [ref=e227]
+                    - cell "Description" [ref=e228]
+                    - cell "Fri 5 Dec 2025" [ref=e229]
+                    - cell "25339A02" [ref=e230]
+                    - cell "Completed" [ref=e231]
+                  - row "9 testcompany Kessler, Wolff and Kihn Recall or Cancel Outgoing Transaction 80.00 Description Fri 5 Dec 2025 25339A02 Completed" [ref=e232]:
+                    - cell "9" [ref=e233]
+                    - cell "testcompany Kessler, Wolff and Kihn" [ref=e234]
+                    - cell "Recall or Cancel Outgoing Transaction" [ref=e235]
+                    - cell "80.00" [ref=e236]
+                    - cell "Description" [ref=e237]
+                    - cell "Fri 5 Dec 2025" [ref=e238]
+                    - cell "25339A02" [ref=e239]
+                    - cell "Completed" [ref=e240]
+                  - row "10 testcompany Kessler, Wolff and Kihn Transaction Investigation 80.00 Description Fri 5 Dec 2025 25339A02 Completed" [ref=e241]:
+                    - cell "10" [ref=e242]
+                    - cell "testcompany Kessler, Wolff and Kihn" [ref=e243]
+                    - cell "Transaction Investigation" [ref=e244]
+                    - cell "80.00" [ref=e245]
+                    - cell "Description" [ref=e246]
+                    - cell "Fri 5 Dec 2025" [ref=e247]
+                    - cell "25339A02" [ref=e248]
+                    - cell "Completed" [ref=e249]
+              - generic [ref=e251]:
+                - paragraph [ref=e253]: Showing 1 to 10 of 79 results
+                - list [ref=e254]:
+                  - listitem [ref=e255]:
+                    - link "« Previous":
+                      - /url: "#"
+                  - listitem [ref=e256]:
+                    - link "1" [ref=e257] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e258]:
+                    - link "2" [ref=e259] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee?page=2
+                  - listitem [ref=e260]:
+                    - link "3" [ref=e261] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee?page=3
+                  - listitem [ref=e262]:
+                    - link "4" [ref=e263] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee?page=4
+                  - listitem [ref=e264]:
+                    - link "5" [ref=e265] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee?page=5
+                  - listitem [ref=e266]:
+                    - link "6" [ref=e267] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee?page=6
+                  - listitem [ref=e268]:
+                    - link "7" [ref=e269] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee?page=7
+                  - listitem [ref=e270]:
+                    - link "8" [ref=e271] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee?page=8
+                  - listitem [ref=e272]:
+                    - link "Next »" [ref=e273] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee?page=2
+            - dialog [ref=e275]:
+              - generic [ref=e277]:
+                - generic [ref=e278]:
+                  - heading "Apply Tariff Fee" [level=5] [ref=e279]
+                  - button [ref=e280] [cursor=pointer]
+                - generic [ref=e282]:
+                  - generic [ref=e283]:
+                    - generic [ref=e284]: Company*
+                    - combobox [ref=e285]
+                    - combobox "testcompany Kessler, Wolff and Kihn" [ref=e288] [cursor=pointer]:
+                      - textbox "testcompany Kessler, Wolff and Kihn" [ref=e289]
+                  - generic [ref=e290]:
+                    - generic [ref=e291]: Type*
+                    - combobox [ref=e292]
+                    - combobox "Extraordinary Due Diligence Fee" [ref=e295] [cursor=pointer]:
+                      - textbox "Extraordinary Due Diligence Fee" [ref=e296]
+                  - generic [ref=e297]:
+                    - generic [ref=e298]: Fee Amount*
+                    - spinbutton [ref=e299]: "0"
+                    - generic [ref=e300]: Fee amount must be greater than 0
+                  - generic [ref=e301]:
+                    - generic [ref=e302]: Description
+                    - textbox [ref=e303]: Description
+                - generic [ref=e304]:
+                  - button "Submit" [active] [ref=e305] [cursor=pointer]
+                  - button "Cancel" [ref=e306] [cursor=pointer]
+        - generic [ref=e309]:
+          - text: 2025©
+          - link "Appla-x.work" [ref=e310] [cursor=pointer]:
+            - /url: https://keenthemes.com
+  - text:  
+  - img
+```

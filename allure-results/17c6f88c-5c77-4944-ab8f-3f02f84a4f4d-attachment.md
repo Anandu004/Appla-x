@@ -1,0 +1,322 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: 
+        - link "Logo" [ref=e7] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img "Logo" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link "Dashboard" [ref=e14] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e15]: Dashboard
+          - link "Support" [ref=e17] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e18]: Support
+        - generic [ref=e19]:
+          - paragraph [ref=e22] [cursor=pointer]: AA
+          - text: 
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button " " [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: testcompany Kessler, Wolff and Kihn
+          - generic [ref=e35]:
+            - button " " [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - heading "dashboard" [level=1] [ref=e40]
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e44]:
+              - generic [ref=e48] [cursor=pointer]:
+                - generic [ref=e50]: +
+                - generic [ref=e52]: New Wallet
+              - 'link "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg AUD Available Balance: 0.00 Wallet Balance: 0.00" [ref=e55] [cursor=pointer]':
+                - /url: https://account.appla-x.work/mcw/aud
+                - generic [ref=e57]:
+                  - generic [ref=e58]:
+                    - img "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e59]
+                    - generic [ref=e60]: AUD
+                  - generic [ref=e61]:
+                    - generic [ref=e62]: "Available Balance:"
+                    - generic [ref=e63]: "0.00"
+                    - generic [ref=e65]: "Wallet Balance: 0.00"
+              - 'link "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg CAD Available Balance: 0.00 Wallet Balance: 0.00" [ref=e68] [cursor=pointer]':
+                - /url: https://account.appla-x.work/mcw/cad
+                - generic [ref=e70]:
+                  - generic [ref=e71]:
+                    - img "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e72]
+                    - generic [ref=e73]: CAD
+                  - generic [ref=e74]:
+                    - generic [ref=e75]: "Available Balance:"
+                    - generic [ref=e76]: "0.00"
+                    - generic [ref=e78]: "Wallet Balance: 0.00"
+              - 'link "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg CHF Available Balance: 0.00 Wallet Balance: 0.00" [ref=e81] [cursor=pointer]':
+                - /url: https://account.appla-x.work/mcw/chf
+                - generic [ref=e83]:
+                  - generic [ref=e84]:
+                    - img "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e85]
+                    - generic [ref=e86]: CHF
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: "Available Balance:"
+                    - generic [ref=e89]: "0.00"
+                    - generic [ref=e91]: "Wallet Balance: 0.00"
+              - 'link "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg Euro Available Balance: 454,184.39 Wallet Balance: 454,184.39" [ref=e94] [cursor=pointer]':
+                - /url: https://account.appla-x.work/mcw/eur
+                - generic [ref=e96]:
+                  - generic [ref=e97]:
+                    - img "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e98]
+                    - generic [ref=e99]: Euro
+                  - generic [ref=e100]:
+                    - generic [ref=e101]: "Available Balance:"
+                    - generic [ref=e102]: 454,184.39
+                    - generic [ref=e104]: "Wallet Balance: 454,184.39"
+              - 'link "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg GBP Available Balance: 423,930.00 Wallet Balance: 423,930.00" [ref=e107] [cursor=pointer]':
+                - /url: https://account.appla-x.work/mcw/gbp
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - img "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e111]
+                    - generic [ref=e112]: GBP
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: "Available Balance:"
+                    - generic [ref=e115]: 423,930.00
+                    - generic [ref=e117]: "Wallet Balance: 423,930.00"
+              - 'link "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg HKD Available Balance: 0.00 Wallet Balance: 0.00" [ref=e120] [cursor=pointer]':
+                - /url: https://account.appla-x.work/mcw/hkd
+                - generic [ref=e122]:
+                  - generic [ref=e123]:
+                    - img "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e124]
+                    - generic [ref=e125]: HKD
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: "Available Balance:"
+                    - generic [ref=e128]: "0.00"
+                    - generic [ref=e130]: "Wallet Balance: 0.00"
+              - 'link "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg JPY Available Balance: 0.00 Wallet Balance: 0.00" [ref=e133] [cursor=pointer]':
+                - /url: https://account.appla-x.work/mcw/jpy
+                - generic [ref=e135]:
+                  - generic [ref=e136]:
+                    - img "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e137]
+                    - generic [ref=e138]: JPY
+                  - generic [ref=e139]:
+                    - generic [ref=e140]: "Available Balance:"
+                    - generic [ref=e141]: "0.00"
+                    - generic [ref=e143]: "Wallet Balance: 0.00"
+              - 'link "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg NZD Available Balance: 0.00 Wallet Balance: 0.00" [ref=e146] [cursor=pointer]':
+                - /url: https://account.appla-x.work/mcw/nzd
+                - generic [ref=e148]:
+                  - generic [ref=e149]:
+                    - img "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e150]
+                    - generic [ref=e151]: NZD
+                  - generic [ref=e152]:
+                    - generic [ref=e153]: "Available Balance:"
+                    - generic [ref=e154]: "0.00"
+                    - generic [ref=e156]: "Wallet Balance: 0.00"
+              - 'link "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg SGD Available Balance: 0.00 Wallet Balance: 0.00" [ref=e159] [cursor=pointer]':
+                - /url: https://account.appla-x.work/mcw/sgd
+                - generic [ref=e161]:
+                  - generic [ref=e162]:
+                    - img "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e163]
+                    - generic [ref=e164]: SGD
+                  - generic [ref=e165]:
+                    - generic [ref=e166]: "Available Balance:"
+                    - generic [ref=e167]: "0.00"
+                    - generic [ref=e169]: "Wallet Balance: 0.00"
+              - 'link "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg USD Available Balance: 68,875,351.42 Wallet Balance: 68,875,351.42" [ref=e172] [cursor=pointer]':
+                - /url: https://account.appla-x.work/mcw/usd
+                - generic [ref=e174]:
+                  - generic [ref=e175]:
+                    - img "https://account.appla-x.work/assets/css/currency-flag/square-flags/no-image.svg" [ref=e176]
+                    - generic [ref=e177]: USD
+                  - generic [ref=e178]:
+                    - generic [ref=e179]: "Available Balance:"
+                    - generic [ref=e180]: 68,875,351.42
+                    - generic [ref=e182]: "Wallet Balance: 68,875,351.42"
+            - generic [ref=e183]:
+              - button "Previous" [ref=e184]: ‹
+              - button "Next" [ref=e185] [cursor=pointer]: ›
+          - generic [ref=e186]:
+            - generic [ref=e188]:
+              - 'heading "Latest Transaction As at: 04/12/2025 11:53:05" [level=4] [ref=e190]':
+                - generic [ref=e191]: Latest Transaction
+                - generic [ref=e192]: "As at: 04/12/2025 11:53:05"
+              - generic [ref=e193]:
+                - table [ref=e195]:
+                  - rowgroup:
+                    - row:
+                      - cell
+                      - cell
+                      - cell
+                      - cell
+                      - cell
+                      - cell
+                  - rowgroup [ref=e196]:
+                    - 'row "Currency Flag Euro Wallet Balance: 454,184.39 Thu 04 Dec 2025 Transaction Date withdraw Transaction Type -80.00 eur " [ref=e197]':
+                      - cell "Currency Flag" [ref=e198]:
+                        - img "Currency Flag" [ref=e200]
+                      - 'cell "Euro Wallet Balance: 454,184.39" [ref=e201]':
+                        - generic [ref=e202]: Euro Wallet
+                        - generic [ref=e203]: "Balance: 454,184.39"
+                      - cell "Thu 04 Dec 2025 Transaction Date" [ref=e204]:
+                        - generic [ref=e205]: Thu 04 Dec 2025
+                        - generic [ref=e206]: Transaction Date
+                      - cell "withdraw Transaction Type" [ref=e207]:
+                        - generic [ref=e208]: withdraw
+                        - generic [ref=e209]: Transaction Type
+                      - cell "-80.00 eur" [ref=e210]:
+                        - generic [ref=e211]: "-80.00"
+                        - generic [ref=e212]: eur
+                      - cell "" [ref=e213]:
+                        - link "" [ref=e214] [cursor=pointer]:
+                          - /url: https://account.appla-x.work/mcw/eur
+                          - generic [ref=e215]: 
+                    - 'row "Currency Flag Euro Wallet Balance: 454,184.39 Thu 04 Dec 2025 Transaction Date withdraw Transaction Type -5.00 eur " [ref=e216]':
+                      - cell "Currency Flag" [ref=e217]:
+                        - img "Currency Flag" [ref=e219]
+                      - 'cell "Euro Wallet Balance: 454,184.39" [ref=e220]':
+                        - generic [ref=e221]: Euro Wallet
+                        - generic [ref=e222]: "Balance: 454,184.39"
+                      - cell "Thu 04 Dec 2025 Transaction Date" [ref=e223]:
+                        - generic [ref=e224]: Thu 04 Dec 2025
+                        - generic [ref=e225]: Transaction Date
+                      - cell "withdraw Transaction Type" [ref=e226]:
+                        - generic [ref=e227]: withdraw
+                        - generic [ref=e228]: Transaction Type
+                      - cell "-5.00 eur" [ref=e229]:
+                        - generic [ref=e230]: "-5.00"
+                        - generic [ref=e231]: eur
+                      - cell "" [ref=e232]:
+                        - link "" [ref=e233] [cursor=pointer]:
+                          - /url: https://account.appla-x.work/mcw/eur
+                          - generic [ref=e234]: 
+                    - 'row "Currency Flag Euro Wallet Balance: 454,184.39 Thu 04 Dec 2025 Transaction Date withdraw Transaction Type -100.00 eur " [ref=e235]':
+                      - cell "Currency Flag" [ref=e236]:
+                        - img "Currency Flag" [ref=e238]
+                      - 'cell "Euro Wallet Balance: 454,184.39" [ref=e239]':
+                        - generic [ref=e240]: Euro Wallet
+                        - generic [ref=e241]: "Balance: 454,184.39"
+                      - cell "Thu 04 Dec 2025 Transaction Date" [ref=e242]:
+                        - generic [ref=e243]: Thu 04 Dec 2025
+                        - generic [ref=e244]: Transaction Date
+                      - cell "withdraw Transaction Type" [ref=e245]:
+                        - generic [ref=e246]: withdraw
+                        - generic [ref=e247]: Transaction Type
+                      - cell "-100.00 eur" [ref=e248]:
+                        - generic [ref=e249]: "-100.00"
+                        - generic [ref=e250]: eur
+                      - cell "" [ref=e251]:
+                        - link "" [ref=e252] [cursor=pointer]:
+                          - /url: https://account.appla-x.work/mcw/eur
+                          - generic [ref=e253]: 
+                    - 'row "Currency Flag Euro Wallet Balance: 454,184.39 Thu 04 Dec 2025 Transaction Date withdraw Transaction Type -80.00 eur " [ref=e254]':
+                      - cell "Currency Flag" [ref=e255]:
+                        - img "Currency Flag" [ref=e257]
+                      - 'cell "Euro Wallet Balance: 454,184.39" [ref=e258]':
+                        - generic [ref=e259]: Euro Wallet
+                        - generic [ref=e260]: "Balance: 454,184.39"
+                      - cell "Thu 04 Dec 2025 Transaction Date" [ref=e261]:
+                        - generic [ref=e262]: Thu 04 Dec 2025
+                        - generic [ref=e263]: Transaction Date
+                      - cell "withdraw Transaction Type" [ref=e264]:
+                        - generic [ref=e265]: withdraw
+                        - generic [ref=e266]: Transaction Type
+                      - cell "-80.00 eur" [ref=e267]:
+                        - generic [ref=e268]: "-80.00"
+                        - generic [ref=e269]: eur
+                      - cell "" [ref=e270]:
+                        - link "" [ref=e271] [cursor=pointer]:
+                          - /url: https://account.appla-x.work/mcw/eur
+                          - generic [ref=e272]: 
+                    - 'row "Currency Flag Euro Wallet Balance: 454,184.39 Thu 04 Dec 2025 Transaction Date withdraw Transaction Type -5.00 eur " [ref=e273]':
+                      - cell "Currency Flag" [ref=e274]:
+                        - img "Currency Flag" [ref=e276]
+                      - 'cell "Euro Wallet Balance: 454,184.39" [ref=e277]':
+                        - generic [ref=e278]: Euro Wallet
+                        - generic [ref=e279]: "Balance: 454,184.39"
+                      - cell "Thu 04 Dec 2025 Transaction Date" [ref=e280]:
+                        - generic [ref=e281]: Thu 04 Dec 2025
+                        - generic [ref=e282]: Transaction Date
+                      - cell "withdraw Transaction Type" [ref=e283]:
+                        - generic [ref=e284]: withdraw
+                        - generic [ref=e285]: Transaction Type
+                      - cell "-5.00 eur" [ref=e286]:
+                        - generic [ref=e287]: "-5.00"
+                        - generic [ref=e288]: eur
+                      - cell "" [ref=e289]:
+                        - link "" [ref=e290] [cursor=pointer]:
+                          - /url: https://account.appla-x.work/mcw/eur
+                          - generic [ref=e291]: 
+                - generic [ref=e293]:
+                  - paragraph [ref=e295]: Showing 1 to 5 of 72 results
+                  - list [ref=e296]:
+                    - listitem [ref=e297]:
+                      - link "« Previous":
+                        - /url: "#"
+                    - listitem [ref=e298]:
+                      - link "1" [ref=e299] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e300]:
+                      - link "2" [ref=e301] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=2
+                    - listitem [ref=e302]:
+                      - link "3" [ref=e303] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=3
+                    - listitem [ref=e304]:
+                      - link "4" [ref=e305] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=4
+                    - listitem [ref=e306]:
+                      - link "5" [ref=e307] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=5
+                    - listitem [ref=e308]:
+                      - link "6" [ref=e309] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=6
+                    - listitem [ref=e310]:
+                      - link "7" [ref=e311] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=7
+                    - listitem [ref=e312]:
+                      - link "8" [ref=e313] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=8
+                    - listitem [ref=e314]:
+                      - link "9" [ref=e315] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=9
+                    - listitem [ref=e316]:
+                      - link "10" [ref=e317] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=10
+                    - listitem [ref=e318]:
+                      - link "...":
+                        - /url: "#"
+                    - listitem [ref=e319]:
+                      - link "14" [ref=e320] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=14
+                    - listitem [ref=e321]:
+                      - link "15" [ref=e322] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=15
+                    - listitem [ref=e323]:
+                      - link "Next »" [ref=e324] [cursor=pointer]:
+                        - /url: https://account.appla-x.work/dashboard?page=2
+            - heading "Request a payment Receive money directly in your wallets" [level=3] [ref=e329]:
+              - generic [ref=e330]: Request a payment
+              - generic [ref=e331]: Receive money directly in your wallets
+      - generic [ref=e334]:
+        - generic [ref=e335]:
+          - text: 2025©
+          - link "Appla-x.work powered by Samson ©" [ref=e336] [cursor=pointer]:
+            - /url: https://ovency.com
+        - list [ref=e337]:
+          - listitem [ref=e338]:
+            - link "Support" [ref=e339] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+          - listitem [ref=e340]:
+            - link "Contact" [ref=e341] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+  - text:    
+  - img
+```

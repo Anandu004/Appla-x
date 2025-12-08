@@ -18,7 +18,7 @@ exports.Adminloginpage =
             this.signinbutton = "//button[@id='kt_sign_in_submit']"
 
 
-            const dataPath = path.join(__dirname, '../TestData/Login_testdata.json')
+            const dataPath = path.join(__dirname, '../../TestData/Login_testdata.json')
             this.dataset = JSON.parse(fs.readFileSync(dataPath, 'utf-8'))
                     
             this.data = this.dataset["Admin Login Credentials"]

@@ -1,0 +1,11 @@
+ Extracted Reference No: 25338A07
+ Reference retrieved inside method: 25338A07
+EXPECTED FEE AMOUNT FOR TRANSACTION INVESTIGATION: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: 25338A07
+VALIDATION →
+Company: testcompany Kessler, Wolff and Kihn
+Type: Transaction Investigation
+Fee Amount: 80.00
+Module : Tariff Fee
+Action : Transaction Investigation fee of 80 EUR has been deducted for company testcompany Kessler, Wolff and Kihn against Reference No: 25338A07

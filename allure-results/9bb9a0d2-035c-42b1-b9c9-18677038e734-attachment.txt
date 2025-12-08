@@ -1,0 +1,13 @@
+Available balance in the wallet (EUR): 454634.39
+ Extracted Reference No: 25338A11
+ Reference retrieved inside method: 25338A11
+EXPECTED FEE AMOUNT FOR TRANSACTION INVESTIGATION: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: 25338A11
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Kessler, Wolff and Kihn
+Type: Transaction Investigation
+Fee Amount: 80.00
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Transaction Investigation fee of 80 EUR has been deducted for company testcompany Kessler, Wolff and Kihn against Reference No: 25338A11

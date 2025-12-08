@@ -1,0 +1,200 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - text:  
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - generic [ref=e11] [cursor=pointer]: Administrators
+              - text:      
+            - generic [ref=e12]:
+              - generic [ref=e14] [cursor=pointer]: Reports
+              - text:    
+            - generic [ref=e15]:
+              - generic [ref=e17] [cursor=pointer]: Settings
+              - text:                
+          - generic [ref=e18]:
+            - generic [ref=e19]:
+              - generic [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]: 
+                - generic [ref=e22]: "0"
+              - text: 
+            - generic [ref=e23]:
+              - generic [ref=e24]: "Switch To:"
+              - generic [ref=e25]:
+                - combobox [ref=e26]
+                - combobox "Select a client" [ref=e29] [cursor=pointer]:
+                  - textbox "Select a client" [ref=e30]
+              - paragraph [ref=e32] [cursor=pointer]: AA
+            - text:  
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - link "Logo Logo" [ref=e36] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/dashboard
+              - img "Logo" [ref=e37]
+              - img "Logo" [ref=e38]
+            - generic [ref=e40] [cursor=pointer]:
+              - generic [ref=e41]: 
+              - generic: 
+          - generic [ref=e44]:
+            - generic [ref=e46]: Client Management
+            - generic [ref=e47]:
+              - generic [ref=e48] [cursor=pointer]:
+                - generic [ref=e50]:
+                  - text: 
+                  - text: 
+                - generic [ref=e51]: In House Accounts
+              - generic [ref=e53]:
+                - link "Overview" [ref=e55] [cursor=pointer]:
+                  - /url: https://admin.appla-x.work/en/settings/ledger/house-account-overview
+                  - generic [ref=e58]: Overview
+                - link "Providers" [ref=e60] [cursor=pointer]:
+                  - /url: https://admin.appla-x.work/en/settings/ledger/liquidity-provider-manage
+                  - generic [ref=e63]: Providers
+                - link "Transactions" [ref=e65] [cursor=pointer]:
+                  - /url: https://admin.appla-x.work/en/settings/ledger/house-account-transaction-overview
+                  - generic [ref=e68]: Transactions
+                - link "Transaction Fees" [ref=e70] [cursor=pointer]:
+                  - /url: https://admin.appla-x.work/en/settings/ledger/house-account-transaction-fees
+                  - generic [ref=e73]: Transaction Fees
+                - link "Transaction Inspector" [ref=e75] [cursor=pointer]:
+                  - /url: https://admin.appla-x.work/en/transactions-dashboard
+                  - generic [ref=e78]: Transaction Inspector
+                - link "Manage Iban" [ref=e80] [cursor=pointer]:
+                  - /url: https://admin.appla-x.work/en/settings/ledger/liquidity-provider-iban-manage
+                  - generic [ref=e83]: Manage Iban
+            - generic [ref=e85] [cursor=pointer]:
+              - generic [ref=e87]:
+                - text: 
+                - text: 
+              - generic [ref=e88]: Account Users
+            - generic [ref=e91] [cursor=pointer]:
+              - generic [ref=e93]:
+                - text: 
+                - text: 
+              - generic [ref=e94]: Account Holders
+            - link " Sync EBOS Countries" [ref=e97] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-countries
+              - generic [ref=e99]: 
+              - generic [ref=e100]: Sync EBOS Countries
+            - link " Sync EBOS Currencies" [ref=e102] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-currencies
+              - generic [ref=e104]: 
+              - generic [ref=e105]: Sync EBOS Currencies
+            - link " Sync EBOS Documents" [ref=e107] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-kyc-documents
+              - generic [ref=e109]: 
+              - generic [ref=e110]: Sync EBOS Documents
+            - link " Alpha Bank <=> Liquidity Provider Transactions" [ref=e112] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/transactions/alpha-lp-transactions/index
+              - generic [ref=e114]: 
+              - generic [ref=e115]: Alpha Bank <=> Liquidity Provider Transactions
+            - link " Company Document Types" [ref=e117] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/company-document-types
+              - generic [ref=e119]: 
+              - generic [ref=e120]: Company Document Types
+            - link " Fee Management" [ref=e122] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/fee-management
+              - generic [ref=e124]: 
+              - generic [ref=e125]: Fee Management
+            - link " Tariff Fee Deducution" [ref=e127] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee
+              - generic [ref=e129]: 
+              - generic [ref=e130]: Tariff Fee Deducution
+            - link " Activity Logs" [ref=e132] [cursor=pointer]:
+              - /url: https://admin.appla-x.work/en/nsp/cm/activity-log
+              - generic [ref=e134]: 
+              - generic [ref=e135]: Activity Logs
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - heading "  Transaction Inspector" [level=1] [ref=e142]:
+              - generic [ref=e143]:
+                - generic [ref=e144]:  
+                - generic [ref=e145]: Transaction Inspector
+            - generic [ref=e147]:
+              - generic [ref=e149]:
+                - generic [ref=e150] [cursor=pointer]:
+                  - heading "Filtering Criteria" [level=4] [ref=e151]
+                  - generic [ref=e152]: 
+                - text:      
+              - generic [ref=e154]:
+                - generic [ref=e156]:
+                  - table [ref=e158]:
+                    - rowgroup [ref=e159]:
+                      - row "Queue Monitor Review Pending Processed Sent Completed" [ref=e160]:
+                        - cell "Queue Monitor" [ref=e161]
+                        - cell "Review" [ref=e162]
+                        - cell "Pending" [ref=e163]
+                        - cell "Processed" [ref=e164]
+                        - cell "Sent" [ref=e165]
+                        - cell "Completed" [ref=e166]
+                    - rowgroup [ref=e167]:
+                      - row "Receipts (+) 0 0 0 0 0" [ref=e168]:
+                        - cell "Receipts (+)" [ref=e169]
+                        - cell "0" [ref=e170]
+                        - cell "0" [ref=e171]
+                        - cell "0" [ref=e172]
+                        - cell "0" [ref=e173]
+                        - cell "0" [ref=e174]
+                      - row "Payments (-) 0 0 0 0 0" [ref=e175]:
+                        - cell "Payments (-)" [ref=e176]
+                        - cell "0" [ref=e177]
+                        - cell "0" [ref=e178]
+                        - cell "0" [ref=e179]
+                        - cell "0" [ref=e180]
+                        - cell "0" [ref=e181]
+                      - text: "-"
+                  - generic [ref=e182]:
+                    - link " " [ref=e183] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/transactions-dashboard-excel-export?filter_start_date=&filter_end_date=&filter_transaction=&filter_type=&filter_status=&filter_iban=&filter_client=&filter_currency=&filter_from_amount=&filter_to_amount=&sort_by=
+                      - generic [ref=e184]:  
+                    - link " " [ref=e185] [cursor=pointer]:
+                      - /url: https://admin.appla-x.work/en/transactions-dashboard-pdf-export?filter_start_date=&filter_end_date=&filter_transaction=&filter_type=&filter_status=&filter_iban=&filter_client=&filter_currency=&filter_from_amount=&filter_to_amount=&sort_by=
+                      - generic [ref=e186]:  
+                - table [ref=e188]:
+                  - rowgroup [ref=e189]:
+                    - row "Status Type Date  Transaction# Company Party Ccy Amount" [ref=e190]:
+                      - cell "Status" [ref=e191]:
+                        - link "Status" [ref=e192] [cursor=pointer]:
+                          - /url: https://admin.appla-x.work/en/transactions-dashboard?sort_by=status%3Aasc
+                      - cell "Type" [ref=e193]:
+                        - link "Type" [ref=e194] [cursor=pointer]:
+                          - /url: https://admin.appla-x.work/en/transactions-dashboard?sort_by=type%3Aasc
+                      - cell "Date " [ref=e195]:
+                        - link "Date " [ref=e196] [cursor=pointer]:
+                          - /url: https://admin.appla-x.work/en/transactions-dashboard?sort_by=date%3Aasc
+                          - text: Date
+                          - generic [ref=e197]: 
+                      - cell "Transaction#" [ref=e198]:
+                        - link "Transaction#" [ref=e199] [cursor=pointer]:
+                          - /url: https://admin.appla-x.work/en/transactions-dashboard?sort_by=transaction%3Aasc
+                      - cell "Company" [ref=e200]:
+                        - link "Company" [ref=e201] [cursor=pointer]:
+                          - /url: https://admin.appla-x.work/en/transactions-dashboard?sort_by=client%3Aasc
+                      - cell "Party" [ref=e202]:
+                        - link "Party" [ref=e203] [cursor=pointer]:
+                          - /url: https://admin.appla-x.work/en/transactions-dashboard?sort_by=party%3Aasc
+                      - cell "Ccy" [ref=e204]:
+                        - link "Ccy" [ref=e205] [cursor=pointer]:
+                          - /url: https://admin.appla-x.work/en/transactions-dashboard?sort_by=currency%3Aasc
+                      - cell "Amount" [ref=e206]:
+                        - link "Amount" [ref=e207] [cursor=pointer]:
+                          - /url: https://admin.appla-x.work/en/transactions-dashboard?sort_by=amount%3Aasc
+                      - cell [ref=e208]
+                  - rowgroup [ref=e209]:
+                    - row "No matching results found." [ref=e210]:
+                      - cell "No matching results found." [ref=e211]
+          - text: 
+    - generic [ref=e216]:
+      - text: 2025©
+      - link "Appla-x.work" [ref=e217] [cursor=pointer]:
+        - /url: https://keenthemes.com
+  - text:  
+  - img
+  - text:    
+```
