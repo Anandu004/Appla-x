@@ -1,0 +1,15 @@
+Available balance in the wallet (GBP): 4561.68
+EXPECTED FEE AMOUNT FOR ANNUAL AUDIT REPORTS: 80
+AUTOPOPULATED FEE: 80
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: Aj currcloud 16/12
+Type: Annual Audit Reports
+Fee Amount: 80.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Annual Audit Reports fee of 80 EUR was deducted for company Aj currcloud 16/12 after converting from the base currency GBP (Converted Amount: 69.22)
+Extracted Converted Amount: 69.22
+Actual New balance in the wallet (GBP): 4492.46
+Expected New Balance: 4492.46
+ Wallet balance deduction correct!

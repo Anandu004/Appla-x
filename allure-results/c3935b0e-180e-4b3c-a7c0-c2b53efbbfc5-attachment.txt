@@ -1,0 +1,15 @@
+Available balance in the wallet (EUR): 585423.14
+ Reference retrieved inside method: 26007A22
+EXPECTED FEE AMOUNT FOR RECALL OR CANCEL OUTGOING TRANSACTION: 150
+AUTOPOPULATED FEE: 150
+Entering reference number: 26007A22
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Stehr and Sons
+Type: Recall or Cancel Outgoing Transaction
+Fee Amount: 150.00
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Recall or Cancel Outgoing Transaction fee of 150 EUR has been deducted for company testcompany Stehr and Sons against Reference No: 26007A22
+Actual balance in the wallet (EUR): 585273.14
+Expected New Balance: 585273.14
+✔ Wallet balance deduction correct!

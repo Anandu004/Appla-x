@@ -1,0 +1,15 @@
+Available balance in the wallet (GBP): 49498.13
+EXPECTED FEE AMOUNT FOR CHANGE OF CONFIRMATION / REFERENCE LETTER: 10
+AUTOPOPULATED FEE: 10
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Ratke, Goldner and Wilderman
+Type: Confirmation / Reference Letter
+Fee Amount: 10.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Confirmation / Reference Letter fee of 10 EUR has been deducted for company testcompany Ratke, Goldner and Wilderman after converting from the fee currency GBP (Converted Amount: 8.65)
+Extracted Converted Amount: 8.65
+Actual New balance in the wallet (GBP): 49489.48
+Expected New Balance: 49489.479999999996
+ Wallet balance deduction correct!

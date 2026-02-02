@@ -1,0 +1,21 @@
+Checking wallet: AUD
+ Clicking on beneficiary: Balistreri - Kihn
+ Details page loaded for: Balistreri - Kihn
+ Clicking on beneficiary: Boyle - Sawayn
+ Details page loaded for: Boyle - Sawayn
+ Clicking on beneficiary: Emmerich
+ Details page loaded for: Emmerich
+ Clicking on beneficiary: Grady - Blanda
+ Details page loaded for: Grady - Blanda
+ Clicking on beneficiary: Kertzmann - Krajcik
+ Details page loaded for: Kertzmann - Krajcik
+ Clicking on beneficiary: Orn Group
+ Details page loaded for: Orn Group
+ Clicking on beneficiary: Pollich
+ Details page loaded for: Pollich
+ Clicking on beneficiary: Rau
+ Details page loaded for: Rau
+ Clicking on beneficiary: Russel - Heathcote
+ Details page loaded for: Russel - Heathcote
+ Clicking on beneficiary: Zemlak - Runolfsdottir
+ Details page loaded for: Zemlak - Runolfsdottir

@@ -1,0 +1,6 @@
+Available balance in the wallet (GBP): 5000
+ Extracted Reference No: 25352A03
+ Reference retrieved inside method: 25352A03
+EXPECTED FEE AMOUNT FOR TRANSACTION INVESTIGATION: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: 25352A03

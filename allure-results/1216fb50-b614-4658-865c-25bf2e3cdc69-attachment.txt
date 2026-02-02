@@ -1,0 +1,47 @@
+⚠️ Unhandled Rejection: page.waitForSelector: Test ended.
+Call log:
+  - waiting for locator('//h1[normalize-space()=\'Account Locked - KYC In review\']') to be visible
+
+    at Dashboardpage.new_account_Status_before_AdminApproval (C:\Users\seq_anandhu\Downloads\Appla-x\Appla-x\pages\Currency_cloud\BASE_EURO\Dashboardpage.js:90:29) {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\seq_anandhu\\Downloads\\Appla-x\\Appla-x\\pages\\Currency_cloud\\BASE_EURO\\Dashboardpage.js',
+      line: 90,
+      column: 29,
+      function: 'Dashboardpage.new_account_Status_before_AdminApproval'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//h1[normalize-space()=\\'Account Locked - KYC In review\\']')",
+    apiName: 'page.waitForSelector',
+    params: {
+      selector: "//h1[normalize-space()='Account Locked - KYC In review']",
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@44',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@44',
+      _title: "Wait for selector locator('//h1[normalize-space()=\\'Account Locked - KYC In review\\']')",
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1767777927509,
+    error: {
+      message: 'Error: page.waitForSelector: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//h1[normalize-space()=\\'Account Locked - KYC In review\\']') to be visible\x1B[22m\n",
+      stack: 'Error: page.waitForSelector: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//h1[normalize-space()=\\'Account Locked - KYC In review\\']') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at Dashboardpage.new_account_Status_before_AdminApproval (C:\\Users\\seq_anandhu\\Downloads\\Appla-x\\Appla-x\\pages\\Currency_cloud\\BASE_EURO\\Dashboardpage.js:90:29)',
+      cause: undefined
+    }
+  }
+}

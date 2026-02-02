@@ -1,0 +1,15 @@
+Available balance in the wallet (GBP): 423583.9
+EXPECTED FEE AMOUNT FOR ANNUAL AUDIT REPORTS: 80
+AUTOPOPULATED FEE: 80
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Kessler, Wolff and Kihn
+Type: Annual Audit Reports
+Fee Amount: 80.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Annual Audit Reports fee of 80 EUR was deducted for company testcompany Kessler, Wolff and Kihn after converting from the base currency GBP (Converted Amount: 69.22)
+Extracted Converted Amount: 69.22
+Actual New balance in the wallet (GBP): 423514.68
+Expected New Balance: 423514.68000000005
+ Wallet balance deduction correct!

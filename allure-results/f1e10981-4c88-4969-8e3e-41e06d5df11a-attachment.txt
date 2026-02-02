@@ -1,0 +1,16 @@
+Available balance in the wallet (GBP): 423653.12
+ Reference retrieved inside method: 25315A83
+EXPECTED FEE AMOUNT FOR CANCEL / RETURN INCOMING TRANSACTION: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: 25315A83
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Kessler, Wolff and Kihn
+Type: Cancel / Return Incoming Transaction
+Fee Amount: 80.00
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Cancel / Return Incoming Transaction fee of 80 EUR was deducted for company testcompany Kessler, Wolff and Kihn after converting from the base currency GBP (Converted Amount: 69.22) against Reference No: 25315A83
+Extracted Converted Amount: 69.22
+Actual New balance in the wallet (GBP): 423583.9
+Expected New Balance: 423583.9
+ Wallet balance deduction correct!

@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Grady - Blanda' ]
+✅ Beneficiary "Grady - Blanda" is listed in dropdown.

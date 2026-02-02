@@ -1,0 +1,15 @@
+Available balance in the wallet (USD): 68873489.21
+EXPECTED FEE AMOUNT FOR CLOSING OF ACCOUNT: 200
+AUTOPOPULATED FEE: 200
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Kessler, Wolff and Kihn
+Type: Closing of Account
+Fee Amount: 200.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Closing of Account fee of 200 EUR was deducted for company testcompany Kessler, Wolff and Kihn after converting from the base currency USD (Converted Amount: 219.28)
+Extracted Converted Amount: 219.28
+Actual New balance in the wallet (USD): 68873269.93
+Expected New Balance: 68873269.92999999
+ Wallet balance deduction correct!

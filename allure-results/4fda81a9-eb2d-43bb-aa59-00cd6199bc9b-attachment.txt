@@ -1,0 +1,14 @@
+Available balance in the wallet (EUR): 4385
+EXPECTED FEE AMOUNT FOR CHANGE OF OWNERSHIP STRUCTURE / REVIEW: 80
+AUTOPOPULATED FEE: 80
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: Aj currcloud 16/12
+Type: Change of Ownership Structure / Review
+Fee Amount: 80.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Change of Ownership Structure / Review fee of 80 EUR has been deducted for company Aj currcloud 16/12
+Actual balance in the wallet (EUR): 4305
+Expected New Balance: 4305
+✔ Wallet balance deduction correct!

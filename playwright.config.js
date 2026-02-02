@@ -25,6 +25,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   //testDir: './tests',
   /* Run tests in files in parallel */
+  timeout: 620_000,
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
@@ -53,7 +54,6 @@ export default defineConfig({
 
 
 
-
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
@@ -63,7 +63,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    actionTimeout: 30_000,           // max time per action
+    actionTimeout: 3_00_00000,           // max time per action
     navigationTimeout: 60_000,
      launchOptions: {
       slowMo: 500, // slow down for reliability

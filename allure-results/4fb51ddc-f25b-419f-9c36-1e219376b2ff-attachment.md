@@ -1,0 +1,168 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: 
+        - link "Logo" [ref=e7] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img "Logo" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link "Dashboard" [ref=e14] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e15]: Dashboard
+          - link "Support" [ref=e17] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e18]: Support
+        - generic [ref=e19]:
+          - paragraph [ref=e22] [cursor=pointer]: AA
+          - text: 
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button " " [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: testcompany Stehr and Sons
+          - generic [ref=e35]:
+            - button " " [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - heading "euro convert funds" [level=1] [ref=e40]
+        - generic [ref=e41]:
+          - generic [ref=e43]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - link "587,899.00" [ref=e49] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - generic [ref=e50]: eur
+              - 'link " Wallet Balance: 587,899.00" [ref=e52] [cursor=pointer]':
+                - /url: javascript:void(0)
+                - generic [ref=e53]: 
+                - text: "Wallet Balance: 587,899.00"
+              - generic [ref=e54]:
+                - 'link " IBAN: GB01TCCL27150523867292" [ref=e55] [cursor=pointer]':
+                  - /url: javascript:void(0)
+                  - generic [ref=e56]: 
+                  - text: "IBAN: GB01TCCL27150523867292"
+                - 'link " IBAN: GB18TCCL12345685491328" [ref=e57] [cursor=pointer]':
+                  - /url: javascript:void(0)
+                  - generic [ref=e58]: 
+                  - text: "IBAN: GB18TCCL12345685491328"
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - link "Transactions" [ref=e61] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/mcw/eur
+              - listitem [ref=e62]:
+                - link "Add Funds" [ref=e63] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/maf/eur
+              - listitem [ref=e64]:
+                - link "Make Payment" [ref=e65] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/mp/eur
+              - listitem [ref=e66]:
+                - link "Convert Funds" [ref=e67] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/cf/eur
+              - listitem [ref=e68]:
+                - link "Manage Beneficiaries" [ref=e69] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/contacts
+          - generic [ref=e70]:
+            - heading "Currency Convert" [level=4] [ref=e72]:
+              - generic [ref=e73]: Currency Convert
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]:
+                    - text: 
+                    - generic [ref=e80]: "1"
+                  - heading "Get a Quote" [level=3] [ref=e82]
+                - generic [ref=e84]:
+                  - generic [ref=e85]:
+                    - text: 
+                    - generic [ref=e86]: "2"
+                  - heading "Convert" [level=3] [ref=e88]
+                - generic [ref=e90]:
+                  - generic [ref=e91]:
+                    - text: 
+                    - generic [ref=e92]: "3"
+                  - heading "Complete" [level=3] [ref=e94]
+              - generic [ref=e97]:
+                - generic [ref=e98]:
+                  - generic [ref=e99]: Sell*
+                  - combobox [ref=e100]
+                  - combobox "EUR | Euro" [ref=e103] [cursor=pointer]:
+                    - textbox "EUR | Euro" [ref=e104]
+                - generic [ref=e105]:
+                  - generic [ref=e106]: Buy*
+                  - combobox [ref=e107]
+                  - combobox "AUD | AUD" [ref=e110] [cursor=pointer]:
+                    - textbox "AUD | AUD" [ref=e111]
+                - generic [ref=e112]:
+                  - generic [ref=e113]: Amount to*
+                  - generic [ref=e114]:
+                    - generic [ref=e115]:
+                      - combobox [ref=e116]
+                      - combobox "Buy" [ref=e119] [cursor=pointer]:
+                        - textbox "Buy" [ref=e120]
+                    - generic [ref=e121]:
+                      - textbox "This field is required." [active] [ref=e122]:
+                        - /placeholder: "0.00"
+                        - text: "500"
+                      - generic [ref=e123]: This field is required.
+                - generic [ref=e124]:
+                  - generic [ref=e125]: Beneficiary Name*
+                  - text: If you are not choosing a beneficiary, the converted amount will be transferred to the wallet account.
+                  - generic [ref=e126]:
+                    - generic [ref=e127]:
+                      - combobox [ref=e128]
+                      - combobox "Select existing beneficiary" [ref=e131] [cursor=pointer]:
+                        - textbox "Select existing beneficiary" [ref=e132]
+                    - generic [ref=e133]:
+                      - generic [ref=e134]: or
+                      - link "Create New Beneficiary" [ref=e135] [cursor=pointer]:
+                        - /url: contacts
+                - text: "* *"
+                - generic [ref=e136]:
+                  - generic [ref=e137]: Payment Reason*
+                  - combobox [ref=e138]
+                  - combobox "Select payment reason" [ref=e141] [cursor=pointer]:
+                    - textbox "Select payment reason" [ref=e142]
+                - generic [ref=e143]:
+                  - generic [ref=e144]: Payment Reference*
+                  - textbox "Enter payment reference" [ref=e145]
+                - generic [ref=e146]:
+                  - generic [ref=e147]: Select Date of Conversion*
+                  - text: Please remember to offset your conversion date against GMT.
+                  - generic [ref=e148]:
+                    - textbox "Select Date of Conversion*" [ref=e149] [cursor=pointer]: 07/01/2026
+                    - generic [ref=e151]:
+                      - generic [ref=e152]: 
+                      - generic: 
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: Enter OTP *
+                    - generic [ref=e155]:
+                      - generic [ref=e156]:
+                        - textbox "This field is required." [ref=e157]:
+                          - /placeholder: Enter OTP
+                        - button "Get OTP" [ref=e158] [cursor=pointer]
+                      - generic [ref=e159]: This field is required.
+                - button "Next" [disabled]
+      - generic [ref=e161]:
+        - generic [ref=e162]:
+          - text: 2026©
+          - link "Appla-x.work powered by Samson ©" [ref=e163] [cursor=pointer]:
+            - /url: https://ovency.com
+        - list [ref=e164]:
+          - listitem [ref=e165]:
+            - link "Support" [ref=e166] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+          - listitem [ref=e167]:
+            - link "Contact" [ref=e168] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+  - text:    
+  - img
+```

@@ -1,0 +1,15 @@
+Available balance in the wallet (USD): 68873182.22
+EXPECTED FEE AMOUNT FOR CHANGE OF OWNERSHIP STRUCTURE / REVIEW: 80
+AUTOPOPULATED FEE: 80
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Kessler, Wolff and Kihn
+Type: Change of Ownership Structure / Review
+Fee Amount: 80.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Change of Ownership Structure / Review fee of 80 EUR was deducted for company testcompany Kessler, Wolff and Kihn after converting from the base currency USD (Converted Amount: 87.71)
+Extracted Converted Amount: 87.71
+Actual New balance in the wallet (USD): 68873094.51
+Expected New Balance: 68873094.51
+ Wallet balance deduction correct!

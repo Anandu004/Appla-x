@@ -1,0 +1,16 @@
+Available balance in the wallet (USD): 6979.58
+ Reference retrieved inside method: 26008A16
+EXPECTED FEE AMOUNT FOR OUTGOING TRANSACTION AMENDMENT: 50
+AUTOPOPULATED FEE: 50
+Entering reference number: 26008A16
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Ratke, Goldner and Wilderman
+Type: Outgoing Transaction Amendment
+Fee Amount: 50.00
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Outgoing Transaction Amendment fee of 50 EUR has been deducted for company testcompany Ratke, Goldner and Wilderman after converting from the fee currency USD (Converted Amount: 54.82) against Reference No: 26008A16
+Extracted Converted Amount: 54.82
+Actual New balance in the wallet (USD): 6924.76
+Expected New Balance: 6924.76
+ Wallet balance deduction correct!

@@ -1,0 +1,71 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: 
+        - link [ref=e7] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e15]: Dashboard
+          - link [ref=e17] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e18]: Support
+        - generic [ref=e19]:
+          - paragraph [ref=e22] [cursor=pointer]: AA
+          - text: 
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: testcompany Schimmel, Sporer and Bartell
+          - generic [ref=e35]:
+            - button [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - heading [level=1] [ref=e40]: register a company
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: 
+            - text:  
+          - generic [ref=e47]:
+            - heading [level=1] [ref=e48]: Whats Next? Complete your KYC
+            - generic [ref=e50]:
+              - paragraph [ref=e51]: testcompany Schimmel, Sporer and Bartell
+              - paragraph [ref=e52]: Your account is currently on pending status because your company KYC is not complete. Click the button below to complete the KYC Process
+            - link [ref=e54] [cursor=pointer]:
+              - /url: /company/kyc
+              - text: Complete KYC
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - text: 2026©
+          - link [ref=e57] [cursor=pointer]:
+            - /url: https://ovency.com
+            - text: Appla-x.work powered by Samson ©
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - link [ref=e60] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+              - text: Support
+          - listitem [ref=e61]:
+            - link [ref=e62] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+              - text: Contact
+  - text:    
+  - dialog "Company Registered" [ref=e64]:
+    - heading "Company Registered" [level=2] [ref=e72]
+    - generic [ref=e73]: Your company has been successfully registered. In order to conduct business with this company, KYC is required. Please follow the instructions on the dashboard to start your KYC process
+    - text: "!"
+    - button "OK" [active] [ref=e75] [cursor=pointer]
+  - img
+```

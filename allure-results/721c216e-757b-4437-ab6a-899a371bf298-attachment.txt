@@ -1,0 +1,14 @@
+Available balance in the wallet (EUR): 4585
+EXPECTED FEE AMOUNT FOR CLOSING OF ACCOUNT: 200
+AUTOPOPULATED FEE: 200
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: Aj currcloud 16/12
+Type: Closing of Account
+Fee Amount: 200.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Closing of Account fee of 200 EUR has been deducted for company Aj currcloud 16/12
+Actual balance in the wallet (EUR): 4385
+Expected New Balance: 4385
+✔ Wallet balance deduction correct!

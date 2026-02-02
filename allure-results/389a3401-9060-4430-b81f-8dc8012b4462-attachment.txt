@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Boyle - Sawayn' ]
+✅ Beneficiary "Boyle - Sawayn" is listed in dropdown.

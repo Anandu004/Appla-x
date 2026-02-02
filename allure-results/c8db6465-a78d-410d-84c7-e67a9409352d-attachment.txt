@@ -1,0 +1,16 @@
+Available balance in the wallet (GBP): 49930.78
+ Reference retrieved inside method: 26007A30
+EXPECTED FEE AMOUNT FOR RECALL OR CANCEL OUTGOING TRANSACTION: 150
+AUTOPOPULATED FEE: 150
+Entering reference number: 26007A30
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Ratke, Goldner and Wilderman
+Type: Recall or Cancel Outgoing Transaction
+Fee Amount: 150.00
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Recall or Cancel Outgoing Transaction fee of 150 EUR has been deducted for company testcompany Ratke, Goldner and Wilderman after converting from the fee currency GBP (Converted Amount: 129.80) against Reference No: 26007A30
+Extracted Converted Amount: 129.8
+Actual New balance in the wallet (GBP): 49800.98
+Expected New Balance: 49800.979999999996
+ Wallet balance deduction correct!

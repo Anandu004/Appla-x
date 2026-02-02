@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Pollich, Daugherty and Rempel' ]
+ Beneficiary "Pollich, Daugherty and Rempel" is listed in dropdown.

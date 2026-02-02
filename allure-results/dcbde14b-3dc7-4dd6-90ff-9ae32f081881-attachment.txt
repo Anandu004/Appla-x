@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Spinka and Sons' ]
+✅ Beneficiary "Spinka and Sons" is listed in dropdown.

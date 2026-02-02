@@ -1,0 +1,19 @@
+Available balance in the wallet (USD): 5200
+ Extracted Reference No: 25352A04
+ Reference retrieved inside method: 25352A04
+EXPECTED FEE AMOUNT FOR TRANSACTION INVESTIGATION: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: 25352A04
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: Aj currcloud 16/12
+Type: Transaction Investigation
+Fee Amount: 80.00
+Reference no: 25352A04
+Status Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Transaction Investigation fee of 80 EUR was deducted for company Aj currcloud 16/12 after converting from the base currency USD (Converted Amount: 87.71) against Reference No: 25352A04
+Extracted Converted Amount: 87.71
+Actual New balance in the wallet (USD): 5112.29
+Expected New Balance: 5112.29
+ Wallet balance deduction correct!

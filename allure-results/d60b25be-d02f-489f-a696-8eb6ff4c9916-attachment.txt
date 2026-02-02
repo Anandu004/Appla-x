@@ -1,0 +1,11 @@
+Available balance in the wallet (USD): 68873094.51
+EXPECTED FEE AMOUNT FOR CHANGE OF CONFIRMATION / REFERENCE LETTER: 10
+AUTOPOPULATED FEE: 10
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Kessler, Wolff and Kihn
+Type: Confirmation / Reference Letter
+Fee Amount: 10.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Confirmation / Reference Letter fee of 10 EUR was deducted for company testcompany Kessler, Wolff and Kihn after converting from the base currency USD (Converted Amount: 10.96)

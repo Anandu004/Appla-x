@@ -1,0 +1,14 @@
+Available balance in the wallet (USD): 68874443.84
+ Reference retrieved inside method: 25342A11
+EXPECTED FEE AMOUNT FOR RECALL OR CANCEL OUTGOING TRANSACTION: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: 25342A11
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Kessler, Wolff and Kihn
+Type: Recall or Cancel Outgoing Transaction
+Fee Amount: 80.00
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Recall or Cancel Outgoing Transaction fee of 80 EUR was deducted for company testcompany Kessler, Wolff and Kihn after converting from the base currency USD (Converted Amount: 87.71) against Reference No: 25342A11
+Actual New balance in the wallet (USD): 68874356.13
+Expected New Balance: NaN

@@ -1,0 +1,10 @@
+12
+entered for loop
+Checking transactions in wallet: AUD
+No transactions made for AUD, moving to next wallet...
+entered for loop
+Checking transactions in wallet: CAD
+No transactions made for CAD, moving to next wallet...
+entered for loop
+Checking transactions in wallet: CHF
+No transactions made for CHF, moving to next wallet...

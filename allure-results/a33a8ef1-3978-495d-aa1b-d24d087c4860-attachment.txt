@@ -1,0 +1,19 @@
+Available balance in the wallet (USD): 7231.75
+ Extracted Reference No: 26008A16
+ Reference retrieved inside method: 26008A16
+EXPECTED FEE AMOUNT FOR TRANSACTION INVESTIGATION: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: 26008A16
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Ratke, Goldner and Wilderman
+Type: Transaction Investigation
+Fee Amount: 80.00
+Reference no: 26008A16
+Status Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Transaction Investigation fee of 80 EUR has been deducted for company testcompany Ratke, Goldner and Wilderman after converting from the fee currency USD (Converted Amount: 87.71) against Reference No: 26008A16
+Extracted Converted Amount: 87.71
+Actual New balance in the wallet (USD): 7144.04
+Expected New Balance: 7144.04
+ Wallet balance deduction correct!

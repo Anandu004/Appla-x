@@ -1,0 +1,4 @@
+Available balance in the wallet (USD): 8000
+ Extracted Reference No: 26007A35
+ Reference retrieved inside method: 26007A35
+EXPECTED FEE AMOUNT FOR TRANSACTION INVESTIGATION: 80

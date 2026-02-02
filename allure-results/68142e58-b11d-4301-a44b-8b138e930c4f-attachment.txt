@@ -1,0 +1,10 @@
+Available balance in the wallet (EUR): 599985
+Available balance in the wallet (USD): 335542413
+payment amount - 12000
+received payment fee - 15
+actual payment fee - 15
+payment fee matches
+New Available balance in the wallet (EUR):599970
+New Available balance in the wallet (USD):335530413
+USD wallet deduction is correct
+EUR wallet payment fee deduction is correct

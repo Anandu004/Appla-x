@@ -1,0 +1,17 @@
+Checking wallet: AUD
+ Clicking on beneficiary: Barrows
+ Details page loaded for: Barrows
+ Clicking on beneficiary: Ebert - Dach
+ Details page loaded for: Ebert - Dach
+ Clicking on beneficiary: Little Inc
+ Details page loaded for: Little Inc
+ Clicking on beneficiary: Pacocha
+ Details page loaded for: Pacocha
+ Clicking on beneficiary: Sanford LLC
+ Details page loaded for: Sanford LLC
+ Clicking on beneficiary: Spinka and Sons
+ Details page loaded for: Spinka and Sons
+ Clicking on beneficiary: Williamson Inc
+ Details page loaded for: Williamson Inc
+ Clicking on beneficiary: Wyman and Sons
+ Details page loaded for: Wyman and Sons

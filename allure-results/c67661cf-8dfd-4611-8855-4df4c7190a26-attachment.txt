@@ -1,0 +1,9 @@
+Available balance in the wallet (USD): 7747.83
+ Reference retrieved inside method: 26007A35
+EXPECTED FEE AMOUNT FOR RECALL OR CANCEL OUTGOING TRANSACTION: 150
+AUTOPOPULATED FEE: 150
+Entering reference number: 26007A35
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Ratke, Goldner and Wilderman
+Type: Recall or Cancel Outgoing Transaction
+Fee Amount: 150.00

@@ -1,0 +1,2 @@
+New selected currency: HKD | HKD | Wallet shows: HKD
+New selected currency: CHF | CHF | Wallet shows: CHF

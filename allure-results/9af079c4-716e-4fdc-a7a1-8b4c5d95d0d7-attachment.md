@@ -1,0 +1,149 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - text: 
+        - link "Logo" [ref=e7] [cursor=pointer]:
+          - /url: https://account.appla-x.work/dashboard
+          - img "Logo" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - link "Dashboard" [ref=e14] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - generic [ref=e15]: Dashboard
+          - link "Support" [ref=e17] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+            - generic [ref=e18]: Support
+        - generic [ref=e19]:
+          - paragraph [ref=e22] [cursor=pointer]: AV
+          - text: 
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button " " [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: Aj currcloud 16/12
+          - generic [ref=e35]:
+            - button " " [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - heading "euro wallet" [level=1] [ref=e40]
+        - generic [ref=e41]:
+          - generic [ref=e43]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - link "4,995.00" [ref=e49] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - generic [ref=e50]: eur
+              - 'link " Wallet Balance: 4,995.00" [ref=e52] [cursor=pointer]':
+                - /url: javascript:void(0)
+                - generic [ref=e53]: 
+                - text: "Wallet Balance: 4,995.00"
+              - generic [ref=e54]:
+                - 'link " IBAN: GB01TCCL76817299741387" [ref=e55] [cursor=pointer]':
+                  - /url: javascript:void(0)
+                  - generic [ref=e56]: 
+                  - text: "IBAN: GB01TCCL76817299741387"
+                - 'link " IBAN: GB84TCCL12345665801177" [ref=e57] [cursor=pointer]':
+                  - /url: javascript:void(0)
+                  - generic [ref=e58]: 
+                  - text: "IBAN: GB84TCCL12345665801177"
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - link "Transactions" [ref=e61] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/mcw/eur
+              - listitem [ref=e62]:
+                - link "Add Funds" [ref=e63] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/maf/eur
+              - listitem [ref=e64]:
+                - link "Make Payment" [ref=e65] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/mp/eur
+              - listitem [ref=e66]:
+                - link "Convert Funds" [ref=e67] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/cf/eur
+              - listitem [ref=e68]:
+                - link "Manage Beneficiaries" [ref=e69] [cursor=pointer]:
+                  - /url: https://account.appla-x.work/contacts
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - 'heading "Wallet Transactions As at: 18/12/2025 07:33:30" [level=4] [ref=e72]':
+                - generic [ref=e73]: Wallet Transactions
+                - generic [ref=e74]: "As at: 18/12/2025 07:33:30"
+              - button "Statement" [ref=e76] [cursor=pointer]
+            - table [ref=e79]:
+              - rowgroup:
+                - row:
+                  - cell
+                  - cell
+                  - cell
+                  - cell
+                  - cell
+              - rowgroup [ref=e80]:
+                - row "Wed 17 Dec 2025 Transaction Date Wed 17 Dec 2025 Payment Scheduled Date withdraw Transaction Type Funding Fees 25351A01 Completed Fund Fee Status -5.00 eur I5LP5SWP " [ref=e81]:
+                  - cell "Wed 17 Dec 2025 Transaction Date" [ref=e82]:
+                    - generic [ref=e83]: Wed 17 Dec 2025
+                    - generic [ref=e84]: Transaction Date
+                  - cell "Wed 17 Dec 2025 Payment Scheduled Date" [ref=e85]:
+                    - generic [ref=e86]: Wed 17 Dec 2025
+                    - generic [ref=e87]: Payment Scheduled Date
+                  - cell "withdraw Transaction Type" [ref=e88]:
+                    - generic [ref=e89]: withdraw
+                    - generic [ref=e90]: Transaction Type
+                  - cell "Funding Fees 25351A01" [ref=e91]:
+                    - text: Funding Fees
+                    - generic [ref=e92]: 25351A01
+                  - cell "Completed Fund Fee Status" [ref=e93]:
+                    - text: Completed
+                    - generic [ref=e94]: Fund Fee Status
+                  - cell "-5.00 eur I5LP5SWP" [ref=e95]:
+                    - generic [ref=e96]: "-5.00"
+                    - generic [ref=e97]: eur I5LP5SWP
+                  - cell "" [ref=e98]:
+                    - link "" [ref=e99] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e100]: 
+                - row "Wed 17 Dec 2025 Transaction Date Wed 17 Dec 2025 Payment Scheduled Date deposit Transaction Type Funding 25351A01 Completed Fund Status 5,000.00 eur I5LP5SWP " [ref=e101]:
+                  - cell "Wed 17 Dec 2025 Transaction Date" [ref=e102]:
+                    - generic [ref=e103]: Wed 17 Dec 2025
+                    - generic [ref=e104]: Transaction Date
+                  - cell "Wed 17 Dec 2025 Payment Scheduled Date" [ref=e105]:
+                    - generic [ref=e106]: Wed 17 Dec 2025
+                    - generic [ref=e107]: Payment Scheduled Date
+                  - cell "deposit Transaction Type" [ref=e108]:
+                    - generic [ref=e109]: deposit
+                    - generic [ref=e110]: Transaction Type
+                  - cell "Funding 25351A01" [ref=e111]:
+                    - text: Funding
+                    - generic [ref=e112]: 25351A01
+                  - cell "Completed Fund Status" [ref=e113]:
+                    - text: Completed
+                    - generic [ref=e114]: Fund Status
+                  - cell "5,000.00 eur I5LP5SWP" [ref=e115]:
+                    - generic [ref=e116]: 5,000.00
+                    - generic [ref=e117]: eur I5LP5SWP
+                  - cell "" [ref=e118]:
+                    - link "" [ref=e119] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e120]: 
+          - text:  *   *  
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - text: 2025©
+          - link "Appla-x.work powered by Samson ©" [ref=e124] [cursor=pointer]:
+            - /url: https://ovency.com
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - link "Support" [ref=e127] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+          - listitem [ref=e128]:
+            - link "Contact" [ref=e129] [cursor=pointer]:
+              - /url: https://appla-x.com/contact
+  - text:    
+  - img
+```

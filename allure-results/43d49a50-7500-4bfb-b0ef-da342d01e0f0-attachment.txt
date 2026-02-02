@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Orn Group' ]
+ Beneficiary "Orn Group" is listed in dropdown.

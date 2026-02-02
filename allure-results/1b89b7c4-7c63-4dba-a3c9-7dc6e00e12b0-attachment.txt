@@ -1,0 +1,1 @@
+You are using "1.40.7" and there is a newer version "1.44.2" of the "@applitools/eyes-playwright" SDK.

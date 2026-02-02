@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Ebert - Dach' ]
+✅ Beneficiary "Ebert - Dach" is listed in dropdown.

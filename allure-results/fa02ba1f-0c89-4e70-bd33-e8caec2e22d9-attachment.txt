@@ -1,0 +1,5 @@
+Company: testcompany Ratke, Goldner and Wilderman
+Account status before approval - locked
+Account status after approval - active
+New wallet creation card is visible..
+Account activated successfully...

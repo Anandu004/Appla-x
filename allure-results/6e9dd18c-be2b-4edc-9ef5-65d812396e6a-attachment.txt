@@ -1,0 +1,15 @@
+Available balance in the wallet (USD): 4454.46
+EXPECTED FEE AMOUNT FOR CHANGE OF CONFIRMATION / REFERENCE LETTER: 10
+AUTOPOPULATED FEE: 10
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: Aj currcloud 16/12
+Type: Confirmation / Reference Letter
+Fee Amount: 10.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Confirmation / Reference Letter fee of 10 EUR was deducted for company Aj currcloud 16/12 after converting from the base currency USD (Converted Amount: 10.96)
+Extracted Converted Amount: 10.96
+Actual New balance in the wallet (USD): 4443.5
+Expected New Balance: 4443.5
+ Wallet balance deduction correct!

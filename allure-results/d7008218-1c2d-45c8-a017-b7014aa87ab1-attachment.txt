@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Nader Group' ]
+✅ Beneficiary "Nader Group" is listed in dropdown.

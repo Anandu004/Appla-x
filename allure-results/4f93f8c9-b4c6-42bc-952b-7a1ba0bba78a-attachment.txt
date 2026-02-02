@@ -1,0 +1,3 @@
+ Default currency 'AUD | AUD' is correctly set for wallet 'AUD'
+ Default currency 'CAD | CAD' is correctly set for wallet 'CAD'
+ Default currency 'CHF | CHF' is correctly set for wallet 'CHF'

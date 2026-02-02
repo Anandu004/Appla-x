@@ -1,0 +1,16 @@
+Available balance in the wallet (USD): 6924.76
+ Reference retrieved inside method: 26008A16
+EXPECTED FEE AMOUNT FOR CANCEL / RETURN INCOMING TRANSACTION: 10
+AUTOPOPULATED FEE: 10
+Entering reference number: 26008A16
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Ratke, Goldner and Wilderman
+Type: Cancel / Return Incoming Transaction
+Fee Amount: 10.00
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Cancel / Return Incoming Transaction fee of 10 EUR has been deducted for company testcompany Ratke, Goldner and Wilderman after converting from the fee currency USD (Converted Amount: 10.96) against Reference No: 26008A16
+Extracted Converted Amount: 10.96
+Actual New balance in the wallet (USD): 6913.8
+Expected New Balance: 6913.8
+ Wallet balance deduction correct!

@@ -1,0 +1,4 @@
+Available balance in the wallet (EUR): 585503.14
+ Extracted Reference No: 26007A22
+ Reference retrieved inside method: 26007A22
+EXPECTED FEE AMOUNT FOR TRANSACTION INVESTIGATION: 80

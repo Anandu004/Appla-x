@@ -1,0 +1,12 @@
+payment fee status-Review
+                                    
+                                                                            Conversion Status
+paymentfee--314.70
+                                    eur SMEP9AKQ
+conversion status-Review
+                                    
+                                                                            Payment Fees Status
+selling amount--5.00
+                                    eur SMEP9AKQ
+Received paymentfee: 314.70 EUR
+Received sellamount: 5 EUR

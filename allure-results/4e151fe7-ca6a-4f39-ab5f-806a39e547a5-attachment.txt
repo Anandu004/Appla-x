@@ -1,0 +1,15 @@
+Available balance in the wallet (USD): 4443.5
+EXPECTED FEE AMOUNT FOR EXTRAORDINARY DUE DILIGENCE FEE: 25
+AUTOPOPULATED FEE: 25
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: Aj currcloud 16/12
+Type: Extraordinary Due Diligence Fee
+Fee Amount: 25.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Extraordinary Due Diligence Fee of 25 EUR was deducted for company Aj currcloud 16/12 after converting from the base currency USD (Converted Amount: 27.41)
+Extracted Converted Amount: 27.41
+Actual New balance in the wallet (USD): 4416.09
+Expected New Balance: 4416.09
+ Wallet balance deduction correct!

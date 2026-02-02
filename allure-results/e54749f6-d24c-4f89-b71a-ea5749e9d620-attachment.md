@@ -1,0 +1,231 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - text: 
+          - link "Logo" [ref=e7] [cursor=pointer]:
+            - /url: https://account.appla-x.work/dashboard
+            - img "Logo" [ref=e8]
+        - generic [ref=e9]:
+          - generic [ref=e12]:
+            - link "Dashboard" [ref=e14] [cursor=pointer]:
+              - /url: https://account.appla-x.work/dashboard
+              - generic [ref=e15]: Dashboard
+            - link "Support" [ref=e17] [cursor=pointer]:
+              - /url: https://support.appla-x.com
+              - generic [ref=e18]: Support
+          - generic [ref=e19]:
+            - paragraph [ref=e22] [cursor=pointer]: AA
+            - text: 
+      - generic [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - button " " [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:  
+            - text:  
+            - generic [ref=e33]: 
+            - generic [ref=e34]: testcompany Stehr and Sons
+          - generic [ref=e35]:
+            - button " " [ref=e36] [cursor=pointer]:
+              - generic [ref=e37]:  
+            - text:  
+        - heading "beneficiary - edit" [level=1] [ref=e40]
+        - generic [ref=e41]:
+          - link "" [ref=e43] [cursor=pointer]:
+            - /url: https://account.appla-x.work/contacts
+            - generic [ref=e44]: 
+          - generic [ref=e45]:
+            - heading "Modify Beneficiary" [level=3] [ref=e47]
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - generic [ref=e50]:
+                  - generic [ref=e52]:
+                    - generic [ref=e53]: Beneficiary Type*
+                    - combobox
+                    - generic [ref=e55]:
+                      - combobox "Company":
+                        - button "Remove all items"
+                        - textbox "Company"
+                  - generic [ref=e57]:
+                    - generic [ref=e58]: Company name*
+                    - combobox "Company name*" [ref=e59]: Balistreri - Kihn
+                    - text: Complete if this is a company.
+                  - generic [ref=e61]:
+                    - generic [ref=e62]: Email*
+                    - textbox [ref=e63]: Jerrod_Greenfelder@yahoo.com
+                  - generic [ref=e65]:
+                    - generic [ref=e66]: Phone*
+                    - generic [ref=e67]:
+                      - 'combobox "Cyprus (Κύπρος): +357" [ref=e69]':
+                        - generic [ref=e71]: "+357"
+                      - textbox [ref=e73]: 22 673056
+                  - generic [ref=e75]:
+                    - generic [ref=e76]: Address line 1*
+                    - textbox [ref=e77]: Nathan Road
+                  - generic [ref=e79]:
+                    - generic [ref=e80]: Address line 2
+                    - textbox [ref=e81]
+                  - generic [ref=e83]:
+                    - generic [ref=e84]: City*
+                    - textbox [ref=e85]: Kowloon
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: State*
+                    - textbox [ref=e89]: Kowloon
+                  - generic [ref=e91]:
+                    - generic [ref=e92]: Beneficiary Country*
+                    - combobox [ref=e93]
+                    - combobox "Hong Kong" [ref=e96] [cursor=pointer]:
+                      - textbox "Hong Kong" [ref=e97]
+                  - generic [ref=e99]:
+                    - generic [ref=e100]: Postcode
+                    - textbox [ref=e101]
+                  - generic [ref=e102]:
+                    - button "Update Changes" [ref=e103] [cursor=pointer]
+                    - link "Delete Beneficiary" [ref=e104] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                - button "Add Bank Account Details" [ref=e106] [cursor=pointer]
+                - heading "Iban Lists" [level=3] [ref=e108]
+                - generic [ref=e111]:
+                  - generic [ref=e112] [cursor=pointer]:
+                    - generic [ref=e113]:
+                      - text:  
+                      - generic [ref=e114]:
+                        - text: 
+                        - text: 
+                    - heading "HSBC | HKD " [level=3] [ref=e115]:
+                      - text: HSBC | HKD
+                      - link "" [ref=e116]:
+                        - /url: javascript:void(0)
+                        - generic [ref=e117]: 
+                  - link "Edit" [ref=e119] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - generic [ref=e122]:
+                    - generic [ref=e123]:
+                      - generic [ref=e124]: Bank Name
+                      - paragraph [ref=e125]: HSBC
+                    - generic [ref=e126]:
+                      - generic [ref=e127]: Beneficiary Currency
+                      - paragraph [ref=e128]: HKD | hkd
+                    - generic [ref=e129]:
+                      - generic [ref=e130]: Beneficiary Account Country
+                      - paragraph [ref=e131]: Hong Kong
+                    - generic [ref=e132]:
+                      - generic [ref=e133]: Bank Address 1
+                      - paragraph [ref=e134]: 1 Queen's Road
+                    - generic [ref=e135]:
+                      - generic [ref=e136]: Bank Address 2
+                      - paragraph
+                    - generic [ref=e137]:
+                      - generic [ref=e138]: Bank City
+                      - paragraph [ref=e139]: Kowloon
+                    - generic [ref=e140]:
+                      - generic [ref=e141]: Bank Region
+                      - paragraph [ref=e142]: Kowloon
+                    - generic [ref=e143]:
+                      - generic [ref=e144]: Bank Country
+                      - paragraph [ref=e145]: Hong Kong
+                    - generic [ref=e149]:
+                      - generic [ref=e150]:
+                        - generic [ref=e151]: Bank Postalcode
+                        - paragraph
+                      - generic [ref=e152]:
+                        - generic [ref=e153]: ACCOUNT NUMBER
+                        - paragraph [ref=e154]: "293005115007"
+                      - generic [ref=e155]:
+                        - generic [ref=e156]: BIC/SWIFT CODE
+                        - paragraph [ref=e157]: HSBCHKHTCCC
+              - dialog [ref=e158]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]:
+                    - heading "Add Currency Beneficiary" [level=3] [ref=e161]
+                    - generic "Close" [ref=e162] [cursor=pointer]:
+                      - generic [ref=e163]:
+                        - generic [ref=e164]: 
+                        - generic: 
+                  - generic [ref=e165]:
+                    - generic [ref=e167]:
+                      - generic [ref=e169]:
+                        - generic [ref=e170]: Beneficiary Country*
+                        - combobox
+                        - generic [ref=e172]:
+                          - combobox "Hong Kong":
+                            - button "Remove all items"
+                            - textbox "Hong Kong"
+                      - generic [ref=e173]:
+                        - generic [ref=e174]: Beneficiary Currency*
+                        - combobox [ref=e175]
+                        - combobox "eur | Euro" [ref=e178] [cursor=pointer]:
+                          - button "Remove all items" [ref=e179]
+                          - textbox "eur | Euro" [ref=e180]
+                      - generic [ref=e182]:
+                        - generic [ref=e183]: Bank Account Country*
+                        - combobox [ref=e184]
+                        - combobox "Germany" [ref=e187] [cursor=pointer]:
+                          - button "Remove all items" [ref=e188]
+                          - textbox "Germany" [ref=e189]
+                      - generic [ref=e191]:
+                        - generic [ref=e192]: Payment Methods*
+                        - combobox [ref=e193]
+                        - combobox "swift" [ref=e196] [cursor=pointer]:
+                          - button "Remove all items" [ref=e197]
+                          - textbox "swift" [ref=e198]
+                      - link " Fetch Bank Details" [ref=e200] [cursor=pointer]:
+                        - /url: javascript:;
+                        - generic [ref=e201]: 
+                        - text: Fetch Bank Details
+                      - generic [ref=e203]:
+                        - generic [ref=e207]:
+                          - generic [ref=e209]:
+                            - generic [ref=e210]: Iban*
+                            - textbox "This field is required." [ref=e211]:
+                              - /placeholder: Iban
+                            - generic [ref=e212]: This field is required.
+                          - generic [ref=e214]:
+                            - generic [ref=e215]: Bic swift*
+                            - textbox "Bic swift" [ref=e216]
+                        - generic [ref=e218]:
+                          - generic [ref=e220]:
+                            - generic [ref=e221]: Bank Name*
+                            - textbox "Bank Name" [ref=e222]
+                            - generic [ref=e223]: Please enter the bank name
+                          - generic [ref=e225]:
+                            - generic [ref=e226]: Bank Address 1*
+                            - textbox "Bank Address 1" [ref=e227]
+                            - generic [ref=e228]: Please enter the Bank Address 1
+                          - generic [ref=e230]:
+                            - generic [ref=e231]: Bank Address 2
+                            - textbox "Bank Address 2" [ref=e232]
+                          - generic [ref=e234]:
+                            - generic [ref=e235]: Bank City*
+                            - textbox "Bank City" [ref=e236]
+                            - generic [ref=e237]: Please enter the Bank City
+                          - generic [ref=e239]:
+                            - generic [ref=e240]: Bank Region / State*
+                            - textbox "Bank Region" [ref=e241]
+                            - generic [ref=e242]: Please enter the Bank Region
+                          - generic [ref=e244]:
+                            - generic [ref=e245]: Bank Postal
+                            - textbox "Bank Postal" [ref=e246]
+                    - generic [ref=e247]:
+                      - button "Close" [ref=e248] [cursor=pointer]
+                      - button "Save Changes" [active] [ref=e249] [cursor=pointer]
+              - text:  
+        - generic [ref=e250]:
+          - generic [ref=e251]:
+            - text: 2026©
+            - link "Appla-x.work powered by Samson ©" [ref=e252] [cursor=pointer]:
+              - /url: https://ovency.com
+          - list [ref=e253]:
+            - listitem [ref=e254]:
+              - link "Support" [ref=e255] [cursor=pointer]:
+                - /url: https://support.appla-x.com
+            - listitem [ref=e256]:
+              - link "Contact" [ref=e257] [cursor=pointer]:
+                - /url: https://appla-x.com/contact
+    - text:    
+  - img
+```

@@ -1,0 +1,16 @@
+Available balance in the wallet (USD): 5024.58
+ Reference retrieved inside method: 25352A04
+EXPECTED FEE AMOUNT FOR OUTGOING TRANSACTION AMENDMENT: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: 25352A04
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: Aj currcloud 16/12
+Type: Outgoing Transaction Amendment
+Fee Amount: 80.00
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Outgoing Transaction Amendment fee of 80 EUR was deducted for company Aj currcloud 16/12 after converting from the base currency USD (Converted Amount: 87.71) against Reference No: 25352A04
+Extracted Converted Amount: 87.71
+Actual New balance in the wallet (USD): 4936.87
+Expected New Balance: 4936.87
+ Wallet balance deduction correct!

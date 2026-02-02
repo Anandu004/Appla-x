@@ -1,0 +1,14 @@
+Available balance in the wallet (EUR): 37329
+EXPECTED FEE AMOUNT FOR CHANGE OF OWNERSHIP STRUCTURE / REVIEW: 10
+AUTOPOPULATED FEE: 10
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Ratke, Goldner and Wilderman
+Type: Change of Ownership Structure / Review
+Fee Amount: 10.00
+Status: Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Change of Ownership Structure / Review fee of 10 EUR has been deducted for company testcompany Ratke, Goldner and Wilderman
+Actual balance in the wallet (EUR): 37319
+Expected New Balance: 37319
+✔ Wallet balance deduction correct!

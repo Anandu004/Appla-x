@@ -1,0 +1,16 @@
+Available balance in the wallet (GBP): 49800.98
+ Reference retrieved inside method: 26007A30
+EXPECTED FEE AMOUNT FOR OUTGOING TRANSACTION AMENDMENT: 50
+AUTOPOPULATED FEE: 50
+Entering reference number: 26007A30
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Ratke, Goldner and Wilderman
+Type: Outgoing Transaction Amendment
+Fee Amount: 50.00
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Outgoing Transaction Amendment fee of 50 EUR has been deducted for company testcompany Ratke, Goldner and Wilderman after converting from the fee currency GBP (Converted Amount: 43.27) against Reference No: 26007A30
+Extracted Converted Amount: 43.27
+Actual New balance in the wallet (GBP): 49757.71
+Expected New Balance: 49757.71000000001
+ Wallet balance deduction correct!

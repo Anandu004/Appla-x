@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Balistreri - Kihn' ]
+✅ Beneficiary "Balistreri - Kihn" is listed in dropdown.

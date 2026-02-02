@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Wyman and Sons' ]
+✅ Beneficiary "Wyman and Sons" is listed in dropdown.

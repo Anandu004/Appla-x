@@ -1,0 +1,2 @@
+Found beneficiaries in dropdown: [ 'Select Beneficiary', 'Rau, Kuvalis and Hermiston' ]
+✅ Beneficiary "Rau, Kuvalis and Hermiston" is listed in dropdown.

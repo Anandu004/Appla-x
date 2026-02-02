@@ -1,0 +1,4 @@
+Available balance in the wallet (GBP): 50000
+ Extracted Reference No: 26007A30
+ Reference retrieved inside method: 26007A30
+EXPECTED FEE AMOUNT FOR TRANSACTION INVESTIGATION: 80

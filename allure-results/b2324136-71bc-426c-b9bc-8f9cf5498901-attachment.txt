@@ -1,0 +1,19 @@
+Available balance in the wallet (GBP): 50000
+ Extracted Reference No: 26007A30
+ Reference retrieved inside method: 26007A30
+EXPECTED FEE AMOUNT FOR TRANSACTION INVESTIGATION: 80
+AUTOPOPULATED FEE: 80
+Entering reference number: 26007A30
+VALIDATION IN TARIFF FEE DEDUCTION LIST →
+Company: testcompany Ratke, Goldner and Wilderman
+Type: Transaction Investigation
+Fee Amount: 80.00
+Reference no: 26007A30
+Status Completed
+VALIDATION IN ACTIVITY LOG →
+Module : Tariff Fee
+Action : Transaction Investigation fee of 80 EUR has been deducted for company testcompany Ratke, Goldner and Wilderman after converting from the fee currency GBP (Converted Amount: 69.22) against Reference No: 26007A30
+Extracted Converted Amount: 69.22
+Actual New balance in the wallet (GBP): 49930.78
+Expected New Balance: 49930.78
+ Wallet balance deduction correct!

@@ -1,0 +1,248 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - text:  
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - generic [ref=e11] [cursor=pointer]: Administrators
+            - text:      
+          - generic [ref=e12]:
+            - generic [ref=e14] [cursor=pointer]: Reports
+            - text:    
+          - generic [ref=e15]:
+            - generic [ref=e17] [cursor=pointer]: Settings
+            - text:                
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - generic [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: 
+              - generic [ref=e22]: "64"
+            - text:                                                                                      
+          - generic [ref=e23]:
+            - generic [ref=e24]: "Switch To:"
+            - generic [ref=e25]:
+              - combobox [ref=e26]
+              - combobox "Select a client" [ref=e29] [cursor=pointer]:
+                - textbox "Select a client" [ref=e30]
+            - paragraph [ref=e32] [cursor=pointer]: AA
+          - text:  
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - link "Logo" [ref=e36] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en
+            - img "Logo" [ref=e37]
+          - generic [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]: 
+            - generic: 
+        - generic [ref=e43]:
+          - generic [ref=e45]: Client Management
+          - link "  Dashboard" [ref=e47] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/dashboard-overview
+            - generic [ref=e49]:  
+            - generic [ref=e50]: Dashboard
+          - generic [ref=e52] [cursor=pointer]:
+            - generic [ref=e54]:
+              - text: 
+              - text: 
+            - generic [ref=e55]: In House Accounts
+          - generic [ref=e58] [cursor=pointer]:
+            - generic [ref=e60]:
+              - text: 
+              - text: 
+            - generic [ref=e61]: Account Users
+          - generic [ref=e63]:
+            - generic [ref=e64] [cursor=pointer]:
+              - generic [ref=e66]:
+                - text: 
+                - text: 
+              - generic [ref=e67]: Account Holders
+            - generic [ref=e69]:
+              - link "Overview" [ref=e71] [cursor=pointer]:
+                - /url: https://admin.appla-x.work/en/nsp/cm/account-holders-overview
+                - generic [ref=e74]: Overview
+              - link "Find a company" [ref=e76] [cursor=pointer]:
+                - /url: https://admin.appla-x.work/en/nsp/cm/account-holders-manage
+                - generic [ref=e79]: Find a company
+              - link "Company list" [ref=e81] [cursor=pointer]:
+                - /url: https://admin.appla-x.work/en/nsp/cm/account-holders-companies-overview
+                - generic [ref=e84]: Company list
+          - link " Sync EBOS Countries" [ref=e86] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-countries
+            - generic [ref=e88]: 
+            - generic [ref=e89]: Sync EBOS Countries
+          - link " Sync EBOS Currencies" [ref=e91] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-currencies
+            - generic [ref=e93]: 
+            - generic [ref=e94]: Sync EBOS Currencies
+          - link " Sync EBOS Documents" [ref=e96] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/sync/sync-ebos-kyc-documents
+            - generic [ref=e98]: 
+            - generic [ref=e99]: Sync EBOS Documents
+          - link " Alpha Bank <=> Liquidity Provider Transactions" [ref=e101] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/transactions/alpha-lp-transactions/index
+            - generic [ref=e103]: 
+            - generic [ref=e104]: Alpha Bank <=> Liquidity Provider Transactions
+          - link " Company Document Types" [ref=e106] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/company-document-types
+            - generic [ref=e108]: 
+            - generic [ref=e109]: Company Document Types
+          - link " Fee Management" [ref=e111] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/fee-management
+            - generic [ref=e113]: 
+            - generic [ref=e114]: Fee Management
+          - link " Tariff Fee Deduction" [ref=e116] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/tariff-fee
+            - generic [ref=e118]: 
+            - generic [ref=e119]: Tariff Fee Deduction
+          - link " Activity Logs" [ref=e121] [cursor=pointer]:
+            - /url: https://admin.appla-x.work/en/nsp/cm/activity-log
+            - generic [ref=e123]: 
+            - generic [ref=e124]: Activity Logs
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - heading "Manage Account Holder" [level=1] [ref=e131]
+          - generic [ref=e133]:
+            - generic [ref=e135]:
+              - generic [ref=e138]:
+                - generic [ref=e139]:
+                  - generic [ref=e140]:
+                    - link "testcompany Kunze - Rippin" [ref=e141] [cursor=pointer]:
+                      - /url: "#"
+                    - generic [ref=e142]: locked
+                  - generic [ref=e143]:
+                    - link " Locked" [ref=e144] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e145]: 
+                      - text: Locked
+                    - link " 8956" [ref=e147] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e148]: 
+                      - text: "8956"
+                    - link " 322" [ref=e150] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e151]: 
+                      - text: "322"
+                    - link "" [ref=e153] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e154]: 
+                    - link " EUR" [ref=e156] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e157]: 
+                      - text: EUR
+                - generic [ref=e159]:
+                  - button "  Email as PDF" [ref=e160] [cursor=pointer]:
+                    - generic [ref=e161]:  
+                    - text: Email as PDF
+                  - button "  Email as Excel" [ref=e162] [cursor=pointer]:
+                    - generic [ref=e163]:  
+                    - text: Email as Excel
+              - list [ref=e164]:
+                - listitem [ref=e165]:
+                  - button "Payment Fee Maintenance" [ref=e166] [cursor=pointer]
+            - generic [ref=e168]:
+              - generic [ref=e169] [cursor=pointer]:
+                - generic [ref=e170]:
+                  - heading "Manage Payment Fee Maintenance" [level=3] [ref=e172]
+                  - button " Update" [active] [ref=e173]:
+                    - generic [ref=e174]: 
+                    - text: Update
+                - generic [ref=e175]:
+                  - generic [ref=e176]:
+                    - generic [ref=e177]: Type
+                    - combobox [ref=e178]
+                    - combobox "Ours fee" [ref=e181]:
+                      - textbox "Ours fee" [ref=e182]
+                  - link " Reset Filter" [ref=e184]:
+                    - /url: "https://admin.appla-x.work/en/nsp/cm/account-holders-manage/83415f32-4dc8-4091-bdea-e45e4db7d944/edit/payment-info "
+                    - generic [ref=e185]: 
+                    - text: Reset Filter
+              - generic [ref=e186]:
+                - generic [ref=e187]:
+                  - generic [ref=e188]:
+                    - generic [ref=e189]:
+                      - generic [ref=e190]: Fee Type
+                      - combobox [disabled] [ref=e191]:
+                        - option "Ours fee" [selected]
+                    - generic [ref=e192]:
+                      - generic [ref=e193]: Minimum Value
+                      - spinbutton [ref=e194]: "0"
+                    - generic [ref=e195]:
+                      - generic [ref=e196]: Maximum Value
+                      - spinbutton [ref=e197]: "14999"
+                    - generic [ref=e198]:
+                      - generic [ref=e199]: Percentage Fee*
+                      - spinbutton [ref=e200]: "0.15"
+                    - generic [ref=e201]:
+                      - generic [ref=e202]: Fee Amount*
+                      - spinbutton [ref=e203]
+                    - generic: 
+                  - generic [ref=e204]:
+                    - generic [ref=e205]:
+                      - generic [ref=e206]: Fee Type
+                      - combobox [disabled] [ref=e207]:
+                        - option "Ours fee" [selected]
+                    - generic [ref=e208]:
+                      - generic [ref=e209]: Minimum Value
+                      - spinbutton [ref=e210]: "15000"
+                    - generic [ref=e211]:
+                      - generic [ref=e212]: Maximum Value
+                      - spinbutton [ref=e213]: "149999"
+                    - generic [ref=e214]:
+                      - generic [ref=e215]: Percentage Fee*
+                      - spinbutton [ref=e216]: "0.10"
+                    - generic [ref=e217]:
+                      - generic [ref=e218]: Fee Amount*
+                      - spinbutton [ref=e219]: "30"
+                    - button "" [ref=e221] [cursor=pointer]:
+                      - generic [ref=e222]: 
+                  - generic [ref=e223]:
+                    - generic [ref=e224]:
+                      - generic [ref=e225]: Fee Type
+                      - combobox [disabled] [ref=e226]:
+                        - option "Ours fee" [selected]
+                    - generic [ref=e227]:
+                      - generic [ref=e228]: Minimum Value
+                      - spinbutton [ref=e229]: "150000"
+                    - generic [ref=e230]:
+                      - generic [ref=e231]: Maximum Value
+                      - spinbutton [ref=e232]: "5000000"
+                    - generic [ref=e233]:
+                      - generic [ref=e234]: Percentage Fee*
+                      - spinbutton [ref=e235]
+                    - generic [ref=e236]:
+                      - generic [ref=e237]: Fee Amount*
+                      - spinbutton [ref=e238]: "180"
+                    - button "" [ref=e240] [cursor=pointer]:
+                      - generic [ref=e241]: 
+                  - generic [ref=e242]:
+                    - generic [ref=e243]:
+                      - generic [ref=e244]: Fee Type
+                      - combobox [disabled] [ref=e245]:
+                        - option "Ours fee" [selected]
+                    - generic [ref=e246]:
+                      - generic [ref=e247]: Minimum Value
+                      - spinbutton [ref=e248]: "5000001"
+                    - generic [ref=e249]:
+                      - generic [ref=e250]: Maximum Value
+                      - spinbutton [ref=e251]: "10000000"
+                    - generic [ref=e252]:
+                      - generic [ref=e253]: Percentage Fee*
+                      - spinbutton [ref=e254]: "0.20"
+                    - generic [ref=e255]:
+                      - generic [ref=e256]: Fee Amount*
+                      - spinbutton [ref=e257]
+                    - button "" [ref=e259] [cursor=pointer]:
+                      - generic [ref=e260]: 
+                - button "Add Field" [ref=e263] [cursor=pointer]
+        - generic [ref=e266]:
+          - text: 2026©
+          - link "Appla-x.work" [ref=e267] [cursor=pointer]:
+            - /url: https://support.appla-x.com
+  - text:  
+  - img
+```
